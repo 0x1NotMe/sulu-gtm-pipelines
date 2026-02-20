@@ -49,8 +49,8 @@ export interface HNItem {
 }
 
 export type ICPSegment =
-  | "early_peri"
-  | "established_peri"
+  | "early_stage"
+  | "established"
   | "hrt_considering"
   | "gp_frustrated"
   | "tracker_fatigued"

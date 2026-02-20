@@ -1,6 +1,6 @@
-# Peri Symptom Snapshot — GTM Pipeline 1: ICP Research Scraper
+# Sulu — GTM Pipeline 1: ICP Research Scraper
 
-**Product:** Peri Symptom Snapshot — daily symptom tracking app for women in perimenopause
+**Product:** Sulu — daily symptom tracking app for women in perimenopause
 **Runtime:** Local TypeScript scripts executed via Claude Code
 **Cost per run:** ~$0.30 (Claude API only; all scrapers use free tiers)
 
@@ -13,12 +13,12 @@ Primary ICP is women 40-55 experiencing perimenopause — particularly those who
 | Tier | Segment | Key Insight |
 |------|---------|-------------|
 | 1A | GP Frustrated | Strongest emotional driver; doctors dismissed symptoms as "just anxiety" |
-| 1B | Early Peri | High uncertainty; "is this perimenopause?"; need validation and patterns |
+| 1B | Early Stage | High uncertainty; "is this perimenopause?"; need validation and patterns |
 | 1C | HRT Considering | Actively researching treatment; need evidence to bring to GP |
 | 1D | Tracker Fatigued | Tried period trackers/health apps but found them overwhelming or irrelevant |
-| 2 | Established Peri | Already managing symptoms; may already have workarounds; lower urgency |
+| 2 | Established | Already managing symptoms; may already have workarounds; lower urgency |
 
-Each pain point and messaging angle is tagged with segments: `early_peri`, `established_peri`, `hrt_considering`, `gp_frustrated`, `tracker_fatigued`, `universal`.
+Each pain point and messaging angle is tagged with segments: `early_stage`, `established`, `hrt_considering`, `gp_frustrated`, `tracker_fatigued`, `universal`.
 
 ---
 

@@ -8,8 +8,8 @@ const BATCH_SIZE = 20;
 
 const ICP_SEGMENTS_DESCRIPTION = `
 ICP Segments (tag every pain point and angle with ALL that apply):
-- "early_peri" — women 38-45 just starting to notice changes, unsure if it's perimenopause, often dismissed by doctors
-- "established_peri" — women 45-55 with clear symptoms, managing multiple symptoms daily, may have been dealing with this for years
+- "early_stage" — women 38-45 just starting to notice changes, unsure if it's perimenopause, often dismissed by doctors
+- "established" — women 45-55 with clear, ongoing symptoms, managing multiple symptoms daily, may have been dealing with this for years
 - "hrt_considering" — women actively researching or considering HRT, need evidence for GP conversations
 - "gp_frustrated" — women whose doctors dismissed symptoms, told them they're "too young", or attributed symptoms to anxiety/depression
 - "tracker_fatigued" — women who tried period trackers or health apps but found them too complicated, not perimenopause-specific, or overwhelming
@@ -17,7 +17,7 @@ ICP Segments (tag every pain point and angle with ALL that apply):
 `;
 
 const APP_FEATURES_DESCRIPTION = `
-Peri Symptom Snapshot Feature Set (use this to tag coverage_status for each pain point):
+Sulu Feature Set (use this to tag coverage_status for each pain point):
 
 DIRECTLY ADDRESSED (coverage_status = "directly_addressed"):
 - Daily Check-In: 30-second symptom logging with simple 0-3 sliders, not overwhelming
@@ -45,7 +45,7 @@ NOT ADDRESSED / OPPORTUNITIES (coverage_status = "opportunity"):
 - Partner/family education resources
 `;
 
-const ANALYSIS_PROMPT = `You are an expert ICP (Ideal Customer Profile) researcher for a perimenopause symptom tracking app — a daily check-in tool that helps women notice patterns and bring something concrete to GP appointments.
+const ANALYSIS_PROMPT = `You are an expert ICP (Ideal Customer Profile) researcher for Sulu — a daily symptom tracking app for women in perimenopause that helps them notice patterns and bring something concrete to GP appointments.
 
 The app is NOT medical advice, NOT a wellness platform, NOT a diagnostic tool. It's a personal record — elegant, calm, and written for adults. The core promise: walk into appointments with a clear timeline in 30 seconds.
 
@@ -81,7 +81,7 @@ Return a JSON object with this exact structure:
       "verbatim_quotes": ["exact quotes from the data"],
       "frequency": number (1-10, how often this comes up),
       "intensity": "low|medium|high|extreme",
-      "segments": ["early_peri"|"established_peri"|"hrt_considering"|"gp_frustrated"|"tracker_fatigued"|"universal"],
+      "segments": ["early_stage"|"established"|"hrt_considering"|"gp_frustrated"|"tracker_fatigued"|"universal"],
       "sources": ["urls where this was found"],
       "coverage_status": "directly_addressed|gap|opportunity",
       "app_feature": "string (which app feature addresses this, or null if opportunity)"
@@ -91,7 +91,7 @@ Return a JSON object with this exact structure:
     {
       "angle": "string (marketing angle name)",
       "target_emotion": "string (primary emotion to tap into)",
-      "target_segment": "early_peri"|"established_peri"|"hrt_considering"|"gp_frustrated"|"tracker_fatigued"|"universal",
+      "target_segment": "early_stage"|"established"|"hrt_considering"|"gp_frustrated"|"tracker_fatigued"|"universal",
       "hook": "string (opening line for ad/post — warm, adult, non-medical tone)",
       "supporting_quotes": ["verbatim quotes that back this up"],
       "app_solution": "string (how the app solves this)"
@@ -101,7 +101,7 @@ Return a JSON object with this exact structure:
     {
       "headline": "string (punchy, short)",
       "pain_point": "string (which pain point this targets)",
-      "target_segment": "early_peri"|"established_peri"|"hrt_considering"|"gp_frustrated"|"tracker_fatigued"|"universal",
+      "target_segment": "early_stage"|"established"|"hrt_considering"|"gp_frustrated"|"tracker_fatigued"|"universal",
       "hook_type": "fear|frustration|aspiration|social_proof",
       "body_copy": "string (2-3 sentences, elegant and adult tone, never preachy or wellness-y)",
       "cta": "string (call to action)",
@@ -313,7 +313,7 @@ function generateMessagingMarkdown(
   angles: MessagingAngle[]
 ): string {
   const lines: string[] = [
-    "# Peri Symptom Snapshot — ICP Pain Points & Messaging Angles",
+    "# Sulu — ICP Pain Points & Messaging Angles",
     "",
     `Generated: ${new Date().toISOString()}`,
     "",

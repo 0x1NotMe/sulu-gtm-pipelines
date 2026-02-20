@@ -53,7 +53,7 @@ const SEARCH_TERMS = [
   "perimenopause HRT appointment",
 ];
 
-const USER_AGENT = "peri-gtm-research/1.0 (market research for symptom tracking app)";
+const USER_AGENT = "sulu-gtm-research/1.0 (market research for symptom tracking app)";
 const REQUEST_DELAY_MS = 2000;
 const BACKOFF_DELAY_MS = 60000;
 

@@ -1,8 +1,8 @@
 {
-  "name": "peri-symptom-snapshot-gtm-pipelines",
+  "name": "sulu-gtm-pipelines",
   "version": "1.0.0",
   "private": true,
-  "description": "GTM automation pipelines for Peri Symptom Snapshot",
+  "description": "GTM automation pipelines for Sulu",
   "scripts": {
     "scrape:exa": "ts-node 01-icp-research/scrape-reddit-exa.ts",
     "scrape:reddit": "ts-node 01-icp-research/scrape-reddit-json.ts",
