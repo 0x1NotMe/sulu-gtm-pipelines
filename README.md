@@ -1,5 +1,5 @@
-# Peri Symptom Snapshot — GTM Pipelines
+# Sulu — GTM Pipelines
 
-GTM automation pipelines for the Peri Symptom Snapshot app (perimenopause symptom tracker).
+GTM automation pipelines for Sulu (perimenopause symptom tracker).
 
 See [docs/PLAN.md](docs/PLAN.md) for full documentation.
