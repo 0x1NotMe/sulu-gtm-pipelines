@@ -1,0 +1,24 @@
+{
+  "name": "peri-symptom-snapshot-gtm-pipelines",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GTM automation pipelines for Peri Symptom Snapshot",
+  "scripts": {
+    "scrape:exa": "ts-node 01-icp-research/scrape-reddit-exa.ts",
+    "scrape:reddit": "ts-node 01-icp-research/scrape-reddit-json.ts",
+    "scrape:hn": "ts-node 01-icp-research/scrape-hn.ts",
+    "analyze": "ts-node 01-icp-research/analyze-pain-points.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "exa-js": "^1.5.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
