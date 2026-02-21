@@ -1,0 +1,154 @@
+# ICP Research x Feature Analysis
+
+## 1. What to Track — Gaps & Recommendations
+
+### Symptom list mismatch between design docs and code
+
+The product design (copy.md) defines 9 symptoms including Irritability and Menstrual changes, but the actual code (constants/symptoms.ts) swapped these out for Headaches, Digestive Issues, Joint Pain, and Skin Changes — giving 9 different symptoms. This matters because:
+
+| Research says is critical | Current code status | Impact |
+|---|---|---|
+| Anxiety / overwhelm (separate from mood) | Bundled into "Mood Changes" | **HIGH** — Anxiety misattribution is a top-3 pain point. Women need to show GPs "this is anxiety, not depression." Splitting it makes the GP Export far more powerful. |
+| Irritability / rage | Not present as separate symptom | **HIGH** — "Why does no one warn you about the rage?" is one of the strongest emotional hooks. It needs its own slider. |
+| Menstrual changes | Not in code at all | **MEDIUM** — Women correlating symptoms with cycle irregularity is a core pattern-finding behaviour. Without this, the "see the pattern" promise is weaker. |
+| Night sweats (separate from hot flashes) | Bundled with "Hot Flashes" | **MEDIUM** — GPs respond most to hot flashes AND night sweats. Splitting them makes exports more credible to doctors. |
+
+### Recommended symptom list (keep at 9, align with ICP)
+
+1. Hot flashes / night sweats (keep combined — fine)
+2. Sleep disruption (keep)
+3. Mood changes (keep, but narrow to: "low mood, emotional swings")
+4. Anxiety / overwhelm (separate — critical per research)
+5. Irritability / rage (new — massive ICP signal)
+6. Brain fog (keep)
+7. Energy / fatigue (keep)
+8. Menstrual changes (restore from design doc)
+9. Physical discomfort (keep, covers headaches/joint/bloating)
+
+Drop: headaches, digestive issues, joint pain, skin changes as standalone. Fold them into "Physical discomfort" as the hint text.
+
+### Marker gaps
+
+| Missing marker | ICP signal |
+|---|---|
+| Illness / travel / disruption | In the design doc but missing from code. Women attribute bad weeks to "being ill" — needed to exclude confounders. |
+| Period started / period day | Massively referenced. Women need to overlay cycle position on symptoms. Even a simple "period today" toggle would unlock cycle correlation. |
+| Supplement change | "The Supplement Spiral" angle — women are trying magnesium, melatonin, GABA, progesterone cream, 5-HTP. A marker to flag supplement changes lets them see if anything actually helped. |
+
+Current "Caffeine" marker is fine but lower priority than the above three.
+
+---
+
+## 2. Messaging Improvements
+
+### What's landing well (keep)
+
+- "30 seconds a day" — the single strongest UX claim
+- "Walk in with evidence, not apologies" — GP Export is the killer feature
+- "Built for this, not adapted for this" — sharpest competitive positioning
+- "Not another period tracker" — immediate differentiation
+
+### What needs fixing
+
+**A) Tighten from 98 angles down to ~6 pillars.** The ICP output generated too many near-duplicates. The 6 distinct angles that map to real segments:
+
+| Pillar | Segment | Best hook |
+|---|---|---|
+| The Evidence | gp_frustrated | "Your doctor can't dismiss a timeline." |
+| The Pattern | early_stage | "It's not random. It just looks that way until you start tracking." |
+| The Rage / Identity | universal | "Nobody warned you about the rage. You're not broken." |
+| The HRT Question | hrt_considering | "Starting HRT is one thing. Knowing if it's working — that's something else." |
+| The Simplicity | tracker_fatigued | "30 seconds a day. Not a wellness routine." |
+| Not Too Young | early_stage | "38 is not too young. And your list of symptoms is not nothing." |
+
+**B) Add positive/aspirational angles.** Every angle currently leads with pain. For retention and word-of-mouth, need at least 1-2 angles about what happens AFTER tracking:
+
+- "After 14 days, something clicked. I could finally see what was happening."
+- "The first GP appointment where I wasn't explaining from scratch."
+
+**C) Widen age targeting.** The GTM says 40-55 but the research is full of 33-39 year olds. The "too young" dismissal is the single most intense emotional trigger. Consider 35-55.
+
+---
+
+## 3. Red Flags & Don'ts
+
+### Medical claims risk
+
+- "This Is Not Anxiety. This Is Hormones." — this is a diagnostic statement. The app explicitly says it's NOT a diagnostic tool. Soften to: "What if it's not just anxiety?"
+- "Your body has been keeping receipts." — punchy, but veers into health-claim territory. The implication is "your body knows and we can prove it." Be careful.
+- Any angle that says "prove it" to a doctor — the PDF is evidence for discussion, not proof of diagnosis. Use "show" instead of "prove."
+
+### Expectation gaps (what's promised but not yet delivered)
+
+| Messaging promise | Current app reality | Risk |
+|---|---|---|
+| "See the pattern" / "Pattern Recognition" | Only week-over-week averages + direction arrows | **MEDIUM** — users expect actual correlation insights ("sleep was worse on alcohol days"). Need at minimum the marker correlation in the Snapshot to land. |
+| "Is HRT working?" | A daily checkbox (marker_medication) | **HIGH** — 8+ messaging angles promise HRT tracking, but there's no event-level logging, no before/after comparison, no dose tracking. This will disappoint. |
+| "Symptom timeline your GP can read" | GP Export is designed but NOT built | **HIGH** — this is the #1 acquisition hook across all angles. It's locked behind Phase 6 in the delivery plan. Prioritize it. |
+
+### Over-indexing on GP frustration
+
+~60% of messaging angles target gp_frustrated. While this is the loudest signal, it means the app's entire value proposition hinges on "you'll use this at your next appointment." Women who DON'T have upcoming appointments (or whose doctors are already supportive) have no reason to stick with tracking. Build messaging for the daily utility of understanding yourself, not just the appointment payoff.
+
+### Copy voice tension
+
+The brand voice is "elegant, calm, lightly funny" but the ICP research has surfaced raw anger, desperation, and grief. The messaging angles are channeling this anger directly. For ads this tension might work. For in-app copy, stay calm. Don't let acquisition anger bleed into the daily experience.
+
+---
+
+## 4. ICP Keyword Match / Mismatch
+
+| ICP keyword/phrase | Sulu match? | Action |
+|---|---|---|
+| "perimenopause symptom tracker" | Direct match | Primary ASO keyword |
+| "too young for perimenopause" | Messaging only, not in product | Add educational content or "Did you know?" onboarding note |
+| "is this perimenopause" | Good match to early_stage onboarding | Consider "Am I in perimenopause?" as a landing page / content angle |
+| "perimenopause brain fog" | Direct match (tracked symptom) | Strong, keep |
+| "perimenopause rage" / "irritability" | MISSING from app | Add irritability/rage as a symptom |
+| "HRT tracking" / "is HRT working" | Weak match (just a checkbox) | Build HRT event logging |
+| "period tracker perimenopause" | Positioning says "NOT a period tracker" | Correct — but add menstrual changes as a trackable symptom so you capture this search intent without being a period app |
+| "GP appointment preparation" | Strong match (GP Export) | Make this a landing page SEO target |
+| "menopause app" | Partial match | Add "perimenopause AND menopause" to store listing. Many women search "menopause" when they mean peri. |
+| "perimenopause anxiety" | Bundled in mood, not standalone | Split anxiety out as a separate symptom |
+| "symptom diary for doctor" | Direct match | Use this exact phrase in ASO |
+| "perimenopause supplements" | Not tracked | Consider supplement change marker |
+
+---
+
+## 5. MVP vs Premium Features
+
+### MVP (Free — get users in the door)
+
+| Feature | Status | Why free |
+|---|---|---|
+| Daily Check-In (symptoms + markers) | Built | Core habit loop |
+| Symptom Selection (3-7 from 9) | Built | Personalization |
+| Basic Timeline (7/14/30 days, averages) | Built | Immediate visual value |
+| Weekly Snapshot (direction arrows) | Designed, not built | "See the pattern" promise |
+| GP Export (PDF after 14 days) | Designed, not built | THE acquisition hook. Must be free. If gated, the core value prop is lost. |
+| Push notification reminders | Designed, not built | Retention driver |
+
+### Premium tier — "Sulu Pro" or "Sulu+"
+
+| Feature | ICP justification | Pricing signal |
+|---|---|---|
+| HRT Treatment Timeline — log start dates, dose changes, see before/after symptom comparison | 8+ messaging angles about "is HRT working?" — high willingness to pay for clarity | Strong |
+| Pattern Correlations — "On days you marked alcohol, sleep was 1.2 points worse" with statistical confidence | "The Pattern Moment" angle — women are desperate for connections they can't see | Strong |
+| Cycle Overlay — correlate symptoms with cycle day/phase | Research shows women manually doing this in spreadsheets | Medium-Strong |
+| Extended History — 90/180/365 day views | "I've been tracking for 4 years" — long-term users want long-term views | Medium |
+| Custom Symptoms — add your own beyond the 9 | "There are over 100 symptoms of menopause" — power users want more | Medium |
+| Supplement Tracker — log what you're taking, see if it correlates | "The Supplement Spiral" — women spending money on supplements with no feedback | Medium |
+| Multiple Export Formats — customizable GP reports, specialist formats | Differentiation for serious self-advocates | Low-Medium |
+| Data Export (CSV/JSON) | Low demand but important for trust — "my data is mine" | Should probably stay free (trust signal) |
+
+**Pricing suggestion:** The ICP research shows these are women with disposable income, already spending on supplements, doctor visits, and other apps. A $4.99-7.99/month or $39.99-59.99/year premium tier is reasonable. The free tier needs to be genuinely useful (GP Export included) so that premium feels like "more insight" not "unlock the basic features."
+
+---
+
+## Summary: Top 5 Actions
+
+1. **Fix the symptom list** — split Anxiety and Irritability out of Mood, restore Menstrual Changes. Align code to what ICP data demands.
+2. **Add a "period today" marker** — single highest-impact addition for pattern recognition.
+3. **Keep GP Export free** — it's the acquisition engine. Gate premium on correlation depth, HRT tracking, and extended history.
+4. **Build the Weekly Snapshot** — it delivers on the "see the pattern" promise that 80%+ of messaging relies on.
+5. **Trim messaging to 6 pillars** and add at least 1 positive/aspirational angle. Soften diagnostic claims to questions.
