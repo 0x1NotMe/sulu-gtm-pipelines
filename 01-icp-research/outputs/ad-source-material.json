@@ -1,0 +1,2912 @@
+{
+  "metadata": {
+    "painPointsUsed": 256,
+    "anglesGenerated": 98,
+    "adsGenerated": 134,
+    "timestamp": "2026-02-21T05:20:46.384Z"
+  },
+  "messaging_angles": [
+    {
+      "angle": "The Evidence You Need",
+      "target_emotion": "Determination — channelling frustration into action",
+      "target_segment": "gp_frustrated",
+      "hook": "Your doctor can't dismiss a timeline.",
+      "supporting_quotes": [
+        "Go armed with information about you. Things they can't gaslight you about or invalidate because you said it",
+        "I came armed with information, articles and medications... He was defensive. I went item by item",
+        "I've tracked and recorded for years so at least I have something to bring"
+      ],
+      "app_solution": "The GP Export generates a clean PDF summary of your symptom history — ready in 30 seconds after 14 days of tracking. Walk into any appointment with a clear, dated record they can't brush aside."
+    },
+    {
+      "angle": "You're Not Imagining It",
+      "target_emotion": "Relief and validation",
+      "target_segment": "early_stage",
+      "hook": "Something has shifted. You noticed. Now let's show you what's actually happening.",
+      "supporting_quotes": [
+        "So happy to have found this group as to realize I am not crazy!",
+        "I've been dismissed so often and made to feel like I don't know my own body",
+        "It scares me! I was super sharp before",
+        "With how little education there is about perimenopause and menopause, I'm guessing many of us only realized what was happening after researching unexplained symptoms"
+      ],
+      "app_solution": "Sulu tracks your symptoms over time so you can see patterns instead of just feeling overwhelmed. A quiet daily check-in — 30 seconds — builds a picture that finally makes sense of what your body is doing."
+    },
+    {
+      "angle": "Too Young To Be Taken Seriously",
+      "target_emotion": "Anger and exhaustion — but redirected into self-advocacy",
+      "target_segment": "gp_frustrated",
+      "hook": "If one more doctor tells you you're too young, walk in with 14 days of data and let them explain that.",
+      "supporting_quotes": [
+        "I've been begging for my hormones checking for the entire 5 years with no help as I'm 'too young'",
+        "I nearly lost everything. My sanity, my job, my family. Even after that they were still unwilling to say it could be hormonal",
+        "I'm 39. It all started 5 years ago this month",
+        "I'm feeling symptoms at 33. I'm already preparing myself to be misunderstood and not taken seriously by doctors"
+      ],
+      "app_solution": "Sulu's GP Export creates a dated symptom timeline — 14 days minimum — that shows patterns your doctor can't ignore. Because a clear record is harder to dismiss than a conversation."
+    },
+    {
+      "angle": "The Fog Has a Pattern",
+      "target_emotion": "Fear softened by understanding",
+      "target_segment": "established",
+      "hook": "Brain fog isn't random. Tracking it changes everything.",
+      "supporting_quotes": [
+        "Brain fog is too cutesy a term for it IMO, that shit is straight up cognitive impairment",
+        "I'm just tired of playing medical detective",
+        "I also started tracking the symptoms with the day of my cycle and started seeing the pattern",
+        "Its affecting my confidence and drowning me in self-doubt"
+      ],
+      "app_solution": "Sulu lets you track brain fog alongside sleep, stress, and cycle changes so you can see what's driving it — and bring that pattern to your GP with a clean visual history."
+    },
+    {
+      "angle": "HRT: Track Whether It's Actually Working",
+      "target_emotion": "Cautious hope — wanting to know the truth",
+      "target_segment": "hrt_considering",
+      "hook": "Starting HRT is one thing. Knowing if it's working — that's something else.",
+      "supporting_quotes": [
+        "I'm on HRT and still having brain fog. I'm just tired of playing medical detective",
+        "I started HRT 50 and I could see an improvement. But it takes about 3 months to see the full effect",
+        "HRT was the only thing that meaningfully helped any of my perimenopause symptoms, including brain fog",
+        "I am on my 6th month and we've gotten my estrogen where it needs to be and are figuring out my issues"
+      ],
+      "app_solution": "Log HRT starts and dose changes as markers in Sulu. Your symptom history will show you — week by week — what's shifting, so your next appointment is a data conversation, not a guessing game."
+    },
+    {
+      "angle": "Finally, Something That Actually Tracks This",
+      "target_emotion": "Relief — finally seen and understood",
+      "target_segment": "tracker_fatigued",
+      "hook": "Not another period tracker. A symptom record built for what's actually happening in your 40s.",
+      "supporting_quotes": [
+        "Can you recommend a symptom tracker?",
+        "I started tracking it in a spreadsheet (because that's how I track my whole life lol)",
+        "Now with perimenopause it lasts through period and it's impossible to track as well",
+        "Track symptoms - keep a diary/use an app, noting any new or unusual things that pop up"
+      ],
+      "app_solution": "Sulu is built exclusively for perimenopause — 9 specific symptoms, a 30-second daily check-in, and a weekly snapshot that shows you what's changing and why. No overwhelm. No irrelevant features."
+    },
+    {
+      "angle": "The GP Appointment Problem",
+      "target_emotion": "frustration and determination",
+      "target_segment": "gp_frustrated",
+      "hook": "You know something is wrong. Your doctor says your bloods are normal. Next time, walk in with 30 days of evidence.",
+      "supporting_quotes": [
+        "My experience is you have to advocate for yourself with Drs",
+        "Hormonal tests only show levels for that one day the test was taken, and nothing more",
+        "I have had a ton of bloodwork done recently with full metabolic panels. I am healthy according to doctors",
+        "My guess is your doctor would say it's nothing and 'that happens as you get older'",
+        "After nearly five years of trying to figure out what was wrong with me"
+      ],
+      "app_solution": "Sulu's GP Export generates a clean PDF timeline of your symptoms, patterns, and any medication or lifestyle changes — locked until you have 14 days of data, so what you bring to your appointment actually means something."
+    },
+    {
+      "angle": "Invisible Patterns",
+      "target_emotion": "confusion and relief",
+      "target_segment": "universal",
+      "hook": "Slept well. Ate well. Rested. Still can't function. There's a pattern here — you just can't see it yet.",
+      "supporting_quotes": [
+        "Slept well, eaten well (heaps of protein), rested adequately, not pre-menstrual yet the fatigue that's hit all day today is so draining",
+        "Sleep can be a moving target but I've been sleeping great this month and it still happened",
+        "It comes in waves where some days to weeks are worse than my 'normal' tired",
+        "Today I can tell I'm off because I have this weird 'looking over my shoulder' anxiety"
+      ],
+      "app_solution": "Sulu's daily 30-second check-in builds a rolling picture of your symptoms over 7, 14, and 30 days — so you can finally see what's driving the bad days, not just survive them."
+    },
+    {
+      "angle": "This Is Not Anxiety. This Is Hormones.",
+      "target_emotion": "relief and validation",
+      "target_segment": "early_stage",
+      "hook": "The anxiety arrived out of nowhere. Your doctor said stress. You've always had your life together. Something doesn't add up.",
+      "supporting_quotes": [
+        "I didn't realize I was in Peri as (I think) extreme anxiety was my first symptom",
+        "I thought the anxiety was causing irregularity but now I think peri",
+        "What is wrong with my brain??",
+        "I felt like I was going crazy",
+        "I would feel this incredible sense of existential dread as if the entire world was ending"
+      ],
+      "app_solution": "Sulu tracks anxiety alongside your cycle, sleep, and any treatment changes — so you can see the correlation between your hormones and how you feel, and bring that picture to whoever is meant to be helping you."
+    },
+    {
+      "angle": "HRT: Is It Working?",
+      "target_emotion": "uncertainty and hope",
+      "target_segment": "hrt_considering",
+      "hook": "You started HRT. Some things got better. Some didn't. You're not sure what changed or when. Track it.",
+      "supporting_quotes": [
+        "3 months into HRT and fine tuning brands and dosage",
+        "A year ago I started estrogen and progesterone... horrid hot flashes ceased pretty quickly, but every other symptom was unchanged",
+        "I'm in the process of adjusting my HRT dosages",
+        "I recently started progesterone and am hoping this will help",
+        "HRT took me to a 1 or 2 and it's just been a couple months"
+      ],
+      "app_solution": "Sulu's change markers let you log when you start, adjust, or switch HRT. Your symptom timeline does the rest — showing you what shifted, when, and by how much."
+    },
+    {
+      "angle": "You Used to Be Fine",
+      "target_emotion": "grief and determination",
+      "target_segment": "established",
+      "hook": "You used to train every day. Now you're crying because you can't face the grocery store. This isn't weakness. And you shouldn't have to explain it from scratch every time.",
+      "supporting_quotes": [
+        "Prior to about age 41, I used to weight train in the gym and do yoga every day, I was so strong",
+        "I'm in tears from being sooooo insanely fatigued. Last week I skipped the grocery store 2 days in a row, because the thought of going sounded so exhausting, I couldn't cope & I cried instead. I'm a tough girl & this crap is breaking me down hard",
+        "I feel like I'm wasting my life feeling meh",
+        "I have so much I want to do, accomplish, be… and I'm too exhausted to do even a little",
+        "I hate the fatigue the most. No energy for living and enjoying my life"
+      ],
+      "app_solution": "Sulu gives you a clear, honest record of how you've been — not a wellness journal, not a mood tracker, just a timeline you can hand your GP and say: this is what my last month looked like."
+    },
+    {
+      "angle": "The Appointment You Finally Feel Prepared For",
+      "target_emotion": "empowerment",
+      "target_segment": "gp_frustrated",
+      "hook": "You've got 10 minutes. You've been struggling for months. Here's how to make those 10 minutes count.",
+      "supporting_quotes": [
+        "I'm trying to find a new GYN but also want to think about what to ask and talk about",
+        "My experience is you have to advocate for yourself with Drs",
+        "I plan on making another appt with my doc soon",
+        "Definitely look into perimenopause/menopause specialists. I have my one-year follow up appointment with mine and will bring it up"
+      ],
+      "app_solution": "After 14 days of tracking, Sulu generates a PDF summary your doctor can actually read — a clear timeline of your symptoms, intensity, and any changes you've made. Walk in with something concrete."
+    },
+    {
+      "angle": "The Evidence Angle",
+      "target_emotion": "vindication",
+      "target_segment": "gp_frustrated",
+      "hook": "Your doctor says your bloods are normal. But you know something is wrong. Now you can prove it.",
+      "supporting_quotes": [
+        "my bloodwork always comes back 'normal.' The only solution suggested was going back on birth control",
+        "she dismissed me and said I was too young to be in menopause",
+        "I recently had my annual GYN appointment & she told me to log my moods to see if they have a correlation with my cycle. I told her this is more than PMS"
+      ],
+      "app_solution": "Sulu's GP Export turns 14+ days of daily tracking into a clear PDF summary — so your next appointment starts with evidence, not a conversation you have to hope they believe."
+    },
+    {
+      "angle": "The Pattern Angle",
+      "target_emotion": "relief",
+      "target_segment": "established",
+      "hook": "You're not imagining it. You're just missing the pattern.",
+      "supporting_quotes": [
+        "I have good and bad days. And never know if it's because of hormones or other things",
+        "I'll feel fine for chunks of the day, then dreadful and frustrated for an hour or so",
+        "a storm of symptoms—hot flashes, intense anxiety, insomnia"
+      ],
+      "app_solution": "Sulu's Timeline View and Weekly Snapshot show you how your symptoms move together over 7, 14, or 30 days — so you can finally see what's actually happening instead of just surviving it."
+    },
+    {
+      "angle": "The Identity Angle",
+      "target_emotion": "grief and hope",
+      "target_segment": "universal",
+      "hook": "You used to be funny. Calm. Yourself. That person hasn't gone anywhere — you just need to understand what's changed.",
+      "supporting_quotes": [
+        "I used to be fun and happy. Now I'm just an anxious depressed mess with anger problems",
+        "I hate what I become after my 40s",
+        "previously I'd never in my life been an anxious person, needed any meds etc"
+      ],
+      "app_solution": "Sulu helps you see that what feels like personality change has a pattern — and patterns have reasons. Track what changes, and walk into your next appointment knowing exactly what to say."
+    },
+    {
+      "angle": "The Rage Angle",
+      "target_emotion": "shock recognition",
+      "target_segment": "early_stage",
+      "hook": "Nobody warned you about the rage. You're not broken — but you do need a record of it.",
+      "supporting_quotes": [
+        "Why does no one warn you about the rage?",
+        "I got warned about hot flashes and weight gain. Never heard any one around me speak about the rage. A little heads up would have been nice",
+        "I am so impatient and completely reactive. I feel I have zero tolerance for bs"
+      ],
+      "app_solution": "Sulu lets you track mood, irritability, and anxiety alongside your other symptoms so you can see when it spikes, what precedes it, and bring something concrete to your GP instead of just saying 'I feel angry all the time.'"
+    },
+    {
+      "angle": "The HRT Tracking Angle",
+      "target_emotion": "frustration and hope",
+      "target_segment": "hrt_considering",
+      "hook": "Started HRT and still not sure if it's working? You need more than a feeling — you need a record.",
+      "supporting_quotes": [
+        "I felt an improvement in my mood initially but over the last month or so I have gone back to feeling the same before I started",
+        "overall mood, irritability and anxiety are better, but like you, I am experiencing inconsistencies",
+        "It's difficult. I have good and bad days. And never know if it's because of hormones or other things"
+      ],
+      "app_solution": "Sulu's Change Markers let you log HRT starts and dose changes alongside daily symptoms, so over time you can see what's actually shifted — and have a real conversation with your doctor about what to adjust."
+    },
+    {
+      "angle": "The 30-Second Angle",
+      "target_emotion": "relief at simplicity",
+      "target_segment": "tracker_fatigued",
+      "hook": "30 seconds a day. No charts to build. No questions to answer. Just a quiet record that's ready when you need it.",
+      "supporting_quotes": [
+        "I don't know where to start",
+        "I'm honestly at a breaking point",
+        "I feel so doomed some days"
+      ],
+      "app_solution": "Sulu's Daily Check-In uses simple 0–3 sliders for up to 7 perimenopause-specific symptoms. Nothing to overthink. After 14 days, your GP Export is ready — a clear PDF that does the explaining for you."
+    },
+    {
+      "angle": "The Evidence You Didn't Have",
+      "target_emotion": "Vindication and empowerment",
+      "target_segment": "gp_frustrated",
+      "hook": "You know something is wrong. The problem is proving it in a 10-minute appointment.",
+      "supporting_quotes": [
+        "I hated the feeling of powerlessness in that room.",
+        "I came to it prepared to either be heard or to be minimized.",
+        "I info dumped all over the medical assistant who roomed me so I assumed that info got relayed (which it probably didn't)",
+        "I did all my tracking and research alone."
+      ],
+      "app_solution": "The GP Export generates a clean, dated symptom timeline in 30 seconds — something concrete to put in front of your doctor instead of trying to explain months of lived experience from memory."
+    },
+    {
+      "angle": "You're Not Going Crazy",
+      "target_emotion": "Relief and validation",
+      "target_segment": "early_stage",
+      "hook": "When it started, you weren't sure what you were feeling. You're still not sure. That uncertainty has a name.",
+      "supporting_quotes": [
+        "I thought I was going crazy.",
+        "OMG I want to cry from relief!! I thought something was off with me",
+        "I've had to live with them for months before I figured out it wasn't just the house heat kicking into overdrive.",
+        "I just turned 40 and would hopefully someone how at... [understand what this is]"
+      ],
+      "app_solution": "Sulu's symptom list was built specifically for perimenopause — not periods, not general wellness. Logging what's actually happening, day by day, is the first step to seeing it clearly."
+    },
+    {
+      "angle": "Finally, a Timeline",
+      "target_emotion": "Control and clarity",
+      "target_segment": "established",
+      "hook": "You've been living with this for years. It's time to stop explaining from memory and start showing the pattern.",
+      "supporting_quotes": [
+        "So it took a long time to piece the insomnia together with other symptoms as possible/probable perimenopause.",
+        "Within a 6 month period I had major changes to my skin, hair, eyes, weight, sudden joint pain, trouble staying asleep, brain fog, etc.",
+        "I did all my tracking and research alone.",
+        "I have been battling this perimenopause going on year 4"
+      ],
+      "app_solution": "The Timeline View and Weekly Snapshot show you exactly how your symptoms have moved — week on week, over 30 days — so you can see what's getting better, what's getting worse, and what's correlated with what."
+    },
+    {
+      "angle": "Walk In With Something",
+      "target_emotion": "Confidence and readiness",
+      "target_segment": "hrt_considering",
+      "hook": "If you're going to ask for HRT, you need more than a feeling. You need a record.",
+      "supporting_quotes": [
+        "I'm so angry and I can't stop thinking about it so now I'm going to wait for a referral for an appointment that is going to happen months from now for someone else to not allow me the CHANCE to try HRT",
+        "I point blank ask for it and he says NO.",
+        "They never can provide it. So they're just operating on 'what they've heard'",
+        "There is a post for preparing appointment with the GP in the description of the sub, it helped me to prepare. Insist!"
+      ],
+      "app_solution": "After 14 days of tracking, Sulu generates a GP Export — a clear PDF summary of your symptoms, patterns and any medication changes. Something calm and legible to put in front of a doctor who needs convincing."
+    },
+    {
+      "angle": "30 Seconds. Not a Wellness Routine.",
+      "target_emotion": "Relief from overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook": "You don't need another app that wants your food diary, your sleep score, and your mood in fifteen steps.",
+      "supporting_quotes": [
+        "I can't even tell what's new, what's perimenopause, and what's actual menopause.",
+        "I did all my tracking and research alone.",
+        "Spend a ton of money. In the beginning some things got better but lately everything is just getting worse."
+      ],
+      "app_solution": "Sulu is a daily check-in. Three to seven symptoms, simple 0-3 sliders, done in 30 seconds. No habit stacks, no gamification, no noise — just your own data, building into a picture you can actually use."
+    },
+    {
+      "angle": "Subtle Symptoms Are Still Symptoms",
+      "target_emotion": "Recognition and relief",
+      "target_segment": "early_stage",
+      "hook": "It doesn't have to be dramatic to count. Mild, intermittent, and easy to explain away — that's how it often starts.",
+      "supporting_quotes": [
+        "I was asked if I had hot flashes and I said no. I thought that meant you are soaked in sweat.",
+        "I wake up clammy and didn't realize that was night sweats because I wasn't drenched in sweat.",
+        "I just thought I'd put this out there in case anyone else was failing to notice the more subtle symptoms of peri",
+        "Spent a couple of years buying different sheets and pajamas thinking..."
+      ],
+      "app_solution": "Sulu's symptom tracking captures the full range — not just dramatic hot flashes, but the clammy wake-ups, the low-level anxiety, the brain fog that comes and goes. Small entries, over time, build a picture that's hard to ignore."
+    },
+    {
+      "angle": "The Evidence Angle — Walk in with proof, not pleading",
+      "target_emotion": "Frustration and determination",
+      "target_segment": "gp_frustrated",
+      "hook": "You've already tried explaining it. Now you can show it.",
+      "supporting_quotes": [
+        "Literally every doctor and specialist I've seen where I've said I'm going through perimenopause has said 'really? 44 is young for that'",
+        "It took me months to convince her and that day I was radiating so much heat she was like oh???",
+        "Write down every little symptom time and date! Keep track of it",
+        "If symptoms are consistent over time, despite what hormonal blood work states... you could be a good candidate for MHT/HRT"
+      ],
+      "app_solution": "After 14 days of daily check-ins, the GP Export generates a clear PDF timeline of your symptoms — something concrete to hand over at your next appointment instead of trying to remember everything in the moment."
+    },
+    {
+      "angle": "The Pattern Angle — Months of fog, 30 seconds of clarity",
+      "target_emotion": "Relief and recognition",
+      "target_segment": "early_stage",
+      "hook": "Something has been off for a while. You just haven't been able to prove it yet.",
+      "supporting_quotes": [
+        "I think it's more when you realize something is REALLY off, and look back and see all the small things leading up to it",
+        "In hindsight, my PMDD diagnosis in 2016 was likely the onset for perimenopause",
+        "Regardless of how many dr appointments I shared concerns about assorted symptoms for the past two decades, no medical professional ever made any connection"
+      ],
+      "app_solution": "Sulu's Timeline View shows your symptoms mapped across 7, 14, and 30 days — so you can see what's been building before your next appointment."
+    },
+    {
+      "angle": "The Anti-Overwhelm Angle — Track without dreading it",
+      "target_emotion": "Relief",
+      "target_segment": "tracker_fatigued",
+      "hook": "Not another app that wants everything from you.",
+      "supporting_quotes": [
+        "Write down every little symptom time and date! Keep track of it",
+        "I simply have no passion or interest in anything I used to, I'm so tired all of the time",
+        "it's all just too much"
+      ],
+      "app_solution": "Sulu takes 30 seconds a day. Three simple sliders, the symptoms that matter to you, nothing else. No streaks, no dashboards, no noise."
+    },
+    {
+      "angle": "The Validation Angle — It's not all in your head",
+      "target_emotion": "Anger and vindication",
+      "target_segment": "gp_frustrated",
+      "hook": "Your doctor called it anxiety. Your body has been keeping receipts.",
+      "supporting_quotes": [
+        "She said I'm too young (I'm 38) and it's 'just anxiety'. I'm literally having every symptom!",
+        "We are put on an SSRI because these physical problems must be a manifestation of anxiety and depression",
+        "I feel like I'm going crazy",
+        "I hate my doctor!"
+      ],
+      "app_solution": "Sulu builds a clear, dated record of what you've been experiencing — so when you go back, you're not relying on memory. You have a timeline."
+    },
+    {
+      "angle": "The HRT Readiness Angle — Give your doctor something to work with",
+      "target_emotion": "Hope and agency",
+      "target_segment": "hrt_considering",
+      "hook": "Before they can help you, they need to see the full picture.",
+      "supporting_quotes": [
+        "If symptoms are consistent over time, despite what hormonal blood work states... you could be a good candidate for MHT/HRT",
+        "My OBGYN put me on HRT based on my symptoms. She started low and watched how I responded",
+        "I don't know if I should be treating the anxiety with an SSRI or if I should be looking into HRT"
+      ],
+      "app_solution": "Sulu's GP Export gives a healthcare provider a clear, timestamped summary of your symptoms over weeks — exactly the kind of consistent evidence that supports an HRT conversation."
+    },
+    {
+      "angle": "The Early Stage Angle — You're not imagining it and you're not too young",
+      "target_emotion": "Fear and self-doubt turning to clarity",
+      "target_segment": "early_stage",
+      "hook": "38 is not too young. And your list of symptoms is not nothing.",
+      "supporting_quotes": [
+        "Feel free to tell me I'm wrong — genuinely looking for feedback. I'm 38 and in the past year, I've felt my body go through a list of changes",
+        "I'm too scared to go to my doctor about it knowing that I'll likely be dismissed",
+        "I kept telling myself 'nah, I'm too young for that'"
+      ],
+      "app_solution": "Sulu helps you track what's changing before you can even name it — so by the time you go to your GP, you're not guessing. You have weeks of your own data."
+    },
+    {
+      "angle": "Walk In With Evidence",
+      "target_emotion": "Empowerment after years of being dismissed",
+      "target_segment": "gp_frustrated",
+      "hook": "You know something is wrong. Now you can prove it.",
+      "supporting_quotes": [
+        "I had a six month symptom diary that showed consistently I was sane for two weeks and then all over the place for the second half of my cycle",
+        "she straight up said 'have you considered anti-depressants or anti-anxiety meds for your moods etc?'",
+        "I'm done being gaslit about this. I'm done being made to feel like my pain isn't real.",
+        "tracking notes copied down from close to a decade of my old wall calendars/planners. My gynecologist seemed both amused and impressed."
+      ],
+      "app_solution": "The GP Export gives you a clean, dated PDF summary of your symptoms after 14 days of tracking — something concrete to put in front of your doctor instead of trying to explain what you've been feeling for months."
+    },
+    {
+      "angle": "Finally See the Pattern",
+      "target_emotion": "Relief and clarity after months of confusion",
+      "target_segment": "early_stage",
+      "hook": "It's not random. It just looks that way until you start tracking.",
+      "supporting_quotes": [
+        "I did not realise that it was this many. FML.",
+        "Until I figured out I was in perimenopause, I just figured I was dying of some slow, shitty cancer of the reproductive system.",
+        "I wish I had known 3 years ago this was a symptom along with brain fog/concentration/memory.",
+        "perimenopause is often discovered in hindsight and over time"
+      ],
+      "app_solution": "Sulu's Timeline and Weekly Snapshot show you how your symptoms move together — hot flashes, mood, sleep, energy — so the pattern becomes visible without you having to do anything except a 30-second daily check-in."
+    },
+    {
+      "angle": "30 Seconds a Day, Not a Second Job",
+      "target_emotion": "Relief from overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook": "You've tried the spreadsheets. You've tried the period apps. This is neither.",
+      "supporting_quotes": [
+        "I was a period app person (clue and periodtracker) but those just aren't helpful in my current situation",
+        "Someone is going to make a LOT of money making a perimenopause/menopause app — c'mon someone!",
+        "I have a notebook but with brain fog and lifelong ADHD, it's usually lost in my mess",
+        "I just have to get back into the habit of tracking symptoms"
+      ],
+      "app_solution": "Sulu's Daily Check-In takes 30 seconds — three to seven symptoms, simple 0–3 sliders, and you're done. No categories to configure, no data entry, no wellness rabbit holes. Just your symptoms, tracked."
+    },
+    {
+      "angle": "Your Body Is Keeping Score",
+      "target_emotion": "Validation — finally being taken seriously, starting with yourself",
+      "target_segment": "established",
+      "hook": "Eleven symptoms at once, and 'nothing is really helping.' It matters to know what's getting worse, what's getting better, and what changed.",
+      "supporting_quotes": [
+        "11 CURRENT — the number of symptoms that I've got right now and nothing is really helping",
+        "I'm always trying to figure out what I did the day before that made my sleep better or worse",
+        "the changes that happen when my doc tweaks my HRT",
+        "chronic pain like what you've described can steal your joy"
+      ],
+      "app_solution": "Sulu's Weekly Snapshot compares this week to last week — with direction arrows showing which symptoms are improving, worsening, or stable. Change markers track HRT adjustments, stress, and other factors alongside your symptoms so the connection becomes clear."
+    },
+    {
+      "angle": "From Research to Prescription",
+      "target_emotion": "Determined confidence — I've done my research, now I need to be heard",
+      "target_segment": "hrt_considering",
+      "hook": "You've read everything. Now bring something your GP can't argue with.",
+      "supporting_quotes": [
+        "I want to fix the cause and not treat just the symptoms",
+        "I asked: what's the risk to starting estrogen now? What is your reluctance?",
+        "trying to figure out a good HRT dose isn't fun",
+        "She was visibly pissed off that I had views on the whole thing"
+      ],
+      "app_solution": "Track your symptoms for two weeks and export a clear PDF timeline for your appointment. Not a printout from the internet — your own data, showing your own pattern, in your doctor's language."
+    },
+    {
+      "angle": "The Appointment Armoury",
+      "target_emotion": "Vindication",
+      "target_segment": "gp_frustrated",
+      "hook": "You know something is wrong. Your doctor said you're 'too young'. Now you can walk in with 30 days of evidence.",
+      "supporting_quotes": [
+        "A symptom tracker so I can show my doctor",
+        "I want to see and present evidence to my doctor",
+        "What so many of us are seeing + reporting to our doctors, and then often not being believed, is straight-up medical gaslighting"
+      ],
+      "app_solution": "GP Export generates a clean PDF timeline after 14+ days of tracking — a concrete, dated record that walks your doctor through your symptom history in 30 seconds."
+    },
+    {
+      "angle": "The Pattern Moment",
+      "target_emotion": "Relief",
+      "target_segment": "universal",
+      "hook": "For months it felt random. Then the pattern appeared.",
+      "supporting_quotes": [
+        "For months, they felt random. Then I started tracking them. Turns out, they hit almost exactly three hours after I fall asleep",
+        "I feel like menopause is just a giant mystery we're left to solve on our own",
+        "Its hard to tell what edges them on (perhaps alcohol??) or what is just continually happening"
+      ],
+      "app_solution": "Sulu's Weekly Snapshot and automatic Pattern Recognition show you what's actually correlating with your symptoms — alcohol, stress, sleep, medication changes — so the fog starts to lift."
+    },
+    {
+      "angle": "Built For This, Not Adapted For This",
+      "target_emotion": "Frustration",
+      "target_segment": "tracker_fatigued",
+      "hook": "You've tried the period tracker. You've tried the wellness app. You've tried the notes app. None of them were built for this.",
+      "supporting_quotes": [
+        "I'm in the middle of perimenopause hell. There are no apps that I find that help",
+        "Other period tracking apps no longer fit my body",
+        "I track my periods but as we all know those apps tend toward predicting fertility and no thank you",
+        "Hey all, just wanted to update here since I've now tried easily a dozen apps"
+      ],
+      "app_solution": "Sulu tracks only perimenopause symptoms — chosen by you from a curated list of nine — in a 30-second daily check-in. No fertility predictions. No wellness noise. No overwhelm."
+    },
+    {
+      "angle": "HRT: Know If It's Working",
+      "target_emotion": "Uncertainty",
+      "target_segment": "hrt_considering",
+      "hook": "Starting HRT is the beginning, not the end. The real question is: how do you know if it's actually working?",
+      "supporting_quotes": [
+        "Get on hrt asap if you can - I was in the same boat as you, roughly the same age, found a sympathetic doctor",
+        "Now that I'm on HRT I can tell a major difference",
+        "I'm very confused about where to start with HRT",
+        "HRT (Estradiol Patch, Progesterone, and Testosterone) completely stopped my night sweats for 8 months"
+      ],
+      "app_solution": "Mark your HRT start date as a Change Marker, track your symptoms daily, and watch the Timeline View show you exactly what shifted — and when. Something concrete to take back to your next appointment."
+    },
+    {
+      "angle": "The Two-Year Learning Curve, Shortened",
+      "target_emotion": "Exhaustion",
+      "target_segment": "established",
+      "hook": "Nobody should spend two years guessing which symptoms are from perimenopause and which are from everything else you've tried to fix it.",
+      "supporting_quotes": [
+        "After nearly two years of trial and error",
+        "I dug myself deeper and deeper into negativity and it became harder and harder to course correct. I wish I went the antidepressant route sooner",
+        "I was desperate for answers early in my journey"
+      ],
+      "app_solution": "Sulu tracks your symptoms alongside every change you make — medication, alcohol, stress, exercise — so you stop guessing and start seeing what's actually helping."
+    },
+    {
+      "angle": "The Appointment You Deserve",
+      "target_emotion": "Vindication and quiet confidence",
+      "target_segment": "gp_frustrated",
+      "hook": "You already know something is wrong. Now you'll have the proof to show them.",
+      "supporting_quotes": [
+        "I didn't start connecting the dots until I started reading stuff here. It all makes sense.",
+        "Make sure you exaggerate your symptoms, especially hot flashes and night sweats. Those seem to be the two symptoms that doctors respond to the most",
+        "Keep a journal each day of symptoms you have. Scale 1-10.",
+        "BITCH IM IN PERIMENOPAUSE! But no one believes me."
+      ],
+      "app_solution": "The GP Export gives you a clean PDF timeline of your symptoms — built from 30 seconds of daily logging — so you walk into your next appointment with evidence, not a hunch."
+    },
+    {
+      "angle": "Years, Not Weeks",
+      "target_emotion": "Grief and urgency",
+      "target_segment": "early_stage",
+      "hook": "Ten years. That's how long some women wait before anyone names what they're going through.",
+      "supporting_quotes": [
+        "Ten years. No one ever told me the symptoms were peri related.",
+        "I suffered needlessly for far too long.",
+        "Hindsight showed me that I was in peri for 6 years prior to that last period.",
+        "These are starting to cause me to 'under live' my life."
+      ],
+      "app_solution": "Sulu helps you start building a clear symptom record now — so when you do speak to a doctor, you're not starting from scratch."
+    },
+    {
+      "angle": "Finally, Something That Makes Sense",
+      "target_emotion": "Relief and recognition",
+      "target_segment": "universal",
+      "hook": "Anxiety out of nowhere. Migraines. Rage. Brain fog. They aren't separate problems — and you're not imagining it.",
+      "supporting_quotes": [
+        "It's the only way I've been able to piece together all the oddities of my life over the last few years.",
+        "wow who was that crazy person driving my body?",
+        "My first symptom was out of the blue doom anxiety",
+        "In 2019 out of nowhere I got overwhelming social anxiety at the idea of going to my best friends baby shower. Shaking, panic attack."
+      ],
+      "app_solution": "Sulu tracks the perimenopause symptoms that actually matter — the ones that don't show up on a blood test — and shows you the patterns across weeks, not just days."
+    },
+    {
+      "angle": "Proof Over Patience",
+      "target_emotion": "Frustration channelled into action",
+      "target_segment": "hrt_considering",
+      "hook": "You shouldn't have to beg a doctor to take your symptoms seriously. But it helps to walk in with a 14-day timeline.",
+      "supporting_quotes": [
+        "I want to go in prepared so don't forget anything.",
+        "I'm trying to work out what I want/what to ask for",
+        "My best advice - keep tracking your symptoms so you can be aware of when it's time to adjust your dose.",
+        "I went back to the doctor and said I wonder could it be perimenopause. This time she gave me HRT"
+      ],
+      "app_solution": "Track for 14 days and Sulu generates a GP-ready PDF — a calm, clear summary of what's been happening and when. No guesswork, no rehearsed explanations."
+    },
+    {
+      "angle": "Is It Working?",
+      "target_emotion": "Uncertainty and the need for control",
+      "target_segment": "hrt_considering",
+      "hook": "Starting HRT is just the beginning. Knowing whether it's actually helping is a different question entirely.",
+      "supporting_quotes": [
+        "I'm feeling 75% better than I was. But there are STILL rough days.",
+        "it can take 3-6 months to feel the full effects of HRT",
+        "My best advice - keep tracking your symptoms so you can be aware of when it's time to adjust your dose.",
+        "I would feel like the patch ran out too early on the lower dose"
+      ],
+      "app_solution": "Log a change marker when you start or adjust HRT. Sulu tracks what shifts — and when — so your next appointment is a conversation about data, not memory."
+    },
+    {
+      "angle": "30 Seconds. No Overwhelm.",
+      "target_emotion": "Exhaustion and relief",
+      "target_segment": "tracker_fatigued",
+      "hook": "You don't need another app that makes you feel like a project. You need something that just works.",
+      "supporting_quotes": [
+        "I don't have time to dedicate to doc appointments and also do not have the mental strength to go through",
+        "I didn't realize or know that I was experiencing something that I couldn't control with diet or exercise",
+        "My best advice - keep tracking your symptoms so you can be aware of when it's time to adjust your dose. It doesn't have to be fancy"
+      ],
+      "app_solution": "Sulu's daily check-in takes 30 seconds. Three sliders, nine symptoms, nothing more. Your history builds quietly in the background."
+    },
+    {
+      "angle": "The Career Angle",
+      "target_emotion": "Fear and urgency",
+      "target_segment": "established",
+      "hook": "You used to be the sharpest person in the room. Brain fog doesn't have to be your secret to keep.",
+      "supporting_quotes": [
+        "It's just so frustrating to reach a place in our careers where we're really crushing it, only to turn into vague, word searching, and sleepy shadows of our once fierce selves.",
+        "I feel like women have kept quiet on menopause precisely because it's such a jeopardy to our careers.",
+        "I got fired because of this bullshit."
+      ],
+      "app_solution": "Sulu gives you a personal record of what's actually happening — so you can go to your GP with data, not apologies, and start getting real help."
+    },
+    {
+      "angle": "The Timeline Angle",
+      "target_emotion": "Clarity",
+      "target_segment": "hrt_considering",
+      "hook": "Before you walk into that HRT conversation, know exactly what you've been through and when.",
+      "supporting_quotes": [
+        "I had to try 3 different pills before landing on Yasmin.",
+        "It wasn't doing anything so just yesterday I saw her again to adjust.",
+        "Can dr's prescribe hormones to help? Is that done?"
+      ],
+      "app_solution": "Sulu's timeline view shows your symptom history at a glance — so you can have an informed, evidence-backed conversation about what treatment looks like for you."
+    },
+    {
+      "angle": "The 'Not Losing Your Mind' Angle",
+      "target_emotion": "Validation and normalisation",
+      "target_segment": "early_stage",
+      "hook": "You're not a depressive person. You're not falling apart. You're in perimenopause — and you deserve to know that.",
+      "supporting_quotes": [
+        "He was like 'Well, you are just a depressive person.' Um, NO.",
+        "I quite literally thought I was going mad, that I had something seriously wrong with me.",
+        "I remember struggling with terrible brain fog for years before realising it was hormonal not a personal flaw."
+      ],
+      "app_solution": "Sulu tracks what's actually happening — sleep, mood, brain fog, hot flashes — so you can see the pattern, name it, and stop blaming yourself."
+    },
+    {
+      "angle": "The Simplicity Angle",
+      "target_emotion": "Fatigue relief — the opposite of overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook": "30 seconds a day. No spreadsheets. No submenus. Just a clear picture of what's going on.",
+      "supporting_quotes": [
+        "I couldn't find anything that worked and the ones I've tried using pissed me off due to how they were set up",
+        "info buried in a bunch of dumb submenus in an app",
+        "I haven't been able to track my stuff since over a year because I've kept on survival each day",
+        "I'd like a way to quickly tap on symptoms"
+      ],
+      "app_solution": "Sulu's Daily Check-In takes 30 seconds — three sliders, done. No setup headaches, no symptom overload. Built specifically for perimenopause, not repurposed from something else."
+    },
+    {
+      "angle": "The 'Is This Perimenopause?' Angle",
+      "target_emotion": "Curiosity mixed with low-grade anxiety — the suspicion that something has shifted",
+      "target_segment": "early_stage",
+      "hook": "Something has shifted. You're not imagining it — but you can't quite describe it yet.",
+      "supporting_quotes": [
+        "I wasn't going into the appointments even knowing what perimenopause was",
+        "I already knew I was in perimenopause but had no idea that lower back pain was a symptom",
+        "Over the last year maybe two I have really been struggling",
+        "joint pain, lack of motivation, or disproportionate rage"
+      ],
+      "app_solution": "Sulu helps you track nine perimenopause-specific symptoms from day one — so by the time you sit down with your GP, you have 14 days of data, not a vague feeling."
+    },
+    {
+      "angle": "The HRT Accountability Angle",
+      "target_emotion": "Hope with caution — wanting to know if what you're doing is actually working",
+      "target_segment": "hrt_considering",
+      "hook": "You've started HRT. Now how do you know if it's working?",
+      "supporting_quotes": [
+        "The thing about HRT is that it either works or it doesn't and you adjust doses as needed",
+        "They set a follow up appointment for a month later so she could try what was prescribed and see how it feels",
+        "I was not listened to, told I was lazy",
+        "we are so used to having to justify and fight for everything"
+      ],
+      "app_solution": "Sulu's Change Markers let you log when you start or adjust HRT, then track how your symptoms shift over days and weeks — so your next appointment has data behind it, not just a feeling."
+    },
+    {
+      "angle": "The Appointment Prep Angle",
+      "target_emotion": "Quiet anxiety — the dread of walking in unprepared and leaving empty-handed again",
+      "target_segment": "gp_frustrated",
+      "hook": "Walk in with a clear timeline. Walk out with a plan.",
+      "supporting_quotes": [
+        "I have a Drs appt Friday with my new Obgyn and I have no idea what to expect",
+        "I can't believe I'm coming to Reddit for medical advice",
+        "google the Green Scale. This is a good way for you to catalog your symptoms and collect your thoughts",
+        "I went to primary doc first and together we decided I'd then go out of system to MIDI. I got a prescription that day"
+      ],
+      "app_solution": "After 14 days of tracking, Sulu generates a PDF summary of your symptoms — a clear, calm record you can hand your GP or take into any specialist appointment."
+    },
+    {
+      "angle": "The 30-Second Appointment Weapon",
+      "target_emotion": "frustration and determination",
+      "target_segment": "gp_frustrated",
+      "hook": "You know something is wrong. You've known for months. Now walk into your next appointment with proof.",
+      "supporting_quotes": [
+        "I've been told I'm too young. Dr said since my cycle is still regular, no way.",
+        "My doctor refuses to admit I'm going through perimenopause even though I have all the signs.",
+        "It is always better to self-advocate.",
+        "I don't go in unless I'm really struggling."
+      ],
+      "app_solution": "The GP Export feature generates a clean PDF timeline of 14+ days of logged symptoms, giving women documented evidence that is hard to dismiss in an appointment."
+    },
+    {
+      "angle": "Finally, A Pattern",
+      "target_emotion": "relief and clarity",
+      "target_segment": "early_stage",
+      "hook": "For months you thought it was stress. Or age. Or just you. It wasn't.",
+      "supporting_quotes": [
+        "I was kinda relieved to learn that a lot of what I thought were unrelated symptoms that I'd put down to ageing, stress, diet etc actually turned out to be perimenopause.",
+        "I didn't even know phantom smells were a thing.",
+        "It kind of snuck up on me and I wish I'd been more aware.",
+        "if it hadn't been for stumbling into a perimenopause post that popped in my feed, I'd have still been clueless."
+      ],
+      "app_solution": "Sulu's Pattern Recognition and Timeline View connect the dots across symptoms that seem unrelated, helping women see their body's actual story over 7, 14, or 30 days."
+    },
+    {
+      "angle": "Not Anxious. Not Depressed. In Perimenopause.",
+      "target_emotion": "vindication and anger",
+      "target_segment": "gp_frustrated",
+      "hook": "Your doctor called it anxiety. Your body knew better.",
+      "supporting_quotes": [
+        "I had the fatigue, depression, insomnia, and libido problems but it wasn't till I started complaining about hot flashes, brain fog, and memory issues for them to start talking peri.",
+        "Extreme mood disregulation and sleeplessness mid-40s (thought it was all due to global pandemic).",
+        "The health anxiety that comes with it has changed me forever. I never knew what real anxiety was until this shit.",
+        "Night sweats in late 30s early 40s (female doctor my age said that's a sign of 'a very serious disease' which of course I googled - pancreatic cancer ffs)."
+      ],
+      "app_solution": "Tracking symptoms daily over time creates an undeniable record that symptoms are real, recurring, and pattern-linked — not anxiety, not stress, not imagination."
+    },
+    {
+      "angle": "Before You Walk In",
+      "target_emotion": "preparedness and confidence",
+      "target_segment": "hrt_considering",
+      "hook": "You've done the research. Now give your GP something to work with.",
+      "supporting_quotes": [
+        "FINALLY got on HRT after 6 months of the worst symptoms of my life.",
+        "didn't understand wtf was happening to me cause had NO IDEA it could start that early, so didn't get on any HRT until 40.",
+        "realising it was peri and I could start HRT to alleviate many of these was a huge weight off my mind.",
+        "HRT has been my saving grace. I thought I was going crazy."
+      ],
+      "app_solution": "The GP Export PDF gives women a clear, dated symptom timeline to bring to their appointment — a starting point for an evidence-based HRT conversation rather than starting from scratch."
+    },
+    {
+      "angle": "One Check-In. Thirty Seconds. No Drama.",
+      "target_emotion": "relief from overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook": "You don't need another app that asks you forty questions. You need one that actually helps.",
+      "supporting_quotes": [
+        "Hate to say it, but it's kind of a shit show and everyone's symptoms can be similar or different from the next person. You just have to find what works for you.",
+        "I avoided learning about it because thinking about it literally makes my skin crawl.",
+        "I deep dived looking in to it."
+      ],
+      "app_solution": "Sulu's Daily Check-In takes 30 seconds: three to seven symptoms, simple 0-3 sliders, done. No overwhelm, no wellness speak, no generic period tracker masquerading as something useful."
+    },
+    {
+      "angle": "You're Not Too Young",
+      "target_emotion": "validation and recognition",
+      "target_segment": "early_stage",
+      "hook": "If one more person tells you you're too young for this, hand them your data.",
+      "supporting_quotes": [
+        "I've been told I'm too young. Dr said since my cycle is still regular, no way.",
+        "The too young thing is absolute garbage! Doctors need to catch up with the science, peri can start normally from 35.",
+        "I probably started it at about 40. The smells, then a slow creep of my weight, then night sweats.",
+        "I'm 38 and started peri at 36. HRT has been my saving grace. I thought I was going crazy."
+      ],
+      "app_solution": "Sulu tracks perimenopause-specific symptoms from day one, building a dated personal record that shows symptom progression over time — the kind of evidence that is difficult to dismiss, regardless of age."
+    },
+    {
+      "angle": "The Appointment That Finally Worked",
+      "target_emotion": "Vindication",
+      "target_segment": "gp_frustrated",
+      "hook": "You know exactly what you've been feeling. The problem is your doctor has never seen it written down.",
+      "supporting_quotes": [
+        "I explained all the symptoms to her: no libido, some hot flashes, anxiety/occasional depression, irritability, itchy skin, achy joints...everything.",
+        "I've had severe anxiety my whole life and I actually have to rehearse what I am going to say when I go to the doctors",
+        "I insist that these mood swings, depression, period changes, frequent urination in the night are not in my head. Then she handed me HRT."
+      ],
+      "app_solution": "Sulu's GP Export generates a clear PDF timeline of your symptoms — 14+ days of logged data in a format your doctor can actually use. Walk in with evidence, not just words."
+    },
+    {
+      "angle": "Too Young? Think Again.",
+      "target_emotion": "Anger",
+      "target_segment": "early_stage",
+      "hook": "If one more person tells you you're too young, show them your symptom history.",
+      "supporting_quotes": [
+        "You're too young to experience peri. I feel so defeated.",
+        "I had similar symptoms starting at age 35 and spent several years trying to get a doctor to pay attention.",
+        "Doctors don't know crap from what I've found.",
+        "Most of them are uninformed and unequipped to help us with this stuff."
+      ],
+      "app_solution": "Sulu tracks exactly what you're experiencing — day by day, over weeks — so you can bring a concrete record to any appointment. Not a hunch. A timeline."
+    },
+    {
+      "angle": "The Tracker Built for This, Not for Pregnancy",
+      "target_emotion": "Relief",
+      "target_segment": "tracker_fatigued",
+      "hook": "Every app you've tried was designed for someone else's life stage.",
+      "supporting_quotes": [
+        "I wish Flo could understand what perimenopause is, and that missing a period doesn't mean I'm gonna die or that I'm pregnant.",
+        "every period tracking app I've ever used just assumes that you are using it to find your 'fertile days'",
+        "I got so sick of ads and unnecessary features in period tracker apps",
+        "Fitbit period tracker is hot garbage."
+      ],
+      "app_solution": "Sulu is built specifically for perimenopause — 9 symptom options, no fertility predictions, no pregnancy nudges. Just a clean daily check-in that takes 30 seconds and actually reflects where you are."
+    },
+    {
+      "angle": "When Nothing Feels Consistent Anymore",
+      "target_emotion": "Confusion and exhaustion",
+      "target_segment": "established",
+      "hook": "Some days you're fine. Other days you can barely get through. And you have no idea what's driving the difference.",
+      "supporting_quotes": [
+        "70% of the time I'm fine.",
+        "The endless symptoms are ever changing",
+        "2 weeks out of the month I just do not sleep at all before ovulation and then luteal phase",
+        "I've been questioning why I feel unmotivated, disillusioned and lost."
+      ],
+      "app_solution": "Sulu's Weekly Snapshot shows you patterns week over week — direction arrows, change markers, correlations. When you can finally see the shape of what's happening, it stops feeling random."
+    },
+    {
+      "angle": "Before Your Next Appointment",
+      "target_emotion": "Urgency and practical hope",
+      "target_segment": "hrt_considering",
+      "hook": "You've done the research. You know what you want to ask for. Now you need something to back it up.",
+      "supporting_quotes": [
+        "I went to my OB today for a consultation on HRT",
+        "Based solely off the fact that my cycle is regular, she's convinced I'm NOT in perimenopause.",
+        "I don't even know what a standard treatment is to begin that process. I am just so overwhelmed."
+      ],
+      "app_solution": "The GP Export unlocks after 14 days of tracking — a clean PDF summary of your symptom history that shows intensity, frequency, and any changes you've made. Something concrete to put in front of your doctor."
+    },
+    {
+      "angle": "The Doctor Who Didn't Listen",
+      "target_emotion": "Vindication",
+      "target_segment": "gp_frustrated",
+      "hook": "You know something is wrong. You just need something that proves it.",
+      "supporting_quotes": [
+        "No one takes seriously that I'm perimenopausal.",
+        "She is considering putting me on hormone therapy but is very hesitant.",
+        "thought my symptoms (massive hair loss, irregular periods, lethargy, insomnia) were due to stress.",
+        "If she's 'hesitant' she's actually ignorant of current treatment practices."
+      ],
+      "app_solution": "Sulu's GP Export gives you a clean, timestamped PDF of your symptoms over 14+ days — so you walk into your appointment with a record, not just a feeling."
+    },
+    {
+      "angle": "Finally, It Makes Sense",
+      "target_emotion": "Relief",
+      "target_segment": "early_stage",
+      "hook": "You've been waking up at 3am for six months. You're not imagining it — and it's not just stress.",
+      "supporting_quotes": [
+        "Up almost all night, then like clockwork I get my period.",
+        "I didn't realize until recently they were a symptom of perimenopause.",
+        "I stumbled across this subreddit because I'm 36, have been waking up at 4:30AM every morning.",
+        "I used to have perfect sleep, uninterrupted and restorative 8-hour long sleeps until one day I just didn't."
+      ],
+      "app_solution": "Sulu shows you how your symptoms move across your cycle — so what felt random starts to look like a pattern, and you have something real to bring to your GP."
+    },
+    {
+      "angle": "The Supplement Spiral",
+      "target_emotion": "Exhaustion",
+      "target_segment": "tracker_fatigued",
+      "hook": "You've tried magnesium. Then melatonin. Then GABA. You still don't know what's actually working.",
+      "supporting_quotes": [
+        "in addition to GABA, progesterone cream in the luteal phase, mag glycinate, glycine, cetirizine, 5-htp. I hate this.",
+        "Is there a supplement(s) that helped with your insomnia?",
+        "My body just fights benadryl. I'm thinking of trying unisom but if benadryl didn't work, I question if unisom will.",
+        "Insomnia robs me of any energy to do anything."
+      ],
+      "app_solution": "Log what you're taking alongside how you feel. Sulu's change markers show you whether anything is actually shifting — so you stop guessing and start knowing."
+    },
+    {
+      "angle": "The Invisible Toll",
+      "target_emotion": "Recognition",
+      "target_segment": "established",
+      "hook": "You're still showing up. To work, to your family, to everything. What it's costing you is invisible to everyone but you.",
+      "supporting_quotes": [
+        "Sadly, most women experience one or more of these symptoms in silence, yet in public, they power through work and life.",
+        "Insomnia robs me of any energy to do anything. The desire is there. In my mind I'm gardening, cleaning, getting dolled up, socializing but my body is hell no!!",
+        "Brain fog, sleep disruption, anxiety, mood swings — it's not just uncomfortable. It's undermining confidence and threatening careers.",
+        "I was so sleep deprived and it was wreaking havoc on my body."
+      ],
+      "app_solution": "Sulu gives you a quiet, private record of what you're actually dealing with — and turns it into something your GP can see in under a minute."
+    },
+    {
+      "angle": "Proof in 30 Seconds",
+      "target_emotion": "Confidence",
+      "target_segment": "hrt_considering",
+      "hook": "If you want HRT, you need more than 'I haven't been sleeping'. You need a timeline.",
+      "supporting_quotes": [
+        "I have an appointment with my doctor next week to hopefully get on HRT.",
+        "She is considering putting me on hormone therapy but is very hesitant.",
+        "36% of women stating they've received conflicting medical advice.",
+        "Understanding the impact of peri/menopause symptoms on work performance is the first step in seeking necessary..."
+      ],
+      "app_solution": "Track for 14 days. Sulu turns your daily check-ins into a GP-ready PDF summary — a clear, dated record of what's happening and when, so the conversation can actually go somewhere."
+    },
+    {
+      "angle": "Not Random, Cyclical",
+      "target_emotion": "Clarity",
+      "target_segment": "universal",
+      "hook": "The insomnia four days before your period. The anxiety mid-cycle. It's not falling apart. It's a pattern.",
+      "supporting_quotes": [
+        "Up almost all night, then like clockwork I get my period.",
+        "I have more middle-of-the-night anxiety that wrecks my sleep before ovulation.",
+        "Every single day I have it but it's much much much worse during luteal phase.",
+        "The hormonal insomnia is a clear and different phenomenon for me."
+      ],
+      "app_solution": "Sulu's weekly snapshot shows you how symptoms shift across your cycle — so instead of dreading the next bad week, you start to see it coming."
+    },
+    {
+      "angle": "Finally, something to show your GP",
+      "target_emotion": "Vindication",
+      "target_segment": "gp_frustrated",
+      "hook": "You know something is wrong. The problem is proving it in a 10-minute appointment.",
+      "supporting_quotes": [
+        "Work with a menopause-literate healthcare provider to document your symptoms",
+        "a shocking 2/3 of women were being offered anti-depressants",
+        "it wasn't a question of competence—it was a classic case of undiagnosed perimenopause symptoms"
+      ],
+      "app_solution": "The GP Export feature generates a clear PDF summary of symptoms tracked over 14+ days — giving women a concrete, timestamped record to bring to any appointment."
+    },
+    {
+      "angle": "It's not anxiety. It's not stress. It's perimenopause.",
+      "target_emotion": "Relief and recognition",
+      "target_segment": "early_stage",
+      "hook": "Brain fog at 42. Poor sleep at 40. Being told it's probably stress. Sound familiar?",
+      "supporting_quotes": [
+        "many women do not even realise they're having menopausal symptoms",
+        "perimenopause can start as early as 35 and most doctors won't even start doing hormone testing until you're mid 40",
+        "symptoms of menopause are also often mistaken for"
+      ],
+      "app_solution": "Sulu's 9 perimenopause-specific symptoms help women name what is happening to them — and the Timeline View shows patterns over weeks that make the picture undeniable."
+    },
+    {
+      "angle": "30 seconds a day. A clear picture in two weeks.",
+      "target_emotion": "Relief from overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook": "You don't need another complicated app. You need a simple record that actually makes sense of what's going on.",
+      "supporting_quotes": [
+        "Menopause is a natural life stage, but it can be overwhelming, confusing, and isolating",
+        "brain fog, insomnia, and mood swings—issues that can be real and debilitating"
+      ],
+      "app_solution": "The Daily Check-In takes 30 seconds — three sliders, done. No journaling, no lengthy forms. The Weekly Snapshot and Timeline View do the pattern work for you."
+    },
+    {
+      "angle": "Walk into that appointment with evidence, not apologies",
+      "target_emotion": "Confidence and agency",
+      "target_segment": "hrt_considering",
+      "hook": "You've done the research. You know what you need. Now show your GP the data.",
+      "supporting_quotes": [
+        "Get clear on what you're experiencing",
+        "Work with a menopause-literate healthcare provider to document your symptoms",
+        "there has been years of fear mongering when it comes to Hormone Replacement Therapy"
+      ],
+      "app_solution": "The GP Export PDF gives women a ready-made symptom timeline to share at any appointment — turning a vague conversation into a concrete, evidence-based discussion."
+    },
+    {
+      "angle": "You're not falling apart. You're in perimenopause.",
+      "target_emotion": "Normalisation and calm",
+      "target_segment": "universal",
+      "hook": "What feels like losing your mind is actually a hormonal shift that millions of women navigate every day — often alone, and often without answers.",
+      "supporting_quotes": [
+        "I never thought I'd face a career crisis because of my biology",
+        "women are left to suffer in silence",
+        "Despite affecting half the population, it remains a taboo topic"
+      ],
+      "app_solution": "Sulu helps women see their symptoms as a pattern, not a crisis — turning daily check-ins into a calm, clear record that makes sense of what is happening."
+    },
+    {
+      "angle": "A decade of symptoms before a diagnosis. That's not okay.",
+      "target_emotion": "Anger and urgency",
+      "target_segment": "gp_frustrated",
+      "hook": "Some women wait ten years to be taken seriously. You don't have to.",
+      "supporting_quotes": [
+        "perimenopause can start as early as 35 and most doctors won't even start doing hormone testing until you're mid 40 which means you were dealing with all of the effects for possibly up to a decade before you can get help",
+        "a shocking 2/3 of women were being offered anti-depressants"
+      ],
+      "app_solution": "Two weeks of tracking with Sulu produces a GP Export — a clear PDF summary of symptoms over time that makes dismissal much harder and conversations much shorter."
+    },
+    {
+      "angle": "The Doctor's Appointment You've Been Dreading",
+      "target_emotion": "Frustration and vindication",
+      "target_segment": "gp_frustrated",
+      "hook": "You know something is wrong. You've known for months. Now you can prove it.",
+      "supporting_quotes": [
+        "I can't understand why doctors think that this is due to anxiety",
+        "I would really like for doctors to go through something like this for a certain period of time. Then they will understand how hard it is for their patients to live with something like this",
+        "Not being able to swallow is a really scary symptom of perimenopause. It really sucks."
+      ],
+      "app_solution": "Sulu's GP Export generates a clear PDF summary of your symptoms over time — no more trying to remember, no more being waved away. Walk in with a timeline."
+    },
+    {
+      "angle": "Finally, Something Built For This",
+      "target_emotion": "Relief and recognition",
+      "target_segment": "tracker_fatigued",
+      "hook": "Not a period tracker. Not a wellness app. Just a quiet record of what your body is doing — in 30 seconds a day.",
+      "supporting_quotes": [
+        "it's different for each women",
+        "My symptoms so far have been, hair loss, sore breasts, insomnia, depression, anxiety, severe cramps and pms, mood swings, very erratic periods and irregular bleeding, chalazions, blurred vision, inner shakes"
+      ],
+      "app_solution": "Sulu is built exclusively for perimenopause. Choose the symptoms that matter to you, log them in 30 seconds, and start seeing patterns you couldn't see before."
+    },
+    {
+      "angle": "It Starts Younger Than You Think",
+      "target_emotion": "Surprise and self-recognition",
+      "target_segment": "early_stage",
+      "hook": "If you're in your early 40s and something feels off — this might be why.",
+      "supporting_quotes": [
+        "I was young when it started. Early in to 39yrs old.",
+        "I'd heard women talk briefly about it",
+        "some women only notice it when their periods stop and others suffer with symptoms for up to..."
+      ],
+      "app_solution": "Sulu helps you start building a record from day one — so when you do see a GP, you have something real to show them."
+    },
+    {
+      "angle": "Stop Trying to Explain the Unexplainable",
+      "target_emotion": "Exhaustion and desire for clarity",
+      "target_segment": "established",
+      "hook": "You've been living it. You just need a way to show it.",
+      "supporting_quotes": [
+        "My symptoms so far have been, hair loss, sore breasts, insomnia, depression, anxiety, severe cramps and pms, mood swings, very erratic periods and irregular bleeding, chalazions, blurred vision, inner shakes (they're fun), weakness, severe agitation",
+        "it does significantly impact quality of life",
+        "The highest suicide rates for women are amongst the 50 to 55 age group and guess what? This is the average age for menopause!"
+      ],
+      "app_solution": "The Sulu Timeline View shows your symptoms over 7, 14, or 30 days — so you can walk into any appointment with a clear, honest picture of what the last month looked like."
+    },
+    {
+      "angle": "Is This HRT Working?",
+      "target_emotion": "Uncertainty and hope",
+      "target_segment": "hrt_considering",
+      "hook": "Starting HRT is one thing. Knowing whether it's actually helping is another.",
+      "supporting_quotes": [
+        "I would really like for doctors to go through something like this for a certain period of time",
+        "it does significantly impact quality of life"
+      ],
+      "app_solution": "Log HRT starts and changes as markers in Sulu, then watch how your symptoms shift over time. Take something concrete back to your GP at your next review."
+    },
+    {
+      "angle": "Half the Population Goes Through This — It Shouldn't Feel This Lonely",
+      "target_emotion": "Isolation and solidarity",
+      "target_segment": "universal",
+      "hook": "Half the population goes through this. So why does it feel like you're figuring it out alone?",
+      "supporting_quotes": [
+        "It should be, half the population have to go through it",
+        "speaking from experience it does significantly impact quality of life",
+        "I can't understand why doctors think that this is due to anxiety"
+      ],
+      "app_solution": "Sulu gives you a quiet place to track what's happening — not to be monitored, not to be advised — just to finally have a record that belongs to you."
+    },
+    {
+      "angle": "The Appointment You Finally Feel Ready For",
+      "target_emotion": "Empowerment after frustration",
+      "target_segment": "gp_frustrated",
+      "hook": "You've sat in that room and watched them write 'anxiety' on the form. This time, you walk in with two weeks of data.",
+      "supporting_quotes": [
+        "unfortunately not all women are taken seriously when they report these symptoms to their doctors",
+        "Women should talk with their doctors about HRT to see if it is right for them"
+      ],
+      "app_solution": "The GP Export generates a clean, one-page PDF summary after 14 days of tracking — showing symptom patterns, intensity changes, and correlations. Something concrete. Something they can't dismiss."
+    },
+    {
+      "angle": "A Decade Is Too Long to Feel Lost In",
+      "target_emotion": "Despair turning to agency",
+      "target_segment": "established",
+      "hook": "Nine years in and still no clearer picture. What if you could finally see what's shifting — week by week?",
+      "supporting_quotes": [
+        "I am in my 9th year and counting and believe through research, that it could last up to 15 years",
+        "It feels as though I have pretty much been a miserable, bloated, sour, sweaty, forgetful, irrational bitch for almost a decade"
+      ],
+      "app_solution": "The Weekly Snapshot compares this week to last — direction arrows, pattern correlations, change markers — so you can see momentum, not just chaos."
+    },
+    {
+      "angle": "Is This Perimenopause or Something Else?",
+      "target_emotion": "Anxiety and confusion",
+      "target_segment": "early_stage",
+      "hook": "Hot flash or panic attack. Brain fog or something worse. You've been wondering for months. Start writing it down.",
+      "supporting_quotes": [
+        "Check with your physician if you've not menstruated in 3 months or so. You could be heading toward menopause, but it could be something else, too",
+        "Symptoms of a heart attack in women are often atypical: great fatigue, nausea, night sweats, all of which can easily be confused with the symptoms of menopause"
+      ],
+      "app_solution": "Sulu gives you a quiet daily log — 30 seconds, nine perimenopause-specific symptoms, no guessing. After two weeks, you have a timeline. Not a diagnosis. A record."
+    },
+    {
+      "angle": "The Brain That Keeps Losing Its Thread",
+      "target_emotion": "Relief at being understood",
+      "target_segment": "universal",
+      "hook": "You lost the word again. Halfway through the sentence. This is real, and it belongs in your GP notes.",
+      "supporting_quotes": [
+        "The foggy brain takes hold and you lose words, whole sentences, and sometimes worse, entire fucking conversations",
+        "Forgetfulness. And as I was saying… What was I saying again?"
+      ],
+      "app_solution": "Track brain fog daily with a single slider. Over two weeks, you'll see when it's worst, what correlates with it, and you'll have it documented — not just described."
+    },
+    {
+      "angle": "HRT: Bring the Evidence, Not Just the Question",
+      "target_emotion": "Determination",
+      "target_segment": "hrt_considering",
+      "hook": "You want to ask about HRT. You just want to walk in with something more than 'I haven't been feeling right'.",
+      "supporting_quotes": [
+        "Women should talk with their doctors about HRT to see if it is right for them",
+        "I'm on hormones and feel fabulous",
+        "Of course some women, including myself went through a really tough time with physical and emotional symptoms due to loss of estrogen"
+      ],
+      "app_solution": "Track your symptoms for two weeks and export a clear, dated PDF. Symptom history, intensity trends, what's getting worse — ready for the conversation you've been building up to."
+    },
+    {
+      "angle": "Not Another App That Doesn't Fit",
+      "target_emotion": "Tired relief",
+      "target_segment": "tracker_fatigued",
+      "hook": "Built for fertility. Confusing as hell. Or just... not for this. Sulu is made for perimenopause, and nothing else.",
+      "supporting_quotes": [
+        "Perimenopause, the transition through menopause, can bring about a range of symptoms that vary from person to person",
+        "From symptom tracking to expert insights, Flo offers personalized tools"
+      ],
+      "app_solution": "Nine perimenopause-specific symptoms. A 30-second daily check-in. No cycle predictions, no fertility scores, no overwhelm. Just a clear record of how you're actually feeling."
+    },
+    {
+      "angle": "The Appointment That Finally Goes Differently",
+      "target_emotion": "Empowerment after years of being dismissed",
+      "target_segment": "gp_frustrated",
+      "hook": "You've walked out of that appointment feeling invisible one too many times. What if next time you walked in with proof?",
+      "supporting_quotes": [
+        "Doctors and others spend an enormous amount of time simply to get the story straight. Many errors arise from the difficulties of this.",
+        "how does a healthcare provider get access to your up-to-date medical history to treat you properly?"
+      ],
+      "app_solution": "The GP Export feature generates a clean PDF summary of your symptom history — ready to hand over in 30 seconds. No explaining. No being talked over. Just the data."
+    },
+    {
+      "angle": "Finally See What Your Body Has Been Trying to Tell You",
+      "target_emotion": "Relief at finally having clarity",
+      "target_segment": "early_stage",
+      "hook": "Something has shifted. You just can't put your finger on exactly when — or what.",
+      "supporting_quotes": [
+        "I realize that remembering the specifics is getting increasingly hard",
+        "I can sometimes piece together a good enough history with a little effort"
+      ],
+      "app_solution": "Sulu's Timeline View shows you 7, 14, or 30 days of your symptoms at a glance — so the pattern that felt impossible to name becomes something you can actually see."
+    },
+    {
+      "angle": "Not Another App That Wants Everything From You",
+      "target_emotion": "Relief from overwhelm and distrust of apps",
+      "target_segment": "tracker_fatigued",
+      "hook": "You've tried the apps. They asked too much, gave too little, and somehow still didn't feel like they were for you.",
+      "supporting_quotes": [
+        "These apps promise helpful insights. But in return, they take so much.",
+        "So far I've been putting everything in an Excel sheet but I'm not a big fan of Excel",
+        "people often told us to help them work smarter, not harder"
+      ],
+      "app_solution": "Sulu takes 30 seconds a day. Three to seven symptoms. Simple sliders. Nothing more. Built specifically for perimenopause — not repurposed from a fertility app."
+    },
+    {
+      "angle": "Is It Working? Now You Can Actually Tell.",
+      "target_emotion": "Anxious hope about HRT progress",
+      "target_segment": "hrt_considering",
+      "hook": "Starting HRT is one thing. Knowing whether it's doing anything is another.",
+      "supporting_quotes": [
+        "finding the right mental health treatment means years of trial and error and suffering",
+        "researchers and doctors just haven't been able to find therapies that work well"
+      ],
+      "app_solution": "Sulu's Change Markers let you log when you start or adjust HRT alongside your daily symptoms. The Weekly Snapshot shows you direction — are things improving, staying flat, or shifting?"
+    },
+    {
+      "angle": "Your Symptoms Are Real. Here Is the Record to Prove It.",
+      "target_emotion": "Vindication and self-trust",
+      "target_segment": "gp_frustrated",
+      "hook": "It is not anxiety. It is not stress. And it is not all in your head. You just haven't had the evidence yet.",
+      "supporting_quotes": [
+        "Doctors and others spend an enormous amount of time simply to get the story straight.",
+        "her cycle had been turned into a data point",
+        "I have a bunch of hints scattered around 10 different digital health record systems"
+      ],
+      "app_solution": "Sulu builds a clear, dated record of your symptoms over time — automatically. When you're ready, export a clean GP summary that shows exactly what's been happening and when."
+    },
+    {
+      "angle": "Finally See What's Actually Happening",
+      "target_emotion": "Relief and clarity",
+      "target_segment": "universal",
+      "hook": "You've been living with these symptoms for months. You just haven't been able to see them clearly until now.",
+      "supporting_quotes": [
+        "I've often wondered whether there are any patterns or cycles to my moods",
+        "Traditional journaling is reflective but doesn't surface causal patterns",
+        "a running estimate of what moves the needle for me"
+      ],
+      "app_solution": "Sulu's Timeline View and Weekly Snapshot surface the patterns you've been sensing but couldn't prove — automatically, with no effort required."
+    },
+    {
+      "angle": "30 Seconds, Not 30 Minutes",
+      "target_emotion": "Relief from overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook": "You've tried the apps. They wanted too much. Sulu only needs 30 seconds.",
+      "supporting_quotes": [
+        "there were a bunch of existing apps for journaling, habit tracking, water intake... but nothing that met our requirements",
+        "many apps offered very limited functionality in the free versions, and would use manipulative paywall tactics",
+        "all other apps felt too hard-coded"
+      ],
+      "app_solution": "A single daily check-in with 0-3 sliders across your chosen symptoms. No journaling, no streaks, no guilt. Just a clear record building quietly in the background."
+    },
+    {
+      "angle": "Is It Perimenopause? Let the Data Answer",
+      "target_emotion": "Uncertainty and quiet anxiety",
+      "target_segment": "early_stage",
+      "hook": "Something has shifted. You're not imagining it. You just need something to show for it.",
+      "supporting_quotes": [
+        "I tried everything from cutting coffee, blocking blue light, to taking melatonin and antihistamine, but couldn't find anything that worked",
+        "It took an immense amount of energy for me to perform even the most mundane of tasks",
+        "I've often wondered whether there are any patterns or cycles"
+      ],
+      "app_solution": "Sulu tracks 9 perimenopause-specific symptoms and builds a visual timeline over time — so when you do see your GP, you have a concrete record, not a vague feeling."
+    },
+    {
+      "angle": "Is the HRT Working?",
+      "target_emotion": "Hope and impatience",
+      "target_segment": "hrt_considering",
+      "hook": "Starting HRT is a moment. Knowing if it's actually working takes weeks — and a record.",
+      "supporting_quotes": [
+        "Eventually, I was able to get my insomnia treated. That finally helped.",
+        "a running estimate of what moves the needle for me",
+        "medication-assisted treatment is still stigmatized by family doctors and therefore hard to access"
+      ],
+      "app_solution": "Log your HRT start as a Change Marker and watch your symptom timeline respond — giving you and your doctor something concrete to discuss at your next review."
+    },
+    {
+      "angle": "Stop Starting From Zero Every Appointment",
+      "target_emotion": "Exhaustion and quiet desperation",
+      "target_segment": "established",
+      "hook": "Every appointment, you reconstruct the last few months from memory. Every time, something gets lost.",
+      "supporting_quotes": [
+        "The only way women can check if they're on the list — phone the receptionist at the GP practice, then wait for a letter to arrive",
+        "5,000 women were missed on the regular screening programme — they're just the ones they confirmed",
+        "when I finally decided to see a specialist, I was put on a 3-month long waiting list"
+      ],
+      "app_solution": "After 14 days of tracking, Sulu generates a GP Export — a clean PDF that shows your symptom history at a glance, ready to hand over or read from in the first 30 seconds of any appointment."
+    }
+  ],
+  "ad_source_material": [
+    {
+      "headline": "Your doctor can't dismiss a timeline.",
+      "pain_point": "Women are dismissed by GPs based on age without any symptom assessment",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "You've described your symptoms. You've been told you're too young, or it's stress, or just get some blood work done. Sulu gives you something different: a clear, dated record of exactly what you've been experiencing — ready to hand to any doctor in 30 seconds. Fourteen days of tracking. One PDF. Much harder to ignore.",
+      "cta": "Start your 14-day record",
+      "verbatim_quotes": [
+        "Go armed with information about you. Things they can't gaslight you about or invalidate because you said it",
+        "I've been begging for my hormones checking for the entire 5 years with no help as I'm 'too young'",
+        "I nearly lost everything. My sanity, my job, my family"
+      ]
+    },
+    {
+      "headline": "You're not imagining it. You're just missing the pattern.",
+      "pain_point": "Women cannot see patterns in their symptoms without systematic tracking",
+      "target_segment": "early_stage",
+      "hook_type": "aspiration",
+      "body_copy": "Something has shifted — in your sleep, your focus, your mood, your cycle. You feel it, but you can't quite name it. Sulu tracks your perimenopause symptoms day by day, so after a few weeks you can see exactly what's changing and when. Not a diagnosis. A clear picture of you.",
+      "cta": "Start tracking today",
+      "verbatim_quotes": [
+        "So happy to have found this group as to realize I am not crazy!",
+        "I also started tracking the symptoms with the day of my cycle and started seeing the pattern",
+        "With how little education there is about perimenopause and menopause, I'm guessing many of us only realized what was happening after researching unexplained symptoms"
+      ]
+    },
+    {
+      "headline": "Brain fog isn't random. Prove it.",
+      "pain_point": "Brain fog is so severe it threatens careers and sense of self, and is often not recognised as a perimenopause symptom",
+      "target_segment": "established",
+      "hook_type": "fear",
+      "body_copy": "One day you're the sharpest person in the room. A few months later you're blanking on words mid-sentence, missing meetings, scared you're losing yourself. Sulu tracks brain fog alongside your sleep, stress, and cycle so you can see what's driving it — and walk into your next GP appointment with something concrete.",
+      "cta": "See your patterns in 14 days",
+      "verbatim_quotes": [
+        "Brain fog is too cutesy a term for it IMO, that shit is straight up cognitive impairment",
+        "I have managed to carve a stable employment for 20 years thanks to my reputation of being 'on it'... I am mortified and scared",
+        "Its affecting my confidence and drowning me in self-doubt"
+      ]
+    },
+    {
+      "headline": "14 days. One PDF. Harder to dismiss.",
+      "pain_point": "Women go to GP appointments without organised evidence, making it easy for doctors to dismiss them",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "Perimenopause is diagnosed by symptoms, not blood tests. Which means the clearest evidence you have is your own record. Sulu builds that record quietly in the background — a 30-second check-in each day — and exports it as a clean GP summary when you're ready. Because you deserve an appointment that actually goes somewhere.",
+      "cta": "Build your record",
+      "verbatim_quotes": [
+        "I came armed with information, articles and medications... He was defensive. I went item by item",
+        "I've tracked and recorded for years so at least I have something to bring",
+        "Go armed with information about you. Things they can't gaslight you about or invalidate"
+      ]
+    },
+    {
+      "headline": "Starting HRT? Track whether it's working.",
+      "pain_point": "Women on HRT cannot easily track whether it is working at what dose or how changes affect individual symptoms",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "HRT can take weeks to show its full effect — and the difference between doses matters. Sulu lets you log when you start or change medication, then tracks your symptoms week by week so you can see what's shifting. Concrete data for your next conversation with your doctor, not a feeling.",
+      "cta": "Log your first change marker",
+      "verbatim_quotes": [
+        "I'm on HRT and still having brain fog. I'm just tired of playing medical detective",
+        "I started HRT 50 and I could see an improvement. But it takes about 3 months to see the full effect",
+        "I am on my 6th month and we've gotten my estrogen where it needs to be and are figuring out my issues"
+      ]
+    },
+    {
+      "headline": "Not a wellness app. A personal record.",
+      "pain_point": "Existing symptom trackers are not perimenopause-specific, too complex, or simply not built for this stage of life",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "Most tracking apps weren't built for this. Sulu was. Choose up to 7 perimenopause-specific symptoms, spend 30 seconds a day, and watch a clear picture build over two weeks. No points, no streaks, no wellness nudges. Just your symptoms, your patterns, and a GP export when you need it.",
+      "cta": "Try it for 14 days",
+      "verbatim_quotes": [
+        "Can you recommend a symptom tracker?",
+        "I started tracking it in a spreadsheet (because that's how I track my whole life lol)",
+        "Now with perimenopause it lasts through period and it's impossible to track as well"
+      ]
+    },
+    {
+      "headline": "She said it was probably stress.",
+      "pain_point": "Doctors attribute perimenopause symptoms to anxiety, depression, or lifestyle rather than hormonal changes",
+      "target_segment": "gp_frustrated",
+      "hook_type": "social_proof",
+      "body_copy": "Hot flashes, mood swings, brain fog, broken sleep — and somehow it's always something else. Sulu doesn't tell you what's wrong. It gives you a dated, documented record of every symptom, every pattern, every week — so the next time a doctor suggests it's stress, you have 30 days of data that says otherwise.",
+      "cta": "Start your record today",
+      "verbatim_quotes": [
+        "She said 'no, not at your age, must be your thyroid.' But she didn't even ASK me what I was experiencing",
+        "you're too young! take these antidepressants and xanax!",
+        "I've been dismissed so often and made to feel like I don't know my own body"
+      ]
+    },
+    {
+      "headline": "Your bloods are normal. You are not fine.",
+      "pain_point": "Doctor dismissal and hormonal testing limitations",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "Blood tests show one day. Your symptoms show every day. Sulu builds a 30-day picture of how you've actually been feeling — fatigue, anxiety, sleep, all of it — so your next appointment starts with evidence, not just a description of how bad things have been.",
+      "cta": "Start tracking free",
+      "verbatim_quotes": [
+        "Hormonal tests only show levels for that one day the test was taken, and nothing more",
+        "I have had a ton of bloodwork done recently with full metabolic panels. I am healthy according to doctors",
+        "My experience is you have to advocate for yourself with Drs"
+      ]
+    },
+    {
+      "headline": "Slept well. Ate well. Still can't function.",
+      "pain_point": "Pattern blindness and symptom confusion",
+      "target_segment": "universal",
+      "hook_type": "frustration",
+      "body_copy": "When the bad days arrive without warning and the good days feel like luck, you're not imagining things — you just can't see the pattern yet. Sulu tracks your symptoms quietly in the background until the picture starts to make sense.",
+      "cta": "See your pattern in 14 days",
+      "verbatim_quotes": [
+        "Slept well, eaten well (heaps of protein), rested adequately, not pre-menstrual yet the fatigue that's hit all day today is so draining",
+        "It comes in waves where some days to weeks are worse than my 'normal' tired"
+      ]
+    },
+    {
+      "headline": "The anxiety arrived. Then the exhaustion. Then the confusion.",
+      "pain_point": "Anxiety misattribution and symptom confusion",
+      "target_segment": "early_stage",
+      "hook_type": "fear",
+      "body_copy": "For a lot of women, perimenopause doesn't announce itself with hot flashes. It shows up as dread, as crashing fatigue, as something that makes you feel like you're falling apart. Sulu helps you track what's happening — calmly, privately, without turning it into a project.",
+      "cta": "Try it for 30 days",
+      "verbatim_quotes": [
+        "I didn't realize I was in Peri as (I think) extreme anxiety was my first symptom",
+        "What is wrong with my brain??",
+        "I felt like I was going crazy"
+      ]
+    },
+    {
+      "headline": "10 minutes with your GP. Months of symptoms. Make it count.",
+      "pain_point": "Doctor communication and appointment unpreparedness",
+      "target_segment": "gp_frustrated",
+      "hook_type": "aspiration",
+      "body_copy": "It's hard to explain 'I've been exhausted in a way that's hard to describe' to someone who has a waiting room full of people. Sulu's GP export turns your tracking history into a one-page PDF — your symptoms, their intensity, what changed and when. Less talking. More showing.",
+      "cta": "Build your GP report",
+      "verbatim_quotes": [
+        "I'm trying to find a new GYN but also want to think about what to ask and talk about",
+        "My experience is you have to advocate for yourself with Drs",
+        "After nearly five years of trying to figure out what was wrong with me"
+      ]
+    },
+    {
+      "headline": "Started HRT. Not sure what's changed. Track it.",
+      "pain_point": "HRT uncertainty and tracking",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "When you change something, you want to know if it's working. Sulu logs when you start or adjust HRT alongside your daily symptoms — so the next time your GP asks how you've been, you have an actual answer.",
+      "cta": "Log your first change marker",
+      "verbatim_quotes": [
+        "3 months into HRT and fine tuning brands and dosage",
+        "A year ago I started estrogen and progesterone... horrid hot flashes ceased pretty quickly, but every other symptom was unchanged",
+        "I'm in the process of adjusting my HRT dosages"
+      ]
+    },
+    {
+      "headline": "You're not imagining it. You're just missing the data.",
+      "pain_point": "Pattern blindness and doctor dismissal",
+      "target_segment": "universal",
+      "hook_type": "frustration",
+      "body_copy": "Perimenopause symptoms are real, variable, and almost impossible to explain from memory. Sulu gives you a quiet daily record — 30 seconds, no wellness theatre — so when someone questions what you're experiencing, you have something concrete to show them.",
+      "cta": "Start your record today",
+      "verbatim_quotes": [
+        "Today I'm feeling fine. 🎢",
+        "I felt like I was going crazy",
+        "Hormonal tests only show levels for that one day the test was taken, and nothing more"
+      ]
+    },
+    {
+      "headline": "I'm a tough person. And this is breaking me down.",
+      "pain_point": "Symptom severity and life impact",
+      "target_segment": "established",
+      "hook_type": "social_proof",
+      "body_copy": "The women saying this are not fragile. They are teachers, mothers, athletes — people who have always pushed through. When they say perimenopause is different, they mean it. Sulu won't fix it, but it will help you document it properly, so someone finally has to take it seriously.",
+      "cta": "Download Sulu",
+      "verbatim_quotes": [
+        "I'm a tough girl & this crap is breaking me down hard.... crushes my spirit",
+        "I hate the fatigue the most. No energy for living and enjoying my life",
+        "I have so much I want to do, accomplish, be… and I'm too exhausted to do even a little"
+      ]
+    },
+    {
+      "headline": "Your bloods are 'normal'. You're not.",
+      "pain_point": "Doctor dismissal — GP tells women their results are normal and redirects to anxiety or depression",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "If you've left a GP appointment feeling more dismissed than when you walked in, you're not alone — and you're not making it up. Sulu is a daily symptom tracker built for perimenopause. Thirty seconds a day, and after two weeks you have a clear PDF timeline to bring to your next appointment. Let the record do the talking.",
+      "cta": "Start tracking free",
+      "verbatim_quotes": [
+        "my bloodwork always comes back 'normal.' The only solution suggested was going back on birth control",
+        "she dismissed me and said I was too young to be in menopause",
+        "doctors do not give a shit"
+      ]
+    },
+    {
+      "headline": "Walk in with evidence. Not just symptoms.",
+      "pain_point": "No concrete evidence for GP appointments — brain fog and symptom variability make it hard to articulate what is happening",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "When your symptoms come and go, it's almost impossible to give your doctor a clear picture in a ten-minute appointment. Sulu tracks your perimenopause symptoms daily and turns them into a clean, shareable PDF summary. Fourteen days is all it takes to walk in knowing exactly what you want to say.",
+      "cta": "Get your GP Export ready",
+      "verbatim_quotes": [
+        "she told me to log my moods to see if they have a correlation with my cycle. I told her this is more than PMS",
+        "I don't know where to start",
+        "it's not officially peri because my labs were 'normal' on the day I was tested"
+      ]
+    },
+    {
+      "headline": "Nobody warned you about the rage.",
+      "pain_point": "Symptom confusion — women do not recognise rage, anxiety, and mood swings as perimenopause symptoms",
+      "target_segment": "early_stage",
+      "hook_type": "social_proof",
+      "body_copy": "Hot flashes, they mentioned. The rage? Not so much. If the last few years have turned you into someone you don't quite recognise, it might be worth tracking it. Sulu is a calm, simple daily log built specifically for perimenopause — so you can spot what's happening before your next appointment.",
+      "cta": "Start your free 30-day trial",
+      "verbatim_quotes": [
+        "Why does no one warn you about the rage?",
+        "I got warned about hot flashes and weight gain. Never heard any one around me speak about the rage",
+        "I've never felt like this before and it's impacting my career and relationships"
+      ]
+    },
+    {
+      "headline": "You're not imagining it. You're just missing the pattern.",
+      "pain_point": "Pattern blindness — women cannot see connections between their symptoms, triggers, and cycles",
+      "target_segment": "established",
+      "hook_type": "aspiration",
+      "body_copy": "Some days are fine. Others are a storm of anxiety, exhaustion, and something that looks suspiciously like rage. If you can't tell what's causing what, Sulu can help. A 30-second daily check-in builds a visual timeline of your symptoms over weeks — so you can finally see the shape of what's happening.",
+      "cta": "See your pattern in two weeks",
+      "verbatim_quotes": [
+        "I have good and bad days. And never know if it's because of hormones or other things",
+        "I'll feel fine for chunks of the day, then dreadful and frustrated for an hour or so",
+        "a storm of symptoms—hot flashes, intense anxiety, insomnia"
+      ]
+    },
+    {
+      "headline": "Started HRT. Still not sure it's working?",
+      "pain_point": "HRT tracking — women cannot tell whether HRT is helping or at the right dose",
+      "target_segment": "hrt_considering",
+      "hook_type": "frustration",
+      "body_copy": "The first weeks on HRT can feel like guesswork — some things shift, others don't, and it's hard to know what's changed and what hasn't. Sulu lets you log your HRT start date alongside daily symptom scores, so over time you have an honest record of what's actually improved. Useful for you. Useful for your doctor.",
+      "cta": "Track your HRT journey",
+      "verbatim_quotes": [
+        "I felt an improvement in my mood initially but over the last month or so I have gone back to feeling the same before I started",
+        "overall mood, irritability and anxiety are better, but like you, I am experiencing inconsistencies",
+        "It's difficult. I have good and bad days. And never know if it's because of hormones or other things"
+      ]
+    },
+    {
+      "headline": "30 seconds. Then your day.",
+      "pain_point": "Emotional overwhelm — women are too exhausted and overwhelmed to add anything else to their lives",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "aspiration",
+      "body_copy": "You don't need another app asking you to do more. Sulu is a daily symptom log for women in perimenopause — three sliders, thirty seconds, done. After two weeks it builds into a clear summary you can take to your GP. Nothing to figure out. Nothing overwhelming.",
+      "cta": "Try Sulu free",
+      "verbatim_quotes": [
+        "I'm honestly at a breaking point",
+        "I don't know where to start",
+        "I feel so doomed some days"
+      ]
+    },
+    {
+      "headline": "I used to be fun. Where did she go?",
+      "pain_point": "Emotional overwhelm and identity loss — women feel like strangers to themselves",
+      "target_segment": "universal",
+      "hook_type": "fear",
+      "body_copy": "Anxiety you've never had before. Rage that comes from nowhere. A version of yourself you don't recognise. Perimenopause can feel like a slow disappearing act — and the hardest part is not knowing what's driving it. Sulu helps you track what's changing, day by day, so you can go to your doctor with something real.",
+      "cta": "Start building your record",
+      "verbatim_quotes": [
+        "I used to be fun and happy. Now I'm just an anxious depressed mess with anger problems",
+        "I hate what I become after my 40s",
+        "previously I'd never in my life been an anxious person, needed any meds etc"
+      ]
+    },
+    {
+      "headline": "Two weeks of tracking. One conversation that might change everything.",
+      "pain_point": "No concrete evidence for GP appointments — women cannot articulate symptoms effectively",
+      "target_segment": "gp_frustrated",
+      "hook_type": "aspiration",
+      "body_copy": "Perimenopause symptoms are real, but they can be hard to prove in a ten-minute appointment — especially when your doctor is looking for something they can measure on a blood test. Sulu builds a quiet, daily record of your symptoms and generates a PDF summary after just 14 days. Bring it in. Let it speak for you.",
+      "cta": "Get your GP Export in two weeks",
+      "verbatim_quotes": [
+        "my bloodwork always comes back 'normal'",
+        "she told me to log my moods to see if they have a correlation with my cycle. I told her this is more than PMS",
+        "I feel so doomed some days. Terrible brain fog, memory loss"
+      ]
+    },
+    {
+      "headline": "She laughed. Actually laughed.",
+      "pain_point": "Doctors dismiss or disbelieve perimenopause symptoms",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "When you tell a doctor what you've been experiencing for months — the sweats, the sleeplessness, the anxiety that came from nowhere — and they shrug, it's not just frustrating. It leaves a mark. Sulu won't fix that. But it gives you something to bring to the next appointment: a dated, clear record of exactly what's been happening and when. Thirty seconds a day. A timeline that speaks for itself.",
+      "cta": "Start your record today",
+      "verbatim_quotes": [
+        "My actual OBGYN laughed when I told her I thought I was peri because of the symptoms I was having. Like, actually chuckled.",
+        "I hated the feeling of powerlessness in that room.",
+        "I came to it prepared to either be heard or to be minimized."
+      ]
+    },
+    {
+      "headline": "Three years of not sleeping. One doctor. Zero answers.",
+      "pain_point": "Chronic sleep disruption dismissed or mismanaged by doctors",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "You've tried the gummies, the melatonin, the expensive sheets. You've mentioned it at appointments and been told it's anxiety, or stress, or something else entirely. What you haven't had is a clear picture of how your sleep connects to everything else — the night sweats, the cycle changes, the days you can barely function. Sulu tracks that picture for you, so you can finally stop describing it from memory.",
+      "cta": "See your patterns in 14 days",
+      "verbatim_quotes": [
+        "Is it normal in perimenopause to just NOT sleep for three years?",
+        "I'm…just…so…tired. And cranky.",
+        "EVERY NIGHT is a battle."
+      ]
+    },
+    {
+      "headline": "You're not going crazy. You're in perimenopause.",
+      "pain_point": "Symptom confusion and self-doubt in early stage women",
+      "target_segment": "early_stage",
+      "hook_type": "aspiration",
+      "body_copy": "The warmth that wakes you at 3am. The anxiety that arrived without warning. The brain that feels like it's running on dial-up. You're not falling apart — but without a clear picture of what's happening and when, it's almost impossible to know what you're dealing with. Sulu is a daily record built specifically for this stage. Thirty seconds. No overwhelm. Just clarity, building day by day.",
+      "cta": "Start tracking what's actually happening",
+      "verbatim_quotes": [
+        "I thought I was going crazy.",
+        "I wake up clammy and didn't realize that was night sweats because I wasn't drenched in sweat.",
+        "OMG I want to cry from relief!! I thought something was off with me"
+      ]
+    },
+    {
+      "headline": "You're too young for HRT. Also, here's some Prozac.",
+      "pain_point": "HRT access denied; antidepressants prescribed instead",
+      "target_segment": "hrt_considering",
+      "hook_type": "frustration",
+      "body_copy": "If you've been told you're too young, been offered antidepressants instead, or been asked to come back when things get worse — you already know what it feels like to walk out of an appointment empty-handed. The best thing you can bring to the next one is a documented record of your symptoms over time. Sulu builds that for you, automatically, and exports it as a clean PDF when you're ready.",
+      "cta": "Build your case before your next appointment",
+      "verbatim_quotes": [
+        "I don't get the chance to just TRY an estrogen patch. I'm so angry.",
+        "All they've done is give me Prozac. Which I didn't understand.",
+        "I was put on Lexapro and gained 30 lbs. Only to feel worse."
+      ]
+    },
+    {
+      "headline": "No habit tracker. No wellness score. Just your data.",
+      "pain_point": "Tracking overwhelm — existing apps are not built for perimenopause",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "aspiration",
+      "body_copy": "Most health apps want everything. Food, steps, mood, sleep, stress levels — logged at length, gamified, and sent to a dashboard you'll never look at. Sulu is different. You choose up to seven perimenopause-specific symptoms, rate them in seconds on a simple scale, and watch your own patterns emerge over 14 days. Nothing to optimise. Nothing to feel guilty about missing. Just a clear record, built quietly in the background.",
+      "cta": "Try it for two weeks",
+      "verbatim_quotes": [
+        "I did all my tracking and research alone.",
+        "I can't even tell what's new, what's perimenopause, and what's actual menopause."
+      ]
+    },
+    {
+      "headline": "What you felt six months ago matters today.",
+      "pain_point": "Pattern blindness — women can't see symptom progression over time",
+      "target_segment": "established",
+      "hook_type": "aspiration",
+      "body_copy": "Perimenopause doesn't arrive all at once. It builds, shifts, and changes direction — and without a record, it's easy to lose sight of where you started. Sulu's timeline shows you thirty days at a glance, with week-on-week comparisons that make the direction of travel visible. When something changes — HRT, stress, sleep, alcohol — you can see it reflected in the numbers. Not just feel it.",
+      "cta": "Start your timeline",
+      "verbatim_quotes": [
+        "I had occasional night sweats, like you describe, for several years before having them more persistent and pronounced. I'm talking like 5 years.",
+        "So it took a long time to piece the insomnia together with other symptoms as possible/probable perimenopause.",
+        "I have been battling this perimenopause going on year 4"
+      ]
+    },
+    {
+      "headline": "Finally diagnosed. By a psychiatrist.",
+      "pain_point": "Perimenopause misdiagnosed as mental health condition; women spend years in wrong treatment",
+      "target_segment": "gp_frustrated",
+      "hook_type": "social_proof",
+      "body_copy": "It took one woman a year, a psychiatrist, and out-of-pocket hormone testing before anyone believed her symptoms were hormonal — not psychiatric. She's not alone. When anxiety, low mood, and sleep disruption arrive together, it takes a clear symptom record to untangle what's what. Sulu tracks everything in one place, so your next appointment starts with evidence, not an explanation.",
+      "cta": "Track your symptoms from today",
+      "verbatim_quotes": [
+        "Finally diagnosed with Perimenopause after a year of symptoms. By a psychiatrist of all people.",
+        "my family doctor blew me off and never believed me",
+        "I'm a therapist, and I cannot begin to tell you how many people I see who are CLEARLY in peri."
+      ]
+    },
+    {
+      "headline": "You know your body. Now show them.",
+      "pain_point": "Inability to present symptoms credibly in short GP appointments",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "You've known something was changing for months. Getting a doctor to take that seriously is a different challenge entirely — especially in a ten-minute appointment, after a long wait, when you're already exhausted. Sulu's GP Export gives you a clear, dated summary of your symptoms and patterns to hand over. What you've been living with, made legible.",
+      "cta": "Start building your export",
+      "verbatim_quotes": [
+        "I wrote him a letter as I just kept crying whenever I talked about it. Mainly because most of my doctors had patted my hand and said 'there there'.",
+        "That's why it's important for us to go in to our appointments armed with knowledge, and demand more.",
+        "I came to it prepared to either be heard or to be minimized."
+      ]
+    },
+    {
+      "headline": "Your doctor called it anxiety. You know it's more than that.",
+      "pain_point": "Symptoms attributed to anxiety or depression instead of perimenopause",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "When you've been told it's stress, or anxiety, or just your age — and you know that's not the full story — what you need isn't a better argument. You need a record. Sulu takes 30 seconds a day and builds a clear symptom timeline you can actually bring to an appointment. After 14 days, you can export a PDF summary for your GP. Not a list you typed out at midnight. A timeline.",
+      "cta": "Start tracking free",
+      "verbatim_quotes": [
+        "She said I'm too young (I'm 38) and it's 'just anxiety'. I'm literally having every symptom!",
+        "I swear if I told her my back hurts, she would say 'it's anxiety, let's up your antidepressant'. It's always her go to",
+        "We are put on an SSRI because these physical problems must be a manifestation of anxiety and depression"
+      ]
+    },
+    {
+      "headline": "Something's been off for a year. You just can't prove it yet.",
+      "pain_point": "Pattern blindness — women can't see how symptoms connect over time",
+      "target_segment": "early_stage",
+      "hook_type": "aspiration",
+      "body_copy": "The headaches, the sleep, the brain fog, the cycle changes — none of them feel big enough on their own. But together, over weeks, they tell a story. Sulu tracks the symptoms that matter in perimenopause, and shows you the pattern so you can finally see what's been building. Then it puts it in a format your GP can actually use.",
+      "cta": "See your pattern",
+      "verbatim_quotes": [
+        "I think it's more when you realize something is REALLY off, and look back and see all the small things leading up to it",
+        "In hindsight, my PMDD diagnosis in 2016 was likely the onset for perimenopause",
+        "I really had no clue it could start that early"
+      ]
+    },
+    {
+      "headline": "Walk into your next appointment with 30 days of evidence.",
+      "pain_point": "Doctor communication — women go in unprepared and leave dismissed",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Most doctors need more than a description. They need to see consistency over time. Sulu builds a dated record of your symptoms across weeks — and when you're ready, generates a clean PDF summary for your GP. Not notes on your phone. A proper timeline that makes the conversation easier.",
+      "cta": "Build your record",
+      "verbatim_quotes": [
+        "If symptoms are consistent over time, despite what hormonal blood work states... you could be a good candidate for MHT/HRT",
+        "Write down every little symptom time and date! Keep track of it",
+        "It took me months to convince her"
+      ]
+    },
+    {
+      "headline": "'44 is young for that.' — said yet another doctor.",
+      "pain_point": "Being told you are too young for perimenopause by medical professionals",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "If you've been dismissed, told it's stress, or sent away with a prescription that doesn't address what's actually happening — you're not alone, and you're not wrong. Sulu helps you build a clear, timestamped record of your symptoms over weeks, so your next appointment starts from evidence rather than a conversation you have to win.",
+      "cta": "Start your record today",
+      "verbatim_quotes": [
+        "Literally every doctor and specialist I've seen where I've said I'm going through perimenopause has said 'really? 44 is young for that'",
+        "I HATE YOU JOHNS HOPKINS for gaslighting me through perimenopause until around 6-7 years post menopause",
+        "Doctor's will fob you off. But trust your instincts."
+      ]
+    },
+    {
+      "headline": "Not another wellness app. Just 30 seconds a day.",
+      "pain_point": "Tracking overwhelm — women are told to keep notes but have no good way to do it",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "aspiration",
+      "body_copy": "Sulu is a daily symptom record for perimenopause — nothing more, nothing less. You pick the symptoms that matter to you, check in once a day in under 30 seconds, and after two weeks you have a clear timeline you can bring to your GP. No dashboards. No streaks. No noise.",
+      "cta": "Try it for free",
+      "verbatim_quotes": [
+        "it's all just too much",
+        "Just make notes of your symptoms",
+        "Write down every little symptom time and date! Keep track of it"
+      ]
+    },
+    {
+      "headline": "You've been managing this for years. Time to see the full picture.",
+      "pain_point": "Pattern blindness in established, long-term perimenopause",
+      "target_segment": "established",
+      "hook_type": "aspiration",
+      "body_copy": "When you've been living with symptoms for years, it can be hard to see what's changed — or what's getting worse. Sulu tracks your symptoms day by day and shows you patterns across weeks, including how things like stress, alcohol, or medication changes affect how you feel. It's a record of your body, in your own words, ready when you need it.",
+      "cta": "Start tracking",
+      "verbatim_quotes": [
+        "Regardless of how many dr appointments I shared concerns about assorted symptoms for the past two decades, no medical professional ever made any connection",
+        "I've been having a very difficult year physically and mentally so I'm looking for answers",
+        "I hate being touched — I literally feel like I've disappeared"
+      ]
+    },
+    {
+      "headline": "Before HRT, you need something your GP can work with.",
+      "pain_point": "HRT access barrier — women cannot demonstrate symptom consistency to a sceptical doctor",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "A single appointment isn't always enough. What changes conversations is a consistent record over time — what you feel, when you feel it, and how it shifts. Sulu builds that record quietly in the background, and when you're ready, turns it into a clean summary for your doctor. Two weeks of tracking, one PDF, one better conversation.",
+      "cta": "Build your case",
+      "verbatim_quotes": [
+        "If symptoms are consistent over time, despite what hormonal blood work states... you could be a good candidate for MHT/HRT",
+        "She started low and watched how I responded",
+        "I don't know if I should be treating the anxiety with an SSRI or if I should be looking into HRT"
+      ]
+    },
+    {
+      "headline": "Social proof: Women just like you are finally being heard.",
+      "pain_point": "Doctor dismissal combined with lack of evidence to support claims",
+      "target_segment": "universal",
+      "hook_type": "social_proof",
+      "body_copy": "Thousands of women in perimenopause have been dismissed, misdiagnosed, or sent home with the wrong prescription. The ones who get heard tend to have one thing in common — they came prepared. Sulu helps you build a simple, clear symptom record that gives your GP something concrete to act on.",
+      "cta": "Join them",
+      "verbatim_quotes": [
+        "I sobbed during my entire 1st appt on Midi I was so miserable",
+        "I won't shut up about it — what to look out for, HRT etc — now to every woman I know",
+        "I had never even really heard the word perimenopause until I stumbled upon the menopause subreddit. Now I'm so angry"
+      ]
+    },
+    {
+      "headline": "She suggested yoga. You needed evidence.",
+      "pain_point": "Doctor Dismissal — symptoms attributed to stress, anxiety, or ageing instead of perimenopause",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "When your doctor shrugs, it helps to walk back in with something they can't shrug at. Sulu tracks your symptoms daily — hot flashes, mood, sleep, joint pain — and turns 14 days of data into a clean timeline you can take to any appointment. Not a wellness journal. A record.",
+      "cta": "Start your 14-day timeline",
+      "verbatim_quotes": [
+        "I almost bit my tongue off to keep from freaking the fuck out the day my doctor suggested YOGA for my musculoskeletal pain that was 10000% caused by lack of estrogen",
+        "I'm done being gaslit about this. I'm done being made to feel like my pain isn't real."
+      ]
+    },
+    {
+      "headline": "27 symptoms. One spreadsheet. There's an easier way.",
+      "pain_point": "Tracking Overwhelm — DIY spreadsheets and repurposed period apps don't work",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "You already know something's going on. You don't need another app to configure — you need one that already knows what perimenopause looks like. Sulu tracks up to seven symptoms with a 30-second daily check-in and shows you the pattern over time without any effort on your part.",
+      "cta": "Try it free — takes 30 seconds",
+      "verbatim_quotes": [
+        "I created a spreadsheet because well, that's how I operate.",
+        "27 TOTAL — the total number of symptoms I've experienced in the past 2 years. I did not realise that it was this many.",
+        "Someone is going to make a LOT of money making a perimenopause/menopause app — c'mon someone!"
+      ]
+    },
+    {
+      "headline": "It's not in your head. Here's the proof.",
+      "pain_point": "Doctor Dismissal — women offered antidepressants instead of hormone investigation",
+      "target_segment": "gp_frustrated",
+      "hook_type": "fear",
+      "body_copy": "Too many women leave their GP with an antidepressant prescription and no answers. Sulu gives you a dated symptom timeline you can print and bring to your next appointment — your own data, in plain language, showing exactly what's been happening and when. Two weeks of tracking. One document that changes the conversation.",
+      "cta": "Build your GP export",
+      "verbatim_quotes": [
+        "'have you considered anti-depressants or anti-anxiety meds for your moods etc?'",
+        "I spent the last few years recovering from antidepressant trials to address my perimenopause symptoms.",
+        "My doctor said that she treats the symptoms and not the hormone changes."
+      ]
+    },
+    {
+      "headline": "You're not dying. You're in perimenopause. And it started earlier than you think.",
+      "pain_point": "Symptom Confusion — women don't recognise the breadth of perimenopause symptoms",
+      "target_segment": "early_stage",
+      "hook_type": "aspiration",
+      "body_copy": "Anxiety out of nowhere. Joint pain. Brain fog. Cycles gone haywire. Perimenopause can start in your late 30s and it rarely announces itself clearly. Sulu helps you track what's happening across nine common symptoms so that the picture — chaotic as it feels — starts to make sense.",
+      "cta": "See your pattern in two weeks",
+      "verbatim_quotes": [
+        "Until I figured out I was in perimenopause, I just figured I was dying of some slow, shitty cancer of the reproductive system.",
+        "Out of control anxiety, don't forget that one. Almost turned me into a hermit before I realized what was happening was perimenopause.",
+        "I was woefully unprepared for perimenopause."
+      ]
+    },
+    {
+      "headline": "This week vs last week. That's all you need to know.",
+      "pain_point": "Pattern Blindness — women can't see how symptoms shift over time",
+      "target_segment": "established",
+      "hook_type": "aspiration",
+      "body_copy": "When you're managing 10 symptoms at once, 'how are you feeling?' is a useless question. Sulu's weekly snapshot shows you exactly which symptoms improved, which worsened, and what changed in your routine — so you can stop guessing and start seeing what's actually working.",
+      "cta": "Start tracking today",
+      "verbatim_quotes": [
+        "I'm always trying to figure out what I did the day before that made my sleep better or worse",
+        "11 CURRENT — the number of symptoms that I've got right now and nothing is really helping"
+      ]
+    },
+    {
+      "headline": "Considering HRT? Track first. Walk in ready.",
+      "pain_point": "HRT Access — women need evidence to start the conversation and track outcomes once on HRT",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Getting HRT prescribed shouldn't require a fight, but sometimes it does. Sulu tracks your symptoms over time and exports a clean summary you can take to your appointment — showing your doctor the pattern, the frequency, and the severity, without you having to find the words in the moment.",
+      "cta": "Build your case in 14 days",
+      "verbatim_quotes": [
+        "I asked: what's the risk to starting estrogen now? What is your reluctance?",
+        "She was visibly pissed off that I had views on the whole thing",
+        "I want to fix the cause and not treat just the symptoms"
+      ]
+    },
+    {
+      "headline": "No guide. No warning. No map. Just this.",
+      "pain_point": "Emotional Isolation — women feel alone, unprepared, and without support",
+      "target_segment": "universal",
+      "hook_type": "social_proof",
+      "body_copy": "Our mothers didn't talk about it. Our doctors often don't either. Sulu won't replace the conversation you deserved to have, but it will give you something real to hold onto — a clear record of what your body is doing, and something concrete to take into every appointment from here on.",
+      "cta": "Start your record today",
+      "verbatim_quotes": [
+        "no one ever prepared us for this. Our mothers didn't talk about it",
+        "I feel scared, exhausted, and alone.",
+        "So here we are, the first generation that's really talking about this, trying to figure it out without a guide, without support"
+      ]
+    },
+    {
+      "headline": "Your doctor said you're too young. Your symptoms disagree.",
+      "pain_point": "Doctor Dismissal — told 'too young' for perimenopause",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "Being dismissed is one thing. Walking back in without evidence is another. Sulu tracks your symptoms daily and generates a clean summary you can hand your GP — a dated record of exactly what's been happening and when. Thirty seconds to log. Thirty seconds to share.",
+      "cta": "Start your record today",
+      "verbatim_quotes": [
+        "my doctors are saying I'm too young, I know I'm not",
+        "What so many of us are seeing + reporting to our doctors, and then often not being believed, is straight-up medical gaslighting",
+        "A symptom tracker so I can show my doctor"
+      ]
+    },
+    {
+      "headline": "For months it felt random. Then the pattern appeared.",
+      "pain_point": "Pattern Blindness — symptoms feel chaotic and unpredictable",
+      "target_segment": "universal",
+      "hook_type": "aspiration",
+      "body_copy": "Hot flashes at 3am. Mood crashes on certain days. Worse after a glass of wine. You suspected there was a pattern — Sulu helps you find it. Daily check-ins take 30 seconds. The weekly picture shows you what's actually going on.",
+      "cta": "See your pattern in two weeks",
+      "verbatim_quotes": [
+        "For months, they felt random. Then I started tracking them. Turns out, they hit almost exactly three hours after I fall asleep",
+        "I feel like menopause is just a giant mystery we're left to solve on our own"
+      ]
+    },
+    {
+      "headline": "Not a wellness app. Not a period tracker. A record.",
+      "pain_point": "Tracking Overwhelm — existing apps not built for perimenopause",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "You've tried the apps. They predicted your fertility, pushed notifications, or made you fill in fifteen fields before breakfast. Sulu is different — nine perimenopause-specific symptoms, a 30-second daily check-in, and a timeline that actually makes sense of what you're living through.",
+      "cta": "Try something built for this",
+      "verbatim_quotes": [
+        "I'm in the middle of perimenopause hell. There are no apps that I find that help",
+        "Other period tracking apps no longer fit my body",
+        "I track my periods but as we all know those apps tend toward predicting fertility and no thank you"
+      ]
+    },
+    {
+      "headline": "Walk into your appointment with something to show.",
+      "pain_point": "Evidence Gap — no structured way to present symptom history to GP",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Whether you're trying to start HRT, adjust it, or just get your doctor to take you seriously — you need more than memory. Sulu's GP Export turns your daily tracking into a clear PDF summary, ready for any appointment. No notes app, no screenshots, no explaining from scratch.",
+      "cta": "Build your case",
+      "verbatim_quotes": [
+        "I want to see and present evidence to my doctor",
+        "she prescribed HRT after we went for at least half an hour through my symptoms and previous health history",
+        "She actually seems to want me to pitch a suggestion (with reasoning, I assume)"
+      ]
+    },
+    {
+      "headline": "You're not imagining it. And now you can prove it.",
+      "pain_point": "Symptom Confusion — frightened by unfamiliar symptoms, dismissed by doctors",
+      "target_segment": "early_stage",
+      "hook_type": "fear",
+      "body_copy": "Strange symptoms with no explanation. Doctors who shrug. A creeping sense that something has shifted but you can't quite name it. Sulu helps you track what you're noticing — calmly, privately, without judgement — so that when you do see a doctor, you have a clear picture to share.",
+      "cta": "Start tracking today",
+      "verbatim_quotes": [
+        "Could this be related to perimenopause? If so, how do I understand what's happening, and it's causing me a lot of worry",
+        "I can't imagine how hard this would have been for the women before us that were going through peri and thought they were falling apart"
+      ]
+    },
+    {
+      "headline": "Started HRT. Now what?",
+      "pain_point": "HRT Navigation — no way to track whether HRT is working or what to adjust",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Starting HRT is a beginning, not a destination. Sulu lets you mark the day you started, track your symptoms daily, and see exactly when things shifted — or didn't. Something solid to bring back to your doctor, rather than trying to remember how you felt six weeks ago.",
+      "cta": "Track from day one",
+      "verbatim_quotes": [
+        "Now that I'm on HRT I can tell a major difference",
+        "I'm very confused about where to start with HRT",
+        "After nearly two years of trial and error"
+      ]
+    },
+    {
+      "headline": "Two years of guessing. Or two weeks of tracking.",
+      "pain_point": "Trial-and-Error Exhaustion — years spent without a structured way to know what's helping",
+      "target_segment": "established",
+      "hook_type": "frustration",
+      "body_copy": "Supplements, medication changes, diet tweaks, sleep hygiene — and no real way to know which one actually helped. Sulu logs your symptoms alongside every change you make, so the guesswork gradually becomes a record. And the record becomes your next conversation with your doctor.",
+      "cta": "Stop guessing. Start tracking.",
+      "verbatim_quotes": [
+        "After nearly two years of trial and error",
+        "I dug myself deeper and deeper into negativity and it became harder and harder to course correct. I wish I went the antidepressant route sooner",
+        "I was desperate for answers early in my journey"
+      ]
+    },
+    {
+      "headline": "She said you're too young. You're not.",
+      "pain_point": "Women dismissed by doctors as too young for perimenopause",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "A symptom log doesn't argue. It just shows what's been happening and when — clearly, calmly, in a format your GP can actually use. Sulu builds that record in 30 seconds a day, and exports it as a clean PDF before your next appointment.",
+      "cta": "Start your record today",
+      "verbatim_quotes": [
+        "BITCH IM IN PERIMENOPAUSE! But no one believes me.",
+        "the doc I saw at 44 was insistent that I couldn't be in menopause",
+        "I suffered needlessly for far too long."
+      ]
+    },
+    {
+      "headline": "Ten years of symptoms. Zero answers.",
+      "pain_point": "Years lost to unrecognised perimenopause symptoms",
+      "target_segment": "early_stage",
+      "hook_type": "fear",
+      "body_copy": "Most women don't realise they're in perimenopause until years in. The symptoms come one by one — anxiety, brain fog, broken sleep — and never quite add up until someone names the pattern. Sulu shows you the pattern.",
+      "cta": "See your symptoms clearly",
+      "verbatim_quotes": [
+        "Ten years. No one ever told me the symptoms were peri related.",
+        "Hindsight showed me that I was in peri for 6 years prior to that last period.",
+        "These are starting to cause me to 'under live' my life."
+      ]
+    },
+    {
+      "headline": "Walk in with a timeline, not a feeling.",
+      "pain_point": "Women arriving at GP appointments without concrete evidence of their symptoms",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Tracking symptoms doesn't have to be a second job. Sulu takes 30 seconds a day, then generates a clean summary you can hand to your doctor — a real record of what's been happening, across weeks, not just today.",
+      "cta": "Build your GP export",
+      "verbatim_quotes": [
+        "I want to go in prepared so don't forget anything.",
+        "Keep a journal each day of symptoms you have. Scale 1-10.",
+        "I went back to the doctor and said I wonder could it be perimenopause. This time she gave me HRT"
+      ]
+    },
+    {
+      "headline": "Is the HRT working? Now you'll actually know.",
+      "pain_point": "No way to objectively track whether HRT is having an effect",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Doctors say give it three months. But three months of what — hoping, wondering, trying to remember how bad it was before? Mark when you start. Track what changes. Sulu shows you the before and after without you having to guess.",
+      "cta": "Track your first week free",
+      "verbatim_quotes": [
+        "My best advice - keep tracking your symptoms so you can be aware of when it's time to adjust your dose.",
+        "I'm feeling 75% better than I was. But there are STILL rough days.",
+        "it can take 3-6 months to feel the full effects of HRT"
+      ]
+    },
+    {
+      "headline": "It wasn't anxiety. It was perimenopause.",
+      "pain_point": "Symptoms misattributed to anxiety, depression, or stress before perimenopause is identified",
+      "target_segment": "early_stage",
+      "hook_type": "social_proof",
+      "body_copy": "Out-of-nowhere panic attacks. Rage that lifts three days into your period. Feeling like a different person half the month. Women across forums are recognising the same pattern — and finally putting a name to it. Sulu helps you see yours.",
+      "cta": "Start noticing the pattern",
+      "verbatim_quotes": [
+        "wow who was that crazy person driving my body?",
+        "My first symptom was out of the blue doom anxiety",
+        "It's the only way I've been able to piece together all the oddities of my life over the last few years."
+      ]
+    },
+    {
+      "headline": "Not another health app. A record for your real life.",
+      "pain_point": "Tracking tools that are overwhelming, non-specific, or designed for a different kind of user",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "Sulu isn't a wellness platform. It doesn't want you to optimise. It tracks nine perimenopause-specific symptoms with a 30-second daily check-in — nothing more — and builds a clear history you can actually use.",
+      "cta": "Try it for two weeks",
+      "verbatim_quotes": [
+        "I don't have time to dedicate to doc appointments and also do not have the mental strength to go through",
+        "It doesn't have to be fancy, but track them"
+      ]
+    },
+    {
+      "headline": "Your doctor cancelled three times. Here's what to bring when they finally see you.",
+      "pain_point": "Wasted appointments, redirected consultations, and having to fight to be taken seriously",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "You've done the research. You know your body. What you need now is a clean, dated record of exactly what you've been experiencing — something that removes the room for doubt. The GP Export from Sulu is ready after 14 days of logging.",
+      "cta": "Start your 14-day record",
+      "verbatim_quotes": [
+        "They cancelled on me 3 times",
+        "I walk in and they say, oh you're here for a pap. No, no I'm not.",
+        "I've seen 3 doctors in the past year and experienced almost exactly what OP has"
+      ]
+    },
+    {
+      "headline": "Your doctor said you're too young. Here's what you bring next time.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "Being dismissed is exhausting. Being dismissed twice is infuriating. Sulu tracks your symptoms daily and generates a clean PDF summary — a real timeline of what's been happening to your body, ready for your next appointment. Not a symptom list you typed up the night before. A 14-day record you can hand over in 30 seconds.",
+      "cta": "Start your record today — free",
+      "verbatim_quotes": [
+        "I've been told the same by two doctors: too young to be having symptoms.",
+        "Both declined ordering lab work to check peri-menopause or menopause symptoms, though my last period was 18 months ago."
+      ]
+    },
+    {
+      "headline": "Walk into your next GP appointment with 14 days of evidence.",
+      "pain_point": "GP Appointment Unpreparedness",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "You know what's been happening. The problem is explaining it clearly when you're sitting across from someone who has 10 minutes. Sulu tracks your daily symptoms and turns them into a one-page PDF you can hand your GP — so the conversation starts somewhere useful.",
+      "cta": "Build your symptom record",
+      "verbatim_quotes": [
+        "I wish I had talked to my dr. earlier.",
+        "No one ever said 'Oh, you're 45? Hun, you're in perimenopause.'"
+      ]
+    },
+    {
+      "headline": "It's not brain fog. It's a pattern. And it has a name.",
+      "pain_point": "Symptom Confusion",
+      "target_segment": "early_stage",
+      "hook_type": "frustration",
+      "body_copy": "When everything feels off at once — sleep, memory, mood, energy — it's almost impossible to explain. Sulu tracks up to seven perimenopause symptoms at a time and shows you how they move together over 14 or 30 days. It doesn't diagnose. It just shows you what's actually happening, clearly, so you can.",
+      "cta": "See your pattern in 14 days",
+      "verbatim_quotes": [
+        "I have always attributed my symptoms to post-pregnancy anxiety and work stress, but could it be due to perimenopause?",
+        "I remember struggling with terrible brain fog for years before realising it was hormonal not a personal flaw."
+      ]
+    },
+    {
+      "headline": "30 seconds a day. A year of clarity.",
+      "pain_point": "Tracking Overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "aspiration",
+      "body_copy": "Most health apps want too much from you. Sulu asks for 30 seconds — a quick daily check-in on the symptoms that matter to you. No journaling. No detailed logs. Just a gentle record of how you're actually feeling, building into a picture you can finally show someone.",
+      "cta": "Try it free — no commitment",
+      "verbatim_quotes": [
+        "My brain fog, depression, no motivation, and general feeling like crap both mentally and physically makes it hard to want to work or even be good at it like I used to be.",
+        "I can't seem to pull it together nowadays. I feel so hopeless."
+      ]
+    },
+    {
+      "headline": "You were sharp. You still are. You just need the data to prove it.",
+      "pain_point": "Cognitive Decline at Work",
+      "target_segment": "established",
+      "hook_type": "fear",
+      "body_copy": "Brain fog, word loss, missed deadlines — perimenopause can quietly erode a career you've spent decades building. Sulu helps you track what's happening and when, so you can have an honest, evidenced conversation with your GP about what's actually going on — and start getting real support.",
+      "cta": "Start tracking — it takes 30 seconds",
+      "verbatim_quotes": [
+        "It's just so frustrating to reach a place in our careers where we're really crushing it, only to turn into vague, word searching, and sleepy shadows of our once fierce selves.",
+        "I feel like women have kept quiet on menopause precisely because it's such a jeopardy to our careers."
+      ]
+    },
+    {
+      "headline": "You're not a different person. Your hormones are.",
+      "pain_point": "Identity Loss",
+      "target_segment": "early_stage",
+      "hook_type": "frustration",
+      "body_copy": "When everything about you seems to be shifting — your mood, your memory, your body, your sense of self — it helps to have something concrete to hold onto. Sulu gives you a daily record of what's changing and when, so you can stop blaming yourself and start understanding what's actually happening.",
+      "cta": "Start your free symptom record",
+      "verbatim_quotes": [
+        "I feel like I don't know who I am as a person/personality anymore.",
+        "I remember struggling with terrible brain fog for years before realising it was hormonal not a personal flaw.",
+        "He was like 'Well, you are just a depressive person.' Um, NO."
+      ]
+    },
+    {
+      "headline": "Is it working? Track it and actually know.",
+      "pain_point": "HRT Effectiveness Uncertainty",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Starting HRT is one thing. Knowing whether it's working — and being able to show your doctor — is another. Sulu lets you log medication changes alongside your daily symptoms, so your next appointment isn't based on memory. It's based on 30 days of real data.",
+      "cta": "Track your HRT journey",
+      "verbatim_quotes": [
+        "I had to try 3 different pills before landing on Yasmin.",
+        "It wasn't doing anything so just yesterday I saw her again to adjust.",
+        "Already from the E+P I feel like myself again for the first time in YEARS."
+      ]
+    },
+    {
+      "headline": "You've been doing this alone. You don't have to be invisible about it.",
+      "pain_point": "Isolation and Invisibility",
+      "target_segment": "universal",
+      "hook_type": "social_proof",
+      "body_copy": "Thousands of women are tracking their perimenopause quietly, clearly, and without drama — one 30-second check-in at a time. Sulu won't replace the conversations you deserve to be having. But it'll make sure you're ready when you get the chance to have them.",
+      "cta": "Join them — start your free record",
+      "verbatim_quotes": [
+        "I feel so lonely, I don't know anyone else who is going through this.",
+        "I'm tired of people suffering alone, because of some outdated bonkers idea that we should shut up and put up."
+      ]
+    },
+    {
+      "headline": "Your doctor said you're fine. You know you're not.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "When you walk in without evidence, it's too easy to be dismissed. Sulu tracks your perimenopause symptoms daily and turns them into a clean timeline you can hand your GP. Fourteen days of data is harder to ignore than a feeling.",
+      "cta": "Start tracking free",
+      "verbatim_quotes": [
+        "I just don't want him to dismiss me",
+        "My gyn and PCP both offered me birth control and Prozac for my perimenopause symptoms. I felt dismissed by both of them.",
+        "fight for yourself. If your doctor dismisses you, find one that won't."
+      ]
+    },
+    {
+      "headline": "30 seconds a day. A year of clarity.",
+      "pain_point": "Tracking Overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "aspiration",
+      "body_copy": "Most tracking apps weren't built for perimenopause — and it shows. Sulu gives you nine relevant symptoms, simple sliders, and a daily check-in that takes less time than making tea. No submenus. No spreadsheets. Just a record that builds itself.",
+      "cta": "Try it for free",
+      "verbatim_quotes": [
+        "info buried in a bunch of dumb submenus in an app",
+        "I'd like a way to quickly tap on symptoms",
+        "I haven't been able to track my stuff since over a year because I've kept on survival each day"
+      ]
+    },
+    {
+      "headline": "Something has changed. Let's find out what.",
+      "pain_point": "Symptom Confusion",
+      "target_segment": "early_stage",
+      "hook_type": "aspiration",
+      "body_copy": "Low libido, bad sleep, a rage that came from nowhere — these things have a pattern. Sulu helps you track perimenopause symptoms over time so you can see what's happening before your next appointment. No guessing. No vague feelings. Just your own data.",
+      "cta": "See your pattern",
+      "verbatim_quotes": [
+        "I already knew I was in perimenopause but had no idea that lower back pain was a symptom",
+        "joint pain, lack of motivation, or disproportionate rage",
+        "Over the last year maybe two I have really been struggling"
+      ]
+    },
+    {
+      "headline": "She started HRT last month. Now she has proof it's working.",
+      "pain_point": "HRT Navigation Anxiety",
+      "target_segment": "hrt_considering",
+      "hook_type": "social_proof",
+      "body_copy": "Starting HRT is one thing. Knowing whether it's actually helping is another. Sulu lets you log medication changes alongside your daily symptoms, so you can see — week by week — what's shifting. Your next follow-up appointment will be a very different conversation.",
+      "cta": "Start tracking today",
+      "verbatim_quotes": [
+        "The thing about HRT is that it either works or it doesn't and you adjust doses as needed",
+        "They set a follow up appointment for a month later so she could try what was prescribed and see how it feels",
+        "we are so used to having to justify and fight for everything it seems off"
+      ]
+    },
+    {
+      "headline": "Walk into your appointment with 30 days of evidence.",
+      "pain_point": "Appointment Unpreparedness",
+      "target_segment": "gp_frustrated",
+      "hook_type": "aspiration",
+      "body_copy": "Sulu builds a symptom timeline in the background while you get on with your life. After 14 days, you can export a clear PDF summary — the kind of organised record that changes how a doctor listens. You've been telling them something is wrong. Now you can show them.",
+      "cta": "Build your timeline",
+      "verbatim_quotes": [
+        "I have a Drs appt Friday with my new Obgyn and I have no idea what to expect",
+        "I can't believe I'm coming to Reddit for medical advice",
+        "I've been tracking my symptoms on an app so I can bring it to my gyn appointment"
+      ]
+    },
+    {
+      "headline": "Dismissed again? You need data, not desperation.",
+      "pain_point": "Emotional Exhaustion from Fighting the System",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "You've sat in that room and been told it's anxiety, it's stress, it's just getting older. Sulu doesn't change your doctor — but it changes what you bring to the appointment. A clear, dated record of your symptoms is harder to wave away than words.",
+      "cta": "Track what they won't",
+      "verbatim_quotes": [
+        "I'm so frustrated and exhausted",
+        "I've been dismissed by so many doctors, I've been laughed at, called a liar, yelled at, ignored",
+        "I left the room crying"
+      ]
+    },
+    {
+      "headline": "Your symptoms have a pattern. You just can't see it yet.",
+      "pain_point": "Pattern Blindness",
+      "target_segment": "established",
+      "hook_type": "aspiration",
+      "body_copy": "Night sweats, mood dips, exhaustion — they don't feel random, but you can't see the thread connecting them. Sulu's timeline view shows you how your symptoms move over days and weeks, and how the things you do — or the treatments you try — change the picture.",
+      "cta": "Start noticing patterns",
+      "verbatim_quotes": [
+        "I notice a pattern every 4 weeks or so. It starts with some insomnia followed by drenching night sweats, extreme irritability",
+        "I've been tracking my symptoms on an app so I can bring it to my gyn appointment",
+        "It's hard to know over time how I'm actually doing, if I'm doing worse"
+      ]
+    },
+    {
+      "headline": "They want blood test results. You deserve to be heard.",
+      "pain_point": "Blood Test Misdirection",
+      "target_segment": "early_stage",
+      "hook_type": "fear",
+      "body_copy": "Hormone blood tests can't diagnose perimenopause — levels change every single day. What actually speaks to doctors is a consistent symptom record over time. Sulu tracks what you feel, when you feel it, and gives you something concrete to bring to the conversation.",
+      "cta": "Build your case",
+      "verbatim_quotes": [
+        "if a blood test is recommended, resign yourself to finding another doctor. Perimenopause is diagnosed by symptoms, not blood",
+        "Treatment should be based on symptoms, not numbers",
+        "Wow I saw my PCP today and said I was too young for perimenopause... I'm 44"
+      ]
+    },
+    {
+      "headline": "Your doctor said you're fine. Your body disagrees.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "When you've been sent home with nothing, walking back in feels pointless. Sulu tracks your symptoms daily so your next appointment starts with a clear, dated record — not a blank page and a five-minute clock. Thirty seconds a day. Fourteen days. A PDF your GP can't ignore.",
+      "cta": "Start tracking free",
+      "verbatim_quotes": [
+        "My doctor refuses to admit I'm going through perimenopause even though I have all the signs.",
+        "I don't go in unless I'm really struggling.",
+        "It is always better to self-advocate."
+      ]
+    },
+    {
+      "headline": "It wasn't stress. It wasn't anxiety. It was a pattern.",
+      "pain_point": "Symptoms Misattributed",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "The fatigue, the mood swings, the brain fog — your doctor had an explanation for each one, and none of them were right. Sulu tracks everything together so you can see what's actually happening, month over month, in one quiet timeline. Then you walk in with evidence.",
+      "cta": "See your pattern",
+      "verbatim_quotes": [
+        "I had the fatigue, depression, insomnia, and libido problems but it wasn't till I started complaining about hot flashes, brain fog, and memory issues for them to start talking peri.",
+        "The health anxiety that comes with it has changed me forever. I never knew what real anxiety was until this shit."
+      ]
+    },
+    {
+      "headline": "You've been tracking this in your head for months.",
+      "pain_point": "Pattern Blindness",
+      "target_segment": "universal",
+      "hook_type": "aspiration",
+      "body_copy": "You know something has changed. You just can't prove it — not yet. Sulu gives you a calm, simple place to log what's happening each day, then shows you the patterns you couldn't see on your own. After two weeks, you'll have something concrete. After a month, you'll wonder how you managed without it.",
+      "cta": "Start your timeline today",
+      "verbatim_quotes": [
+        "It kind of snuck up on me and I wish I'd been more aware.",
+        "I was kinda relieved to learn that a lot of what I thought were unrelated symptoms that I'd put down to ageing, stress, diet etc actually turned out to be perimenopause."
+      ]
+    },
+    {
+      "headline": "HRT starts with a conversation. Make it a good one.",
+      "pain_point": "HRT Access and Evidence",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "You've read the research. You know what you want to ask. Sulu helps you walk in with a clear record of how your symptoms have changed over time — the kind of evidence that turns a five-minute appointment into a real conversation. No guesswork. No starting from zero.",
+      "cta": "Build your record",
+      "verbatim_quotes": [
+        "FINALLY got on HRT after 6 months of the worst symptoms of my life.",
+        "realising it was peri and I could start HRT to alleviate many of these was a huge weight off my mind.",
+        "HRT has been my saving grace. I thought I was going crazy."
+      ]
+    },
+    {
+      "headline": "Night sweats. Brain fog. Heart palpitations. Not anxiety.",
+      "pain_point": "Symptom Confusion",
+      "target_segment": "early_stage",
+      "hook_type": "fear",
+      "body_copy": "For years, women are told their symptoms are something else. Sulu tracks nine perimenopause-specific symptoms — the ones that don't make the leaflets — and shows you how they move together over time. So when you finally sit down with your GP, you're not describing a vague feeling. You're showing them a timeline.",
+      "cta": "Track what's actually happening",
+      "verbatim_quotes": [
+        "Night sweats in late 30s early 40s — thought I was dying because I was way too young for menopause.",
+        "I thought hot flashes and irregular periods were the only symptoms. All these other symptoms really threw me.",
+        "if it hadn't been for stumbling into a perimenopause post that popped in my feed, I'd have still been clueless."
+      ]
+    },
+    {
+      "headline": "Thirty seconds a day. No wellness speak. Just your data.",
+      "pain_point": "Tracking Overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "You don't need a 300-page book or an app that wants your mood, your macros, and your mindfulness score. Sulu is a daily check-in that takes thirty seconds: pick your symptoms, rate how they feel, done. After two weeks it shows you patterns. After a month you have a GP-ready summary.",
+      "cta": "Try it free",
+      "verbatim_quotes": [
+        "I keep coming home after work and reading 'Perimenopause for Dummies' and rage-crying.",
+        "You just have to find what works for you.",
+        "I avoided learning about it because thinking about it literally makes my skin crawl."
+      ]
+    },
+    {
+      "headline": "You're not imagining it. And now you can prove it.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "social_proof",
+      "body_copy": "Women are told they're too young, too stressed, or just fine. Then they start tracking. After two weeks of daily check-ins, Sulu generates a PDF timeline you can bring to any appointment — a clear record of what's been happening, when, and how often. Something to hand over instead of trying to explain it.",
+      "cta": "Start building your case",
+      "verbatim_quotes": [
+        "I've been told I'm too young. Dr said since my cycle is still regular, no way.",
+        "The too young thing is absolute garbage! Doctors need to catch up with the science.",
+        "I'm now scared to seek out medical help when my symptoms flare up."
+      ]
+    },
+    {
+      "headline": "What changed first? You probably don't remember.",
+      "pain_point": "Pattern Blindness",
+      "target_segment": "established",
+      "hook_type": "aspiration",
+      "body_copy": "Night sweats, then the weight, then the brain fog — but when did it actually start? Most women can't pinpoint it. Sulu's timeline view gives you a running record of how your symptoms have moved over weeks and months, so you can finally see the shape of what's been happening. And then show someone else.",
+      "cta": "Start your timeline",
+      "verbatim_quotes": [
+        "Looking back I probably started it at about 40. The smells, then a slow creep of my weight, then night sweats.",
+        "I only became aware that I was in peri at 41, but looking back at my symptoms, the earliest ones started when I was at least 38."
+      ]
+    },
+    {
+      "headline": "Your doctor said you're too young. Your symptoms disagree.",
+      "pain_point": "Women in their late 30s and early 40s are told they are 'too young' for perimenopause by GPs and OBGYNs",
+      "target_segment": "early_stage",
+      "hook_type": "frustration",
+      "body_copy": "When the rage, the insomnia, the anxiety hit out of nowhere — you knew something had changed. But without a record, it's just your word against a doctor who's already made up their mind. Sulu tracks your symptoms daily, quietly, in 30 seconds, so the next appointment goes differently.",
+      "cta": "Start tracking free",
+      "verbatim_quotes": [
+        "You're too young to experience peri. I feel so defeated.",
+        "I had similar symptoms starting at age 35 and spent several years trying to get a doctor to pay attention.",
+        "I explained all the symptoms to her: no libido, some hot flashes, anxiety/occasional depression, irritability, itchy skin, achy joints...everything."
+      ]
+    },
+    {
+      "headline": "Walk into your next appointment with a PDF, not a list of symptoms you'll forget half of.",
+      "pain_point": "Women arrive at GP appointments unable to articulate the full picture of their symptoms",
+      "target_segment": "gp_frustrated",
+      "hook_type": "aspiration",
+      "body_copy": "Thirty seconds a day. Fourteen days of data. One clean export your GP can actually read. Sulu turns months of confusing, shifting symptoms into a timeline that speaks for itself — so you don't have to rehearse your appointment in the car park first.",
+      "cta": "Get your GP Export in 14 days",
+      "verbatim_quotes": [
+        "I've had severe anxiety my whole life and I actually have to rehearse what I am going to say when I go to the doctors",
+        "I insist that these mood swings, depression, period changes, frequent urination in the night are not in my head. Then she handed me HRT."
+      ]
+    },
+    {
+      "headline": "This isn't a period tracker. It's a perimenopause record.",
+      "pain_point": "Existing period and health tracking apps are fertility-focused and not designed for perimenopause",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "Every app you've tried was built for tracking ovulation windows and baby due dates. Sulu is built for where you actually are — tracking the symptoms that matter, without the pregnancy notifications, the upselling, or the 28-day logic that stopped making sense years ago.",
+      "cta": "Try it free — no fertility predictions, ever",
+      "verbatim_quotes": [
+        "I wish Flo could understand what perimenopause is, and that missing a period doesn't mean I'm gonna die or that I'm pregnant.",
+        "every period tracking app I've ever used just assumes that you are using it to find your 'fertile days'",
+        "Fitbit period tracker is hot garbage."
+      ]
+    },
+    {
+      "headline": "The answer was always antidepressants. Until you had data.",
+      "pain_point": "Doctors routinely attribute perimenopause symptoms to mental health conditions, prescribing antidepressants instead of investigating hormonal causes",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "Anxiety. Low mood. Can't sleep. For too many women, the answer comes back the same — here's a prescription, and a gentle suggestion that it might be stress. Sulu gives you a documented symptom history to bring to your next appointment, so the conversation can start somewhere different.",
+      "cta": "Build your record — free for 14 days",
+      "verbatim_quotes": [
+        "The answer is always a friggin' antidepressant with these doctors. It infuriates me.",
+        "I took 300 mgs of Wellbutrin and 100 mgs of Zoloft at the same time and that still didn't touch my symptoms."
+      ]
+    },
+    {
+      "headline": "You're not imagining it. You're just missing the pattern.",
+      "pain_point": "Women experience multiple, shifting symptoms but cannot see connections between them or identify patterns over time",
+      "target_segment": "early_stage",
+      "hook_type": "aspiration",
+      "body_copy": "The anxiety that appeared from nowhere. The weeks where everything's fine, then suddenly isn't. When you can see your own data — symptoms, intensity, what changed when — it stops feeling like chaos and starts making sense. Sulu shows you the shape of what's happening, day by day.",
+      "cta": "Start tracking today",
+      "verbatim_quotes": [
+        "I got hit by sudden anxiety this year. Absolutely out of nowhere. For 40 years I never had anxiety.",
+        "Idk if I'm in perimenopause or I'm just turning into a loser",
+        "I feel lost."
+      ]
+    },
+    {
+      "headline": "14 days of tracking. One conversation that finally goes somewhere.",
+      "pain_point": "Women who believe HRT could help them cannot access it because they lack documented evidence of symptoms over time",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "You've done the reading. You know what you want to talk about at your next appointment. Sulu's GP Export gives you a PDF summary of your symptoms — intensity, frequency, and any changes over time — so your doctor has something concrete in front of them, not just your account of how you've been feeling.",
+      "cta": "Start building your export",
+      "verbatim_quotes": [
+        "I went to my OB today for a consultation on HRT, as I'm 45 years old and convinced I'm in perimenopause.",
+        "Based solely off the fact that my cycle is regular, she's convinced I'm NOT in perimenopause.",
+        "I am just so overwhelmed."
+      ]
+    },
+    {
+      "headline": "Insomnia. Rage. Anxiety. And no one connecting the dots.",
+      "pain_point": "Severe, persistent insomnia and mood symptoms are debilitating but consistently misattributed or ignored",
+      "target_segment": "established",
+      "hook_type": "fear",
+      "body_copy": "When the sleep goes, everything else follows. And when you can't explain the pattern — because you've never been able to see it — nothing changes. Sulu tracks your symptoms quietly each day, then shows you what's actually been happening over the past 7, 14, or 30 days. Because sometimes the data says what words can't.",
+      "cta": "See your pattern in 30 seconds a day",
+      "verbatim_quotes": [
+        "The insomnia is terrible it's ruining my life and can't remember what it was",
+        "Started with bad sleep which then deteriorated into severe anxiety and Chronic insomnia almost to the point I was panicking and spiraling out of control.",
+        "Finally someone else! I am so sorry WE are experiencing this."
+      ]
+    },
+    {
+      "headline": "She showed him the tracker. He prescribed antidepressants anyway.",
+      "pain_point": "Showing period tracker data backfires when GP uses cycle regularity to dismiss perimenopause",
+      "target_segment": "gp_frustrated",
+      "hook_type": "social_proof",
+      "body_copy": "A period tracker shows your cycle. It doesn't show the insomnia, the joint pain, the brain fog, the two weeks a month where you can barely function. Sulu tracks what a period tracker never could — and exports it as a symptom timeline your doctor can actually act on.",
+      "cta": "Track what actually matters",
+      "verbatim_quotes": [
+        "I showed her my period tracker, which showed I'm consistently getting my period every 30 days or so. Based solely off the fact that my cycle is regular, she's convinced I'm NOT in perimenopause.",
+        "The answer is always a friggin' antidepressant with these doctors. It infuriates me."
+      ]
+    },
+    {
+      "headline": "Your doctor needs evidence. Sulu gives you that.",
+      "pain_point": "GP Appointment Unpreparedness / Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "When you walk in saying 'I haven't been sleeping', it's easy to be sent away with advice to try melatonin. When you walk in with a 30-day timeline showing night sweats, 4am wake-ups, and how they track to your cycle — that's a different conversation. Sulu takes 30 seconds a day and turns it into a GP-ready summary you can actually use.",
+      "cta": "Start your free 14-day record",
+      "verbatim_quotes": [
+        "No one takes seriously that I'm perimenopausal.",
+        "She is considering putting me on hormone therapy but is very hesitant.",
+        "thought my symptoms were due to stress."
+      ]
+    },
+    {
+      "headline": "Until one day I just didn't sleep anymore.",
+      "pain_point": "Sleep Disruption / Pattern Blindness",
+      "target_segment": "early_stage",
+      "hook_type": "fear",
+      "body_copy": "Perfect sleep, then nothing. Waking at 3am, 4am, 5am — for no reason you can name. Sulu tracks your sleep symptoms alongside your cycle so you can finally see whether this is a pattern, and bring something concrete to your next appointment.",
+      "cta": "See if it's a pattern. Track free for 14 days.",
+      "verbatim_quotes": [
+        "I used to have perfect sleep, uninterrupted and restorative 8-hour long sleeps until one day I just didn't.",
+        "I stumbled across this subreddit because I'm 36, have been waking up at 4:30AM every morning."
+      ]
+    },
+    {
+      "headline": "You're still showing up. No one sees what it costs.",
+      "pain_point": "Suffering in Silence / Impact on Daily Life",
+      "target_segment": "established",
+      "hook_type": "frustration",
+      "body_copy": "Night sweats, brain fog, four hours of broken sleep — and then you go to work and make it look fine. Sulu quietly tracks what's actually happening, week by week, so when you're ready to ask for help, you have a record that speaks for you.",
+      "cta": "Keep a record. Just 30 seconds a day.",
+      "verbatim_quotes": [
+        "Sadly, most women experience one or more of these symptoms in silence, yet in public, they power through work and life.",
+        "Insomnia robs me of any energy to do anything. The desire is there. In my mind I'm gardening, cleaning, getting dolled up, socializing but my body is hell no!!"
+      ]
+    },
+    {
+      "headline": "Like clockwork — and you didn't even notice.",
+      "pain_point": "Cycle-Symptom Connection Invisible",
+      "target_segment": "universal",
+      "hook_type": "aspiration",
+      "body_copy": "The insomnia before your period. The anxiety mid-cycle. The week you can't concentrate. These aren't random — they follow a pattern. Sulu shows you that pattern in a weekly snapshot, so you stop being blindsided and start feeling like you understand your own body again.",
+      "cta": "Start noticing the pattern",
+      "verbatim_quotes": [
+        "Up almost all night, then like clockwork I get my period.",
+        "I have more middle-of-the-night anxiety that wrecks my sleep before ovulation.",
+        "The hormonal insomnia is a clear and different phenomenon for me."
+      ]
+    },
+    {
+      "headline": "GABA. Glycine. Magnesium. Melatonin. Still not sleeping.",
+      "pain_point": "Supplement and Treatment Overload",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "You're not experimenting randomly — you're desperate. But without tracking what you're taking alongside how you feel, you can't know what's actually helping. Sulu lets you log supplements and lifestyle changes as markers, so the pattern becomes visible instead of just endless.",
+      "cta": "Find out what's actually working",
+      "verbatim_quotes": [
+        "in addition to GABA, progesterone cream in the luteal phase, mag glycinate, glycine, cetirizine, 5-htp. I hate this.",
+        "Is there a supplement(s) that helped with your insomnia?"
+      ]
+    },
+    {
+      "headline": "You want HRT. She's 'hesitant'. Come back with this.",
+      "pain_point": "HRT Evidence Gap / Doctor Dismissal",
+      "target_segment": "hrt_considering",
+      "hook_type": "frustration",
+      "body_copy": "Doctors who are reluctant about HRT often soften when they see a clear, dated record of what you're actually living with. Track your symptoms for 14 days with Sulu and walk in with a PDF that shows exactly what's been happening — and when.",
+      "cta": "Build your case. Start tracking today.",
+      "verbatim_quotes": [
+        "She is considering putting me on hormone therapy but is very hesitant.",
+        "If she's 'hesitant' she's actually ignorant of current treatment practices advising HRT for menopause. The 'hesitation' comes from outdated information from like 20-30 years ago.",
+        "I have an appointment with my doctor next week to hopefully get on HRT."
+      ]
+    },
+    {
+      "headline": "I feel I am drowning in my own sweat.",
+      "pain_point": "Night Sweats and Vasomotor Symptoms",
+      "target_segment": "established",
+      "hook_type": "social_proof",
+      "body_copy": "Night sweats so bad you're doing laundry at midnight. Waking four times, drenched. It's exhausting and it's real — and a clear record of how often it happens and how severe it is can be the difference between being believed and being told to 'wait and see'. Sulu tracks it, quietly, every day.",
+      "cta": "Track your symptoms. Own the conversation.",
+      "verbatim_quotes": [
+        "I feel I am drowning-pardon the pun in my own sweat. I do more laundry now then I spend exercising.",
+        "I was in peri for 12 years and my night sweats were so bad I would be up 4-5 times a night drenched in sweat.",
+        "I was just like you and it was MISERABLE."
+      ]
+    },
+    {
+      "headline": "36. Not imagining it. Not just stressed.",
+      "pain_point": "Symptom Confusion / Doctor Dismissal",
+      "target_segment": "early_stage",
+      "hook_type": "frustration",
+      "body_copy": "If you're in your late 30s or early 40s and something feels off — sleep, cycles, mood, energy — you're not too young and you're not making it up. Sulu tracks perimenopause-specific symptoms from the beginning, so you have a record that reflects what you're actually experiencing, not what a GP assumes.",
+      "cta": "Start your record today",
+      "verbatim_quotes": [
+        "No one takes seriously that I'm perimenopausal.",
+        "I stumbled across this subreddit because I'm 36, have been waking up at 4:30AM every morning.",
+        "I am only in the 'figuring out what is happening with my body' stages of this."
+      ]
+    },
+    {
+      "headline": "Your GP has 10 minutes. Make them count.",
+      "pain_point": "Lack of Evidence for GP Appointments",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "Two weeks of daily check-ins. One clear PDF to take into any appointment. Sulu tracks your perimenopause symptoms in 30 seconds a day so you never have to rely on memory — or hope your doctor believes you — again.",
+      "cta": "Start tracking free",
+      "verbatim_quotes": [
+        "Work with a menopause-literate healthcare provider to document your symptoms",
+        "a shocking 2/3 of women were being offered anti-depressants"
+      ]
+    },
+    {
+      "headline": "It's not stress. Track what's really happening.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "early_stage",
+      "hook_type": "frustration",
+      "body_copy": "When brain fog and broken sleep get blamed on anxiety, it's easy to start doubting yourself. Sulu gives you a quiet, private record of what's actually happening — so you walk into appointments with a timeline, not a guess.",
+      "cta": "See your pattern in 14 days",
+      "verbatim_quotes": [
+        "many women do not even realise they're having menopausal symptoms",
+        "perimenopause can start as early as 35 and most doctors won't even start doing hormone testing until you're mid 40"
+      ]
+    },
+    {
+      "headline": "30 seconds today. A clear answer in two weeks.",
+      "pain_point": "Tracking Overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "aspiration",
+      "body_copy": "Sulu is a daily symptom log built for perimenopause — not a wellness platform, not a period tracker, not another thing to fill in. Three sliders, 30 seconds, done. After two weeks, you'll see patterns you've never been able to name.",
+      "cta": "Try it for free",
+      "verbatim_quotes": [
+        "Menopause is a natural life stage, but it can be overwhelming, confusing, and isolating"
+      ]
+    },
+    {
+      "headline": "Considering HRT? Bring data, not a hunch.",
+      "pain_point": "HRT Access and Advocacy",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Getting HRT often means convincing a GP that your symptoms are real, persistent, and significant. Sulu tracks your symptoms over time and generates a clear PDF summary — exactly what you need to walk into that conversation with confidence.",
+      "cta": "Build your symptom record",
+      "verbatim_quotes": [
+        "there has been years of fear mongering when it comes to Hormone Replacement Therapy",
+        "we are not yet doing a great job of diagnosing and offering treatments for women in this phase of life"
+      ]
+    },
+    {
+      "headline": "You're not losing your mind. You're in perimenopause.",
+      "pain_point": "Symptom Confusion",
+      "target_segment": "early_stage",
+      "hook_type": "fear",
+      "body_copy": "Brain fog, broken sleep, mood shifts you can't explain — for a lot of women, perimenopause starts years before anyone puts a name to it. Sulu helps you see what's actually happening, so you can stop guessing and start having the right conversations.",
+      "cta": "Start your free check-in",
+      "verbatim_quotes": [
+        "I never thought I'd face a career crisis because of my biology",
+        "many women do not even realise they're having menopausal symptoms"
+      ]
+    },
+    {
+      "headline": "She had stellar reviews. Then perimenopause hit.",
+      "pain_point": "Cognitive and Career Impact",
+      "target_segment": "established",
+      "hook_type": "social_proof",
+      "body_copy": "Brain fog and poor sleep don't just affect how you feel — they affect how you're perceived at work. Sulu gives you a private daily log of what's happening so you have a clear record when you need it most, whether that's for your GP, or for yourself.",
+      "cta": "Track your symptoms, free",
+      "verbatim_quotes": [
+        "a 49-year-old professional with a stellar career record found herself on a Performance Improvement Plan (PIP) for her 'inability to manage tasks'",
+        "when perimenopause hit, my stellar reviews and…"
+      ]
+    },
+    {
+      "headline": "Half the population goes through this. Most do it alone.",
+      "pain_point": "Isolation and Silence",
+      "target_segment": "universal",
+      "hook_type": "social_proof",
+      "body_copy": "Perimenopause affects millions of women — yet most navigate it in silence, without answers, without support, and without anyone believing them. Sulu is a calm, private daily record that helps you see what's happening and speak about it clearly.",
+      "cta": "You don't have to guess anymore",
+      "verbatim_quotes": [
+        "Despite affecting half the population, it remains a taboo topic",
+        "women are left to suffer in silence"
+      ]
+    },
+    {
+      "headline": "Your doctor didn't believe you. This will help change that.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "When symptoms get dismissed as anxiety, the most powerful thing you can do is come back with evidence. Sulu tracks your perimenopause symptoms daily and generates a clear PDF summary for your next appointment — ready in 30 seconds. No more relying on memory. No more being waved away.",
+      "cta": "Start your record today",
+      "verbatim_quotes": [
+        "I can't understand why doctors think that this is due to anxiety",
+        "I would really like for doctors to go through something like this for a certain period of time. Then they will understand how hard it is for their patients to live with something like this"
+      ]
+    },
+    {
+      "headline": "30 seconds a day. A timeline your GP can actually use.",
+      "pain_point": "Appointment Unpreparedness",
+      "target_segment": "universal",
+      "hook_type": "aspiration",
+      "body_copy": "Sulu is a daily symptom log built for perimenopause — not a wellness platform, not a period tracker. Log how you're feeling in 30 seconds, and after two weeks, export a clean summary to bring to your GP. Simple, calm, and entirely yours.",
+      "cta": "Try it free",
+      "verbatim_quotes": [
+        "it does significantly impact quality of life",
+        "Not being able to swallow is a really scary symptom of perimenopause. It really sucks."
+      ]
+    },
+    {
+      "headline": "You're not anxious. You're in perimenopause.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "Too many women leave their GP with a prescription for antidepressants when what they needed was to be taken seriously. Sulu helps you build a clear, dated record of your symptoms — so the next conversation starts from evidence, not guesswork.",
+      "cta": "Build your record",
+      "verbatim_quotes": [
+        "I can't understand why doctors think that this is due to anxiety",
+        "The highest suicide rates for women are amongst the 50 to 55 age group and guess what? This is the average age for menopause!"
+      ]
+    },
+    {
+      "headline": "Something felt off. Now you'll know what — and when.",
+      "pain_point": "Symptom Confusion",
+      "target_segment": "early_stage",
+      "hook_type": "aspiration",
+      "body_copy": "Perimenopause doesn't always announce itself. It starts quietly — a stretch of bad sleep, a mood that won't lift, a cycle that's suddenly unpredictable. Sulu helps you track what's happening day by day, so you can start to see the shape of it — and show someone else.",
+      "cta": "Start tracking",
+      "verbatim_quotes": [
+        "I was young when it started. Early in to 39yrs old.",
+        "it's different for each women"
+      ]
+    },
+    {
+      "headline": "Hair. Sleep. Mood. Joints. All of it, in one place.",
+      "pain_point": "Pattern Blindness",
+      "target_segment": "established",
+      "hook_type": "aspiration",
+      "body_copy": "When you're managing a dozen symptoms at once, nothing connects. Sulu lets you choose the symptoms that matter most to you, log them in 30 seconds, and watch the patterns emerge over weeks — so you stop feeling like you're just enduring it.",
+      "cta": "See your patterns",
+      "verbatim_quotes": [
+        "My symptoms so far have been, hair loss, sore breasts, insomnia, depression, anxiety, severe cramps and pms, mood swings, very erratic periods and irregular bleeding, chalazions, blurred vision, inner shakes (they're fun), weakness, severe agitation"
+      ]
+    },
+    {
+      "headline": "Is the HRT working? Track it and find out.",
+      "pain_point": "HRT Evidence Gap",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Starting HRT is a decision. Knowing whether it's actually making a difference is a different conversation entirely. Sulu lets you log HRT changes alongside your daily symptoms, so your next GP review is based on what's actually happened — not what you can roughly recall.",
+      "cta": "Start tracking your HRT",
+      "verbatim_quotes": [
+        "I would really like for doctors to go through something like this for a certain period of time",
+        "it does significantly impact quality of life"
+      ]
+    },
+    {
+      "headline": "Not a wellness app. Just a record.",
+      "pain_point": "Tracking Overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "You don't need another app telling you to hydrate and breathe deeply. Sulu is a simple daily log — 30 seconds, nine perimenopause-specific symptoms, no noise. Track what's happening, see it clearly, show it to your doctor.",
+      "cta": "Try something different",
+      "verbatim_quotes": [
+        "it's different for each women",
+        "speaking from experience it does significantly impact quality of life"
+      ]
+    },
+    {
+      "headline": "Half the population goes through this. It shouldn't feel this hard to get help.",
+      "pain_point": "Symptom Normalisation Taboo",
+      "target_segment": "universal",
+      "hook_type": "social_proof",
+      "body_copy": "Perimenopause affects millions of women, yet too many are still left trying to piece together what's happening to them alone. Sulu is a calm, private space to track your symptoms day by day — and a way to finally show a doctor what's been going on.",
+      "cta": "You deserve to be heard",
+      "verbatim_quotes": [
+        "It should be, half the population have to go through it",
+        "The highest suicide rates for women are amongst the 50 to 55 age group and guess what? This is the average age for menopause!"
+      ]
+    },
+    {
+      "headline": "She went home with 'anxiety' on her notes. Again.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "When your GP has ten minutes and you can't find the words to describe nine months of symptoms, the notes don't capture what's actually happening. Sulu gives you a 30-second daily log and a clean PDF timeline you can hand across the desk. Two weeks of data. One page. Finally something they have to look at.",
+      "cta": "Start tracking free",
+      "verbatim_quotes": [
+        "unfortunately not all women are taken seriously when they report these symptoms to their doctors",
+        "Women should talk with their doctors about HRT to see if it is right for them"
+      ]
+    },
+    {
+      "headline": "Nine years in. Still no clearer picture.",
+      "pain_point": "Duration Despair",
+      "target_segment": "established",
+      "hook_type": "fear",
+      "body_copy": "Perimenopause can last over a decade. Without a record, it all blurs into one long difficult stretch. Sulu shows you week by week what's shifting — what's better, what's worse, what seems to move together. Not a cure. A timeline that finally makes sense of it.",
+      "cta": "See your patterns in two weeks",
+      "verbatim_quotes": [
+        "I am in my 9th year and counting and believe through research, that it could last up to 15 years",
+        "It feels as though I have pretty much been a miserable, bloated, sour, sweaty, forgetful, irrational bitch for almost a decade"
+      ]
+    },
+    {
+      "headline": "You lost the word again. Track it.",
+      "pain_point": "Brain Fog and Memory Loss",
+      "target_segment": "universal",
+      "hook_type": "frustration",
+      "body_copy": "Brain fog doesn't show up on a blood test and it's hard to describe in a ten-minute appointment. But when you've logged it daily for two weeks, you can show exactly how often it happens and what makes it worse. Sulu turns 'I just don't feel right' into something a GP can work with.",
+      "cta": "Start your 30-second daily log",
+      "verbatim_quotes": [
+        "The foggy brain takes hold and you lose words, whole sentences, and sometimes worse, entire fucking conversations",
+        "Forgetfulness. And as I was saying… What was I saying again?"
+      ]
+    },
+    {
+      "headline": "Before you ask about HRT, bring the evidence.",
+      "pain_point": "HRT Knowledge Gap",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Walking into a GP appointment and asking about HRT feels different when you've got two weeks of symptom data behind you. Sulu tracks how you're feeling each day and exports a clean summary — so the conversation starts from evidence, not a description you've been rehearsing in your head.",
+      "cta": "Build your case in two weeks",
+      "verbatim_quotes": [
+        "I'm on hormones and feel fabulous",
+        "Women should talk with their doctors about HRT to see if it is right for them"
+      ]
+    },
+    {
+      "headline": "Hot flash or something worse? Start writing it down.",
+      "pain_point": "Symptom Confusion",
+      "target_segment": "early_stage",
+      "hook_type": "fear",
+      "body_copy": "When perimenopause symptoms overlap with anxiety, thyroid issues, and even cardiac events, the uncertainty is exhausting. Sulu doesn't tell you what's wrong — it gives you a clear, dated record so your GP can. Thirty seconds a day. A timeline in two weeks.",
+      "cta": "Track free from today",
+      "verbatim_quotes": [
+        "Symptoms of a heart attack in women are often atypical: great fatigue, nausea, night sweats, all of which can easily be confused with the symptoms of menopause",
+        "You could be heading toward menopause, but it could be something else, too"
+      ]
+    },
+    {
+      "headline": "Flo is for periods. This is for what comes after.",
+      "pain_point": "Generic App Mismatch",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "Period trackers predict ovulation. Wellness apps want your mood, your water intake, your steps. Sulu does one thing: tracks perimenopause symptoms daily, shows you what's changing, and exports a summary for your GP. Nothing else. No noise.",
+      "cta": "Try it — 30 seconds a day",
+      "verbatim_quotes": [
+        "Perimenopause, the transition through menopause, can bring about a range of symptoms that vary from person to person",
+        "Every experience is different"
+      ]
+    },
+    {
+      "headline": "Night sweats three times a week. Now you can prove it.",
+      "pain_point": "Sleep Disruption",
+      "target_segment": "established",
+      "hook_type": "social_proof",
+      "body_copy": "When your GP asks how often your sleep is disrupted, 'a lot' doesn't move the conversation forward. Two weeks of Sulu logs does. Track your nights, see the pattern, and walk in with a timeline that shows exactly what's been happening — and when it started.",
+      "cta": "Start tracking tonight",
+      "verbatim_quotes": [
+        "women have night sweats to such a heavy degree they end up needing to change the sheets in the middle of the night",
+        "Night sweats. I mean how is it possible to sweat so much when you sleeping. Insomnia."
+      ]
+    },
+    {
+      "headline": "Walk in with evidence. Walk out with answers.",
+      "pain_point": "Appointment Unpreparedness",
+      "target_segment": "gp_frustrated",
+      "hook_type": "aspiration",
+      "body_copy": "Most GP appointments end the same way — rushed, vague, and leaving you no further forward. Sulu gives you a clear, dated symptom timeline you can put in front of your doctor in 30 seconds. Not a complaint. A record.",
+      "cta": "Start your 14-day timeline — free",
+      "verbatim_quotes": [
+        "Doctors and others spend an enormous amount of time simply to get the story straight.",
+        "Many errors arise from the difficulties of this."
+      ]
+    },
+    {
+      "headline": "Your body has been sending signals. Time to start reading them.",
+      "pain_point": "Pattern Blindness",
+      "target_segment": "early_stage",
+      "hook_type": "aspiration",
+      "body_copy": "The sleep shifts. The mood dips. The days that feel off for no obvious reason. Sulu tracks your perimenopause symptoms daily so the pattern that's been hiding in plain sight finally becomes visible — to you, and to your doctor.",
+      "cta": "See your pattern in two weeks",
+      "verbatim_quotes": [
+        "I realize that remembering the specifics is getting increasingly hard",
+        "I can sometimes piece together a good enough history with a little effort"
+      ]
+    },
+    {
+      "headline": "30 seconds a day. A conversation that actually goes somewhere.",
+      "pain_point": "Tracking Overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "Not a wellness platform. Not a habit tracker. Not another app asking you to log your water intake. Sulu is a simple daily check-in — built specifically for perimenopause — that quietly builds a record you can actually use.",
+      "cta": "Try it free — no account needed",
+      "verbatim_quotes": [
+        "These apps promise helpful insights. But in return, they take so much.",
+        "people often told us to help them work smarter, not harder"
+      ]
+    },
+    {
+      "headline": "Told it's probably just anxiety? Bring something they can't ignore.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "Being dismissed is exhausting. Sulu builds a clear, exportable record of your symptoms over time — so next time you sit down with your GP, you're not asking them to take your word for it. You're showing them the data.",
+      "cta": "Build your record — starts free",
+      "verbatim_quotes": [
+        "Doctors and others spend an enormous amount of time simply to get the story straight.",
+        "how does a healthcare provider get access to your up-to-date medical history?"
+      ]
+    },
+    {
+      "headline": "HRT started. But is it actually doing anything?",
+      "pain_point": "HRT Effectiveness Uncertainty",
+      "target_segment": "hrt_considering",
+      "hook_type": "fear",
+      "body_copy": "Starting treatment is hopeful. Not knowing if it's working is its own kind of stress. Sulu lets you log HRT changes alongside your daily symptoms, so over time you can see — clearly — whether things are moving in the right direction.",
+      "cta": "Track your progress from day one",
+      "verbatim_quotes": [
+        "finding the right mental health treatment means years of trial and error and suffering"
+      ]
+    },
+    {
+      "headline": "Your data stays yours. Full stop.",
+      "pain_point": "Data Privacy and Trust",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "fear",
+      "body_copy": "A lot of apps want your health data. Not all of them are upfront about what they do with it. Sulu is a personal record — calm, private, and built for women who want clarity at appointments, not a subscription model built around their cycle.",
+      "cta": "See how Sulu works",
+      "verbatim_quotes": [
+        "her cycle had been turned into a data point",
+        "These apps promise helpful insights. But in return, they take so much."
+      ]
+    },
+    {
+      "headline": "Walk in with evidence, not a feeling.",
+      "pain_point": "GP Appointment Unpreparedness",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "You've been living with these symptoms for months, maybe years. But when you get six minutes with your GP, it all comes out wrong — vague, hard to prove, easy to dismiss. Sulu tracks your symptoms daily and builds a clear PDF timeline you can hand over at your next appointment. No reconstructing from memory. No being told it's probably stress.",
+      "cta": "Start your 30-second daily check-in",
+      "verbatim_quotes": [
+        "People with chronic insomnia often receive inadequate care advice. They're told to try cutting back on coffee, meditate more",
+        "When I finally decided to see a specialist, I was put on a 3-month long waiting list"
+      ]
+    },
+    {
+      "headline": "Something has shifted. Let's figure out what.",
+      "pain_point": "Symptom Confusion",
+      "target_segment": "early_stage",
+      "hook_type": "aspiration",
+      "body_copy": "You're not imagining it. Something is different — in your sleep, your energy, your mood, your body. You just can't quite name it yet. Sulu was built for exactly this moment: before the diagnosis, before the certainty, when you just need something to track what's happening so you can begin to see a pattern.",
+      "cta": "Track free for 14 days",
+      "verbatim_quotes": [
+        "I tried everything from cutting coffee, blocking blue light, to taking melatonin and antihistamine, but couldn't find anything that worked",
+        "It took an immense amount of energy for me to perform even the most mundane of tasks"
+      ]
+    },
+    {
+      "headline": "You've tried the apps. This one is different.",
+      "pain_point": "Tracking Overwhelm",
+      "target_segment": "tracker_fatigued",
+      "hook_type": "frustration",
+      "body_copy": "Most tracking apps want too much: daily journals, streak counts, push notifications, upsells. Sulu wants 30 seconds. Three sliders. Done. It's built for perimenopause specifically — not for wellness in general — so you're only ever tracking what actually matters to you.",
+      "cta": "See how simple it is",
+      "verbatim_quotes": [
+        "many apps offered very limited functionality in the free versions, and would use manipulative paywall tactics",
+        "all other apps felt too hard-coded",
+        "there were a bunch of existing apps for journaling, habit tracking, water intake... but nothing that met our requirements"
+      ]
+    },
+    {
+      "headline": "Your symptoms have a pattern. You just can't see it yet.",
+      "pain_point": "Pattern Blindness",
+      "target_segment": "universal",
+      "hook_type": "aspiration",
+      "body_copy": "Hot flushes, broken sleep, brain fog, low mood — they feel random because you're trying to track them in your head. Sulu builds a quiet, visual record over time, surfacing the connections between your symptoms and what might be driving them. After two weeks, things start to make sense.",
+      "cta": "Start seeing your pattern",
+      "verbatim_quotes": [
+        "I've often wondered whether there are any patterns or cycles to my moods",
+        "Traditional journaling is reflective but doesn't surface causal patterns",
+        "a running estimate of what moves the needle for me"
+      ]
+    },
+    {
+      "headline": "Is the HRT working? Now you can actually know.",
+      "pain_point": "HRT Evidence Gap",
+      "target_segment": "hrt_considering",
+      "hook_type": "aspiration",
+      "body_copy": "Starting HRT is hopeful. But without a record of before and after, it's hard to know what's actually changed — and hard to tell your doctor. Sulu lets you mark the day you start, then tracks your symptoms week by week so you can see the response over time and bring that evidence to your next review.",
+      "cta": "Track your HRT from day one",
+      "verbatim_quotes": [
+        "Eventually, I was able to get my insomnia treated. That finally helped.",
+        "medication-assisted treatment is still stigmatized by family doctors and therefore hard to access"
+      ]
+    },
+    {
+      "headline": "Stop reconstructing the last three months from memory.",
+      "pain_point": "GP Appointment Unpreparedness",
+      "target_segment": "established",
+      "hook_type": "fear",
+      "body_copy": "Every appointment starts the same way: your GP asks how things have been, and you try to piece it together on the spot. Things get missed. Patterns get lost. Sulu builds your symptom history automatically so that after 14 days, you have a clean PDF timeline ready to share — and you walk in knowing exactly what you want to say.",
+      "cta": "Build your record in 30 seconds a day",
+      "verbatim_quotes": [
+        "The only way women can check if they're on the list — phone the receptionist at the GP practice, then wait for a letter to arrive",
+        "5,000 women were missed on the regular screening programme — they're just the ones they confirmed"
+      ]
+    },
+    {
+      "headline": "Dismissed again? Come back with data.",
+      "pain_point": "Doctor Dismissal",
+      "target_segment": "gp_frustrated",
+      "hook_type": "frustration",
+      "body_copy": "Being told it's probably anxiety — when you know something is genuinely wrong — is one of the most exhausting experiences in medicine. Sulu doesn't argue with your doctor. It gives you a clear, calm record of your symptoms over time that's hard to dismiss. Just the facts, on paper, ready to hand over.",
+      "cta": "Start building your case",
+      "verbatim_quotes": [
+        "People with chronic insomnia often receive inadequate care advice. They're told to try cutting back on coffee, meditate more",
+        "medication-assisted treatment is still stigmatized by family doctors and therefore hard to access"
+      ]
+    }
+  ]
+}
