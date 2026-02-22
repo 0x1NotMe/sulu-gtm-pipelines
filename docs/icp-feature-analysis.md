@@ -228,7 +228,24 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 7. ✓ **Symptom and factor descriptions written** — all 12 symptoms and 7 factors done. See Section 1. Factor descriptions appear as hover tooltips on the daily check-in, not always visible.
 8. **Decide: how many symptoms to recommend / allow tracking** — consider: (a) should the recommended number vary depending on where a woman is in her peri journey (e.g. fewer at the start, to avoid overwhelm)? (b) should the ability to track more symptoms (beyond a set number) be a free vs premium feature? Currently the MVP says 3–7 from 12 — needs a proper decision.
 9. **Review: notes section** — decide whether to include a free-text notes field in the daily check-in. Could be valuable for context that doesn't fit a slider or factor.
-10. **Onboarding: age and peri journey questions** — decide whether to ask women their age and where they are in their journey (e.g. perimenopause, post-menopause, unsure). Could personalise the experience and improve pattern insight relevance.
+10. ✓ **Onboarding questions — decided.** Five questions, in this order:
+
+    1. **Age** — single input. Used to contextualise insights and framing (e.g. "not too young" acknowledgement for 35–39 year olds).
+    2. **Where are you right now?** — cycle/stage in plain language, not clinical terms:
+       - Still having regular periods
+       - Periods are changing — irregular, heavier, lighter
+       - Periods have mostly stopped
+       - No periods for over a year
+       - Honestly not sure
+    3. **Are you currently taking HRT?** — yes / no / just started / thinking about it. Pre-selects HRT factor and surfaces HRT tracking if relevant.
+    4. **What brought you here?** — intent question, changes which features are highlighted first:
+       - I've been having symptoms I can't explain
+       - I want to understand my patterns over time
+       - I want something concrete to show my doctor
+       - I'm not sure what's happening
+    5. **Symptom selection** — flows naturally as the final onboarding step. Women choose from the 12 symptoms using the selection screen (labels + hover descriptions).
+
+    *Reference: Balance menopause app (balance-menopause.com) asks age, cycle status, and symptoms in onboarding. Sulu uses the same structure but in the app voice — a conversation, not a clinical intake form. Each question must visibly change the experience based on the answer.*
 11. **Plan individual screens** — map out each screen in the app flow with content, interactions, and edge cases before dev picks it up.
 
 ### Still to do — branding & design
