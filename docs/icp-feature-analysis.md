@@ -54,11 +54,22 @@ The design docs use "Change markers," the code uses "markers" — both feel tech
 | Exercise | Keep | Useful confounder. |
 | Supplement change | Add | "The Supplement Spiral" — women are trying magnesium, melatonin, GABA, progesterone cream, 5-HTP. Lets them see if anything actually helped. |
 | Illness / travel / disruption | Add | In design doc but missing from code. Women need to flag bad weeks as outliers — critical for data integrity. |
+| Period started today | Add | Anchors cycle position to symptom data. Unlocks luteal phase pattern insights without making Sulu a period tracker. |
 | ~~Caffeine~~ | Remove | Lower signal than others. Drop for now. |
 
-### Period started — to confirm
+### Period started — confirmed ✓
 
-Massively referenced in ICP research. Women need to overlay cycle position on symptoms — even a simple "period today" toggle would unlock cycle correlation. If added, it would sit within "Today's factors." **Discuss and confirm before adding.**
+**Add "Period started today"** as a factor within Today's factors. One-tap, binary. This anchors cycle position to symptom data without making Sulu a period tracker — it's context, not prediction.
+
+**Future version (v2+):** Add **"Period ended"** (or "Last day of period") as a companion factor. Together, the two data points give the app cycle length over time and a clean luteal phase window to analyse against.
+
+**Cycle-phase insights this unlocks** (surface in Weekly Snapshot or pattern view):
+- "Your sleep was worse in the 7 days before your last 3 periods."
+- "Brain fog tends to lift in the days after your period starts."
+- "Your anxiety scores were higher in the week before your period."
+- "Hot flashes spiked around the time your period was due."
+
+These are the "pattern moment" insights women are currently doing manually in spreadsheets — and they're the strongest possible retention hook because they explain something the user couldn't see before.
 
 ---
 
@@ -89,7 +100,7 @@ Massively referenced in ICP research. Women need to overlay cycle position on sy
 - "After 14 days, something clicked. I could finally see what was happening."
 - "The first GP appointment where I wasn't explaining from scratch."
 
-**C) Widen age targeting.** The GTM says 40-55 but the research is full of 33-39 year olds. The "too young" dismissal is the single most intense emotional trigger. Consider 35-55.
+**C) Widen age targeting.** The GTM says 40-55 but the research is full of 33-39 year olds. The "too young" dismissal is the single most intense emotional trigger. **Updated target: 35–55** (revisit if data shows meaningful volume below 35).
 
 ---
 
@@ -171,7 +182,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 ## Summary: Top 5 Actions
 
 1. **Fix the symptom list** — split Anxiety and Irritability out of Mood, restore Menstrual Changes. Align code to what ICP data demands.
-2. **Add a "period today" marker** — single highest-impact addition for pattern recognition.
+2. **Add "Period started today" to Today's factors** — anchors cycle phase to symptom data. Unlocks insights like "your sleep was worse in the 7 days before your last 3 periods." Period ended to follow in v2.
 3. **Keep GP Export free** — it's the acquisition engine. Gate premium on correlation depth, HRT tracking, and extended history.
 4. **Build the Weekly Snapshot** — it delivers on the "see the pattern" promise that 80%+ of messaging relies on.
 5. **Trim messaging to 6 pillars** and add at least 1 positive/aspirational angle. Soften diagnostic claims to questions.
