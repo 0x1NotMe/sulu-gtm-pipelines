@@ -189,7 +189,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 | Feature | Status | Why free |
 |---|---|---|
 | Daily Check-In (symptoms + today's factors) | Built | Core habit loop |
-| Symptom Selection (3-7 from 12) | Built | Personalization |
+| Symptom Selection (all 12 free, recommendation varies by journey stage) | Built | Personalization |
 | Basic Timeline (7/14/30 days, averages) | Built | Immediate visual value |
 | Weekly Snapshot (direction arrows) | Designed, not built | "See the pattern" promise |
 | GP Export (PDF after 14 days) | Designed, not built | THE acquisition hook. Must be free. If gated, the core value prop is lost. |
@@ -226,8 +226,13 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 5. **Build the Weekly Snapshot** — delivers on the "see the pattern" promise that 80%+ of messaging relies on. Currently designed but not built.
 6. **Trim messaging to 6 pillars** — add at least 1 positive/aspirational angle ("after 14 days, something clicked"). Soften diagnostic claims to questions ("What if it's not just anxiety?").
 7. ✓ **Symptom and factor descriptions written** — all 12 symptoms and 7 factors done. See Section 1. Factor descriptions appear as hover tooltips on the daily check-in, not always visible.
-8. **Decide: how many symptoms to recommend / allow tracking** — consider: (a) should the recommended number vary depending on where a woman is in her peri journey (e.g. fewer at the start, to avoid overwhelm)? (b) should the ability to track more symptoms (beyond a set number) be a free vs premium feature? Currently the MVP says 3–7 from 12 — needs a proper decision.
-9. **Review: notes section** — decide whether to include a free-text notes field in the daily check-in. Could be valuable for context that doesn't fit a slider or factor.
+8. ✓ **Symptom tracking amount — decided.** All 12 symptoms are free to track. No cap. Gate premium on what you do with the data (correlations, HRT tracking, extended history) — not on how much data she can log. Recommendation varies by journey stage, pulled from onboarding answers:
+    - New to symptoms / not sure → *"Start with 3. You can always add more."*
+    - Periods changing / established → *"Most people find 5 a good starting point."*
+    - Long-term / knows her symptoms → *"Pick up to 7. Fewer makes patterns clearer."*
+
+    She can always change her symptom selection. Custom symptoms (beyond the 12) remain a premium feature.
+9. ✓ **Notes section — decided.** Include a free-text notes field on every daily check-in screen. Always optional, always available. Shown as a small "Add a note" link at the bottom — below sliders and factors. Tapping expands a short text input (200 character limit to keep it brief). Invisible if you don't want it, there when you do. Notes appear alongside data in the GP export. Do not make it feel like a journal — it's context, not a diary.
 10. ✓ **Onboarding questions — decided.** Five questions, in this order:
 
     1. **Age** — single input. Used to contextualise insights and framing (e.g. "not too young" acknowledgement for 35–39 year olds).
