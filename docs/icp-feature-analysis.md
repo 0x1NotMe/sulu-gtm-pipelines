@@ -179,10 +179,21 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 
 ---
 
-## Summary: Top 5 Actions
+## Summary: Decisions & Actions
 
-1. **Fix the symptom list** — split Anxiety and Irritability out of Mood, restore Menstrual Changes. Align code to what ICP data demands.
-2. **Add "Period started today" to Today's factors** — anchors cycle phase to symptom data. Unlocks insights like "your sleep was worse in the 7 days before your last 3 periods." Period ended to follow in v2.
-3. **Keep GP Export free** — it's the acquisition engine. Gate premium on correlation depth, HRT tracking, and extended history.
-4. **Build the Weekly Snapshot** — it delivers on the "see the pattern" promise that 80%+ of messaging relies on.
-5. **Trim messaging to 6 pillars** and add at least 1 positive/aspirational angle. Soften diagnostic claims to questions.
+### ✓ Decided — needs code implementation
+
+1. **Symptom list** — expanded from 9 to 12, ordered by ICP signal strength. Anxiety and Irritability/rage split out from Mood. Night sweats separated from Hot flashes. Menstrual changes restored. Heart palpitations added. See Section 1 for full list.
+2. **Today's factors** — renamed from "markers" / "change markers" throughout. Updated list: HRT (from Medication), Stressful Day (from High Stress), Exercise, Alcohol, Supplement change (new), Illness/travel/disruption (new), Period started today (new). Caffeine removed.
+3. **Age targeting** — widened from 40–55 to **35–55**. Revisit if data shows meaningful volume below 35.
+
+### Still to do — product & messaging
+
+4. **Keep GP Export free** — it's the acquisition engine. Gate premium on correlation depth, HRT tracking, and extended history. Currently designed but not built — prioritise.
+5. **Build the Weekly Snapshot** — delivers on the "see the pattern" promise that 80%+ of messaging relies on. Currently designed but not built.
+6. **Trim messaging to 6 pillars** — add at least 1 positive/aspirational angle ("after 14 days, something clicked"). Soften diagnostic claims to questions ("What if it's not just anxiety?").
+
+### Parked for v2
+
+- Period ended / last day of period (companion to Period started today)
+- Vaginal dryness / discomfort, Libido changes, Weight changes / bloating (sensitive symptoms requiring careful UI handling)
