@@ -13,29 +13,52 @@ The product design (copy.md) defines 9 symptoms including Irritability and Menst
 | Menstrual changes | Not in code at all | **MEDIUM** — Women correlating symptoms with cycle irregularity is a core pattern-finding behaviour. Without this, the "see the pattern" promise is weaker. |
 | Night sweats (separate from hot flashes) | Bundled with "Hot Flashes" | **MEDIUM** — GPs respond most to hot flashes AND night sweats. Splitting them makes exports more credible to doctors. |
 
-### Recommended symptom list (keep at 9, align with ICP)
+### Recommended symptom list (12 symptoms, ordered by ICP signal strength)
 
-1. Hot flashes / night sweats (keep combined — fine)
-2. Sleep disruption (keep)
-3. Mood changes (keep, but narrow to: "low mood, emotional swings")
-4. Anxiety / overwhelm (separate — critical per research)
-5. Irritability / rage (new — massive ICP signal)
-6. Brain fog (keep)
-7. Energy / fatigue (keep)
-8. Menstrual changes (restore from design doc)
-9. Physical discomfort (keep, covers headaches/joint/bloating)
+Ordered by how frequently and intensely women discuss each symptom in peri communities — highest signal first.
 
-Drop: headaches, digestive issues, joint pain, skin changes as standalone. Fold them into "Physical discomfort" as the hint text.
+1. Hot flashes
+2. Sleep disruption
+3. Anxiety / overwhelm (separate from mood — critical per research)
+4. Irritability / rage (massive ICP signal — "the rage")
+5. Brain fog
+6. Fatigue / low energy
+7. Night sweats (split from hot flashes — GPs treat as separate clinical data)
+8. Low mood / emotional swings (narrowed from "Mood Changes")
+9. Menstrual changes (restored from design doc)
+10. Heart palpitations (under-represented in apps — differentiation opportunity)
+11. Joint / muscle pain
+12. Headaches / migraines
 
-### Marker gaps
+Drop as standalones: digestive issues, skin changes. Fold into hint text where relevant.
 
-| Missing marker | ICP signal |
-|---|---|
-| Illness / travel / disruption | In the design doc but missing from code. Women attribute bad weeks to "being ill" — needed to exclude confounders. |
-| Period started / period day | Massively referenced. Women need to overlay cycle position on symptoms. Even a simple "period today" toggle would unlock cycle correlation. |
-| Supplement change | "The Supplement Spiral" angle — women are trying magnesium, melatonin, GABA, progesterone cream, 5-HTP. A marker to flag supplement changes lets them see if anything actually helped. |
+### Future version symptoms (v2+)
 
-Current "Caffeine" marker is fine but lower priority than the above three.
+Hold these back until the core 12 are validated. Women discuss them frequently but they require more sensitive UI handling or are lower daily-logging frequency.
+
+- **Vaginal dryness / discomfort** — very commonly discussed; frame neutrally (e.g. "Intimate comfort")
+- **Libido changes** — same caveat; "Sex drive" works as label
+- **Weight changes / bloating** — major discussion topic but harder to quantify on a daily slider
+
+### Naming decision: "Today's factors"
+
+The design docs use "Change markers," the code uses "markers" — both feel technical. **"Today's factors"** is warmer, more human, and consistent with the brand voice (elegant, calm). Use this in all UI copy and future documentation. Update code references from `marker_*` IDs when feasible.
+
+### Current factors (updated)
+
+| Marker | Status | Notes |
+|---|---|---|
+| HRT / Hormones | Rename from "Medication" | "Medication" is too broad — covers paracetamol to antidepressants. Rename to "HRT" to match ICP intent and messaging. |
+| Alcohol | Keep | Solid confounder. |
+| Stressful Day | Rename from "High Stress" | Friendlier, clearer framing. Distinct from the Anxiety symptom slider. |
+| Exercise | Keep | Useful confounder. |
+| Supplement change | Add | "The Supplement Spiral" — women are trying magnesium, melatonin, GABA, progesterone cream, 5-HTP. Lets them see if anything actually helped. |
+| Illness / travel / disruption | Add | In design doc but missing from code. Women need to flag bad weeks as outliers — critical for data integrity. |
+| ~~Caffeine~~ | Remove | Lower signal than others. Drop for now. |
+
+### Period started — to confirm
+
+Massively referenced in ICP research. Women need to overlay cycle position on symptoms — even a simple "period today" toggle would unlock cycle correlation. If added, it would sit within "Today's factors." **Discuss and confirm before adding.**
 
 ---
 
@@ -121,8 +144,8 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 
 | Feature | Status | Why free |
 |---|---|---|
-| Daily Check-In (symptoms + markers) | Built | Core habit loop |
-| Symptom Selection (3-7 from 9) | Built | Personalization |
+| Daily Check-In (symptoms + today's factors) | Built | Core habit loop |
+| Symptom Selection (3-7 from 12) | Built | Personalization |
 | Basic Timeline (7/14/30 days, averages) | Built | Immediate visual value |
 | Weekly Snapshot (direction arrows) | Designed, not built | "See the pattern" promise |
 | GP Export (PDF after 14 days) | Designed, not built | THE acquisition hook. Must be free. If gated, the core value prop is lost. |
@@ -136,7 +159,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 | Pattern Correlations — "On days you marked alcohol, sleep was 1.2 points worse" with statistical confidence | "The Pattern Moment" angle — women are desperate for connections they can't see | Strong |
 | Cycle Overlay — correlate symptoms with cycle day/phase | Research shows women manually doing this in spreadsheets | Medium-Strong |
 | Extended History — 90/180/365 day views | "I've been tracking for 4 years" — long-term users want long-term views | Medium |
-| Custom Symptoms — add your own beyond the 9 | "There are over 100 symptoms of menopause" — power users want more | Medium |
+| Custom Symptoms — add your own beyond the 12 | "There are over 100 symptoms of menopause" — power users want more | Medium |
 | Supplement Tracker — log what you're taking, see if it correlates | "The Supplement Spiral" — women spending money on supplements with no feedback | Medium |
 | Multiple Export Formats — customizable GP reports, specialist formats | Differentiation for serious self-advocates | Low-Medium |
 | Data Export (CSV/JSON) | Low demand but important for trust — "my data is mine" | Should probably stay free (trust signal) |
