@@ -76,6 +76,20 @@ The design docs use "Change markers," the code uses "markers" — both feel tech
 | Period started today | Add | Anchors cycle position to symptom data. Unlocks luteal phase pattern insights without making Sulu a period tracker. |
 | ~~Caffeine~~ | Remove | Lower signal than others. Drop for now. |
 
+### Factor descriptions
+
+**UX note:** Descriptions are not always visible on the daily check-in screen. They appear as a tooltip on hover, before tapping. Keeps the UI clean for daily use — context is there when needed, invisible when not.
+
+| Factor | Description |
+|---|---|
+| HRT / Hormones | "For days you've taken HRT or other hormonal support." |
+| Alcohol | "Had a drink. Worth knowing if it affects how you feel." |
+| Stressful Day | "Work, family, life. One of those days." |
+| Exercise | "Any movement today — walk, gym, swim, anything." |
+| Supplement change | "Started, stopped, or changed a supplement." |
+| Illness / travel / disruption | "Not a typical day. Flag it so your patterns stay clean." |
+| Period started today | "First day of your period. Helps connect cycle timing to symptoms." |
+
 ### Period started — confirmed ✓
 
 **Add "Period started today"** as a factor within Today's factors. One-tap, binary. This anchors cycle position to symptom data without making Sulu a period tracker — it's context, not prediction.
@@ -211,7 +225,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 4. **Keep GP Export free** — it's the acquisition engine. Gate premium on correlation depth, HRT tracking, and extended history. Currently designed but not built — prioritise.
 5. **Build the Weekly Snapshot** — delivers on the "see the pattern" promise that 80%+ of messaging relies on. Currently designed but not built.
 6. **Trim messaging to 6 pillars** — add at least 1 positive/aspirational angle ("after 14 days, something clicked"). Soften diagnostic claims to questions ("What if it's not just anxiety?").
-7. ✓ **Symptom descriptions written** — all 12 done. See Section 1. Still to do: descriptions for Today's factors.
+7. ✓ **Symptom and factor descriptions written** — all 12 symptoms and 7 factors done. See Section 1. Factor descriptions appear as hover tooltips on the daily check-in, not always visible.
 8. **Decide: how many symptoms to recommend / allow tracking** — consider: (a) should the recommended number vary depending on where a woman is in her peri journey (e.g. fewer at the start, to avoid overwhelm)? (b) should the ability to track more symptoms (beyond a set number) be a free vs premium feature? Currently the MVP says 3–7 from 12 — needs a proper decision.
 9. **Review: notes section** — decide whether to include a free-text notes field in the daily check-in. Could be valuable for context that doesn't fit a slider or factor.
 10. **Onboarding: age and peri journey questions** — decide whether to ask women their age and where they are in their journey (e.g. perimenopause, post-menopause, unsure). Could personalise the experience and improve pattern insight relevance.
