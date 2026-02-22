@@ -9,7 +9,7 @@ The product design (copy.md) defines 9 symptoms including Irritability and Menst
 | Research says is critical | Current code status | Impact |
 |---|---|---|
 | Anxiety / overwhelm (separate from mood) | Bundled into "Mood Changes" | **HIGH** — Anxiety misattribution is a top-3 pain point. Women need to show GPs "this is anxiety, not depression." Splitting it makes the GP Export far more powerful. |
-| Irritability / rage | Not present as separate symptom | **HIGH** — "Why does no one warn you about the rage?" is one of the strongest emotional hooks. It needs its own slider. |
+| Rage / irritability | Not present as separate symptom | **HIGH** — "Why does no one warn you about the rage?" is one of the strongest emotional hooks. It needs its own slider. |
 | Menstrual changes | Not in code at all | **MEDIUM** — Women correlating symptoms with cycle irregularity is a core pattern-finding behaviour. Without this, the "see the pattern" promise is weaker. |
 | Night sweats (separate from hot flashes) | Bundled with "Hot Flashes" | **MEDIUM** — GPs respond most to hot flashes AND night sweats. Splitting them makes exports more credible to doctors. |
 
@@ -20,7 +20,7 @@ Ordered by how frequently and intensely women discuss each symptom in peri commu
 1. Hot flashes
 2. Sleep disruption
 3. Anxiety / overwhelm (separate from mood — critical per research)
-4. Irritability / rage (massive ICP signal — "the rage")
+4. Rage / irritability (massive ICP signal — "the rage")
 5. Brain fog
 6. Fatigue / low energy
 7. Night sweats (split from hot flashes — GPs treat as separate clinical data)
@@ -31,6 +31,25 @@ Ordered by how frequently and intensely women discuss each symptom in peri commu
 12. Headaches / migraines
 
 Drop as standalones: digestive issues, skin changes. Fold into hint text where relevant.
+
+### Symptom descriptions (selection screen)
+
+One line each. Written for instant recognition, not explanation. Validated against ICP research verbatim quotes where possible.
+
+| Symptom | Description |
+|---|---|
+| Hot flashes | "A wave of heat, arriving without warning." |
+| Sleep disruption | "Can't get to sleep. Can't stay asleep. Sometimes both." |
+| Anxiety / overwhelm | "Dread that arrives without reason. Sometimes it doesn't leave." |
+| Rage / irritability | "Rage that feels out of proportion. And is completely real." |
+| Brain fog | "The word that won't come. The thing you just forgot." |
+| Fatigue / low energy | "Tired in a way sleep doesn't fix." |
+| Night sweats | "Waking up soaked. Usually around 3am." |
+| Low mood / emotional swings | "Flat when you should feel fine. Tearful when you least expect it." |
+| Menstrual changes | "Periods that aren't what they used to be." |
+| Heart palpitations | "The kind of heartbeat that makes you Google 'heart attack symptoms'." |
+| Joint / muscle pain | "Stiffness or aching that wasn't there before." |
+| Headaches / migraines | "More headaches than before. Or worse ones." |
 
 ### Future version symptoms (v2+)
 
@@ -192,16 +211,19 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 4. **Keep GP Export free** — it's the acquisition engine. Gate premium on correlation depth, HRT tracking, and extended history. Currently designed but not built — prioritise.
 5. **Build the Weekly Snapshot** — delivers on the "see the pattern" promise that 80%+ of messaging relies on. Currently designed but not built.
 6. **Trim messaging to 6 pillars** — add at least 1 positive/aspirational angle ("after 14 days, something clicked"). Soften diagnostic claims to questions ("What if it's not just anxiety?").
-7. **Add descriptions to all symptoms and Today's factors** — each needs a short, human label hint so women know exactly what they're logging (e.g. what counts as "brain fog" vs "fatigue").
-8. **Review: notes section** — decide whether to include a free-text notes field in the daily check-in. Could be valuable for context that doesn't fit a slider or factor.
-9. **Onboarding: age and peri journey questions** — decide whether to ask women their age and where they are in their journey (e.g. perimenopause, post-menopause, unsure). Could personalise the experience and improve pattern insight relevance.
-10. **Plan individual screens** — map out each screen in the app flow with content, interactions, and edge cases before dev picks it up.
+7. ✓ **Symptom descriptions written** — all 12 done. See Section 1. Still to do: descriptions for Today's factors.
+8. **Decide: how many symptoms to recommend / allow tracking** — consider: (a) should the recommended number vary depending on where a woman is in her peri journey (e.g. fewer at the start, to avoid overwhelm)? (b) should the ability to track more symptoms (beyond a set number) be a free vs premium feature? Currently the MVP says 3–7 from 12 — needs a proper decision.
+9. **Review: notes section** — decide whether to include a free-text notes field in the daily check-in. Could be valuable for context that doesn't fit a slider or factor.
+10. **Onboarding: age and peri journey questions** — decide whether to ask women their age and where they are in their journey (e.g. perimenopause, post-menopause, unsure). Could personalise the experience and improve pattern insight relevance.
+11. **Plan individual screens** — map out each screen in the app flow with content, interactions, and edge cases before dev picks it up.
 
 ### Still to do — branding & design
 
 11. **Create a logo** — needed before any public-facing materials or app store presence.
 12. **Define font and colour scheme** — establish the visual identity to underpin the "elegant, calm" brand voice.
-13. **Refine the tone of voice** — document the brand voice more concretely with examples of what sounds right vs wrong (especially the tension between acquisition copy and in-app copy noted in Section 3).
+13. **Tone of voice — two distinct voices, document separately:**
+    - **Ad voice** (ads, landing page, app store listing) — rawer, emotionally direct, stops the scroll. Leans into the anger, the dismissal, the "nobody warned you." This is where hooks like "Nobody warned you about the rage" and "Walk in with evidence, not apologies" live. Higher emotional charge, shorter sentences, designed to resonate fast.
+    - **App voice** (daily check-in, notifications, patterns, GP export) — calm, intelligent, direct. Dry wit allowed. Never cheerful, never clinical, never performative. Speaks to wise women who are dealing with it and don't need hand-holding. Passes the 3am test. These are different jobs. The ad voice gets women in the door. The app voice keeps them there. Do not mix them.
 
 ### Parked for v2
 
