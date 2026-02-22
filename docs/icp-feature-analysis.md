@@ -192,6 +192,16 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 4. **Keep GP Export free** — it's the acquisition engine. Gate premium on correlation depth, HRT tracking, and extended history. Currently designed but not built — prioritise.
 5. **Build the Weekly Snapshot** — delivers on the "see the pattern" promise that 80%+ of messaging relies on. Currently designed but not built.
 6. **Trim messaging to 6 pillars** — add at least 1 positive/aspirational angle ("after 14 days, something clicked"). Soften diagnostic claims to questions ("What if it's not just anxiety?").
+7. **Add descriptions to all symptoms and Today's factors** — each needs a short, human label hint so women know exactly what they're logging (e.g. what counts as "brain fog" vs "fatigue").
+8. **Review: notes section** — decide whether to include a free-text notes field in the daily check-in. Could be valuable for context that doesn't fit a slider or factor.
+9. **Onboarding: age and peri journey questions** — decide whether to ask women their age and where they are in their journey (e.g. perimenopause, post-menopause, unsure). Could personalise the experience and improve pattern insight relevance.
+10. **Plan individual screens** — map out each screen in the app flow with content, interactions, and edge cases before dev picks it up.
+
+### Still to do — branding & design
+
+11. **Create a logo** — needed before any public-facing materials or app store presence.
+12. **Define font and colour scheme** — establish the visual identity to underpin the "elegant, calm" brand voice.
+13. **Refine the tone of voice** — document the brand voice more concretely with examples of what sounds right vs wrong (especially the tension between acquisition copy and in-app copy noted in Section 3).
 
 ### Parked for v2
 
