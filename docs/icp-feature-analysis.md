@@ -194,6 +194,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 | Weekly Snapshot (direction arrows) | Designed, not built | "See the pattern" promise |
 | GP Export (PDF after 14 days) | Designed, not built | THE acquisition hook. Must be free. If gated, the core value prop is lost. |
 | Push notification reminders | Designed, not built | Retention driver |
+| 4-week symptom review prompt | Not built | Every 4 weeks, when the user opens the app, a light check-in screen asks: "Want to review your symptom list?" with options to add or remove. Keeps tracking relevant as symptoms evolve. Not a forced flow — easy to dismiss. |
 
 ### Premium tier — "Sulu Pro" or "Sulu+"
 
@@ -203,7 +204,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 | Pattern Correlations — "On days you marked alcohol, sleep was 1.2 points worse" with statistical confidence | "The Pattern Moment" angle — women are desperate for connections they can't see | Strong |
 | Cycle Overlay — correlate symptoms with cycle day/phase | Research shows women manually doing this in spreadsheets | Medium-Strong |
 | Extended History — 90/180/365 day views | "I've been tracking for 4 years" — long-term users want long-term views | Medium |
-| Custom Symptoms — add your own beyond the 12 | "There are over 100 symptoms of menopause" — power users want more | Medium |
+| Custom symptoms and factors — add your own beyond the core 12 symptoms and 7 factors (up to 5 additional each) | Power users want to track what matters to them specifically. Keeps the free tier clean while rewarding committed trackers. | Medium |
 | Supplement Tracker — log what you're taking, see if it correlates | "The Supplement Spiral" — women spending money on supplements with no feedback | Medium |
 | Multiple Export Formats — customizable GP reports, specialist formats | Differentiation for serious self-advocates | Low-Medium |
 | Data Export (CSV/JSON) | Low demand but important for trust — "my data is mine" | Should probably stay free (trust signal) |
