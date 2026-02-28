@@ -149,9 +149,9 @@ These are the "pattern moment" insights women are currently doing manually in sp
 
 | Messaging promise | Current app reality | Risk |
 |---|---|---|
-| "See the pattern" / "Pattern Recognition" | Only week-over-week averages + direction arrows | **MEDIUM** — users expect actual correlation insights ("sleep was worse on alcohol days"). Need at minimum the marker correlation in the Snapshot to land. |
-| "Is HRT working?" | A daily checkbox (marker_medication) | **HIGH** — 8+ messaging angles promise HRT tracking, but there's no event-level logging, no before/after comparison, no dose tracking. This will disappoint. |
-| "Symptom timeline your GP can read" | GP Export is designed but NOT built | **HIGH** — this is the #1 acquisition hook across all angles. It's locked behind Phase 6 in the delivery plan. Prioritize it. |
+| "See the pattern" / "Pattern Recognition" | ✅ Weekly Snapshot with direction arrows (↑↓→) + symptom detail screen with trigger correlations ("alcohol days correlate with worse sleep") | **LOW** — core pattern promise is now delivered. Correlation insights are live per symptom. |
+| "Is HRT working?" | A daily checkbox (factor toggle) | **HIGH** — 8+ messaging angles promise HRT tracking, but there's no event-level logging, no before/after comparison, no dose tracking. This will disappoint. |
+| "Symptom timeline your GP can read" | ✅ GP Export built — professional PDF with per-symptom averages, severity, trends, factor frequencies, notes. Unlocks after 14 days. | **RESOLVED** — #1 acquisition hook is live. |
 
 ### Over-indexing on GP frustration
 
@@ -188,12 +188,14 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 
 | Feature | Status | Why free |
 |---|---|---|
-| Daily Check-In (symptoms + today's factors) | Built | Core habit loop |
-| Symptom Selection (all 12 free, recommendation varies by journey stage) | Built | Personalization |
-| Basic Timeline (7/14/30 days, averages) | Built | Immediate visual value |
-| Weekly Snapshot (direction arrows) | Designed, not built | "See the pattern" promise |
-| GP Export (PDF after 14 days) | Designed, not built | THE acquisition hook. Must be free. If gated, the core value prop is lost. |
-| Push notification reminders | Designed, not built | Retention driver |
+| Daily Check-In (symptoms + today's factors + notes) | ✅ Built | Core habit loop |
+| Symptom Selection (all 12 free, recommendation varies by journey stage) | ✅ Built | Personalization |
+| Basic Timeline (7/14/30 days, averages, Skia charts) | ✅ Built | Immediate visual value |
+| Weekly Snapshot (direction arrows, week-over-week comparison) | ✅ Built | "See the pattern" promise |
+| Symptom Detail (30-day trends, trigger correlations) | ✅ Built | Deeper pattern insights per symptom |
+| GP Export (PDF after 14 days, with trends + factors + notes) | ✅ Built | THE acquisition hook. Must be free. If gated, the core value prop is lost. |
+| Push notification reminders (daily, custom time) | ✅ Built | Retention driver |
+| Email auth (sign-up, sign-in, password reset) | ✅ Built | Wider audience beyond OAuth |
 | 4-week symptom review prompt | Not built | Every 4 weeks, when the user opens the app, a light check-in screen asks: "Want to review your symptom list?" with options to add or remove. Keeps tracking relevant as symptoms evolve. Not a forced flow — easy to dismiss. |
 
 ### Premium tier — "Sulu Pro" or "Sulu+"
@@ -215,50 +217,33 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 
 ## Summary: Decisions & Actions
 
-### ✓ Decided — needs code implementation
+### ✓ Implemented (code complete)
 
-1. **Symptom list** — expanded from 9 to 12, ordered by ICP signal strength. Anxiety and Irritability/rage split out from Mood. Night sweats separated from Hot flashes. Menstrual changes restored. Heart palpitations added. See Section 1 for full list.
-2. **Today's factors** — renamed from "markers" / "change markers" throughout. Updated list: HRT (from Medication), Stressful Day (from High Stress), Exercise, Alcohol, Supplement change (new), Illness/travel/disruption (new), Period started today (new). Caffeine removed.
-3. **Age targeting** — widened from 40–55 to **35–55**. Revisit if data shows meaningful volume below 35.
+1. ✅ **Symptom list** — expanded from 9 to 12, ordered by ICP signal strength. Anxiety and Irritability/rage split out from Mood. Night sweats separated from Hot flashes. Menstrual changes restored. Heart palpitations added. See Section 1 for full list. *Implemented in `constants/symptoms.ts` with icons, descriptions, and slider labels.*
+2. ✅ **Today's factors** — renamed from "markers" / "change markers" throughout. Updated list: HRT (from Medication), Stressful Day (from High Stress), Exercise, Alcohol, Supplement change (new), Illness/travel/disruption (new), Period started today (new). Caffeine removed. *Implemented in `constants/markers.ts`.*
+3. ✅ **Age targeting** — widened from 40–55 to **35–55**. Revisit if data shows meaningful volume below 35.
+4. ✅ **GP Export (free)** — professional PDF with per-symptom averages, severity levels, trends, factor frequencies, and recent notes. Unlocks after 14 days of tracking with progress bar. Uses expo-print + expo-sharing. *Implemented in `lib/gpExport.ts` + `hooks/useGPExport.ts`.*
+5. ✅ **Weekly Snapshot** — direction arrows comparing current vs prior week averages (↑ worse, ↓ better, → stable within ±0.3). Shows up to 7 tracked symptoms. Accessible from trends tab with ≥14 days of data. *Implemented in `components/timeline/WeeklySnapshot.tsx` + `app/(auth)/weekly-insights.tsx`.*
+6. ✅ **Symptom and factor descriptions** — all 12 symptoms and 7 factors done. See Section 1. Factor descriptions appear inline in daily check-in and onboarding.
+7. ✅ **Symptom tracking amount** — all 12 symptoms free to track, no cap. Recommendation varies by journey stage (3/5/7 based on onboarding answers). Custom symptoms (beyond 12) remain premium.
+8. ✅ **Notes section** — free-text field on every daily check-in. "Anything else on your mind?" placeholder. 200-character limit. Appears in GP export. *Implemented in `components/checkin/NotesInput.tsx`.*
+9. ✅ **Onboarding** — 7-step flow (exceeds original 5): consent → age → stage → HRT → intent → symptom selection → notifications. Stage-based guidance for symptom count. Progressive bar. *Implemented in `app/(auth)/onboarding/`.*
+10. ✅ **Daily check-in** — core habit loop with symptom sliders (0–3 severity), factor toggles (2-column layout), notes input, sticky save button with state feedback, and unsaved-changes guard. *Implemented in `app/(auth)/(tabs)/log.tsx`.*
+11. ✅ **Basic timeline (7/14/30 days)** — range selector, calendar strip with entry indicators, Skia-based trend charts (primary + secondary symptoms), per-symptom averages, day detail card. *Implemented in `app/(auth)/(tabs)/index.tsx`.*
+12. ✅ **Push notification reminders** — daily repeating notification with 17 time options (6 AM–10 PM). Stores time in profile. Expo Go guard. Disable option in settings. *Implemented in `lib/notifications.ts` + onboarding step.*
+13. ✅ **Email auth** — sign-up (email + password + name), sign-in, password reset. Email format validation. Hardened against sign-up email enumeration. Branded Supabase email templates. *Implemented in `app/(public)/email-login.tsx` + `lib/auth.ts`.*
+14. ✅ **Symptom detail screen** — 30-day trend chart per symptom, trigger correlations (which factors correlate with better/worse), gentle advice text. Requires ≥3 check-ins. *Implemented in `app/(auth)/symptom-detail.tsx`.*
+15. ✅ **Logo** — animated dual-blob S monogram. Multiple formats: icon.png, adaptive-icon.png, splash-icon.png, favicon.png, feature-graphic.png. *In `assets/`.*
+16. ✅ **Design system** — Playfair Display font (bold/semibold), full typography scale (display → caption), warm palette (cream #FAF6F0, terracotta #C47358, plum #4A2040, sage #A3B18A, sand #EDE4D6), severity spectrum, spacing/radii/shadow system. *Implemented in `constants/designTokens.ts`.*
 
-### Still to do — product & messaging
+### Still to do — product
 
-4. **Keep GP Export free** — it's the acquisition engine. Gate premium on correlation depth, HRT tracking, and extended history. Currently designed but not built — prioritise.
-5. **Build the Weekly Snapshot** — delivers on the "see the pattern" promise that 80%+ of messaging relies on. Currently designed but not built.
-6. **Trim messaging to 6 pillars** — add at least 1 positive/aspirational angle ("after 14 days, something clicked"). Soften diagnostic claims to questions ("What if it's not just anxiety?").
-7. ✓ **Symptom and factor descriptions written** — all 12 symptoms and 7 factors done. See Section 1. Factor descriptions appear as hover tooltips on the daily check-in, not always visible.
-8. ✓ **Symptom tracking amount — decided.** All 12 symptoms are free to track. No cap. Gate premium on what you do with the data (correlations, HRT tracking, extended history) — not on how much data she can log. Recommendation varies by journey stage, pulled from onboarding answers:
-    - New to symptoms / not sure → *"Start with 3. You can always add more."*
-    - Periods changing / established → *"Most people find 5 a good starting point."*
-    - Long-term / knows her symptoms → *"Pick up to 7. Fewer makes patterns clearer."*
+17. **4-week symptom review prompt** — every 4 weeks, a light check-in screen asks: "Want to review your symptom list?" with options to add or remove. Keeps tracking relevant as symptoms evolve. Not a forced flow — easy to dismiss. *Not yet implemented.*
 
-    She can always change her symptom selection. Custom symptoms (beyond the 12) remain a premium feature.
-9. ✓ **Notes section — decided.** Include a free-text notes field on every daily check-in screen. Always optional, always available. Shown as a small "Add a note" link at the bottom — below sliders and factors. Tapping expands a short text input (200 character limit to keep it brief). Invisible if you don't want it, there when you do. Notes appear alongside data in the GP export. Do not make it feel like a journal — it's context, not a diary.
-10. ✓ **Onboarding questions — decided.** Five questions, in this order:
+### Still to do — messaging
 
-    1. **Age** — single input. Used to contextualise insights and framing (e.g. "not too young" acknowledgement for 35–39 year olds).
-    2. **Where are you right now?** — cycle/stage in plain language, not clinical terms:
-       - Still having regular periods
-       - Periods are changing — irregular, heavier, lighter
-       - Periods have mostly stopped
-       - No periods for over a year
-       - Honestly not sure
-    3. **Are you currently taking HRT?** — yes / no / just started / thinking about it. Pre-selects HRT factor and surfaces HRT tracking if relevant.
-    4. **What brought you here?** — intent question, changes which features are highlighted first:
-       - I've been having symptoms I can't explain
-       - I want to understand my patterns over time
-       - I want something concrete to show my doctor
-       - I'm not sure what's happening
-    5. **Symptom selection** — flows naturally as the final onboarding step. Women choose from the 12 symptoms using the selection screen (labels + hover descriptions).
-
-    *Reference: Balance menopause app (balance-menopause.com) asks age, cycle status, and symptoms in onboarding. Sulu uses the same structure but in the app voice — a conversation, not a clinical intake form. Each question must visibly change the experience based on the answer.*
-11. **Plan individual screens** — map out each screen in the app flow with content, interactions, and edge cases before dev picks it up.
-
-### Still to do — branding & design
-
-11. **Create a logo** — needed before any public-facing materials or app store presence.
-12. **Define font and colour scheme** — establish the visual identity to underpin the "elegant, calm" brand voice.
-13. **Tone of voice — two distinct voices, document separately:**
+18. **Trim messaging to 6 pillars** — add at least 1 positive/aspirational angle ("after 14 days, something clicked"). Soften diagnostic claims to questions ("What if it's not just anxiety?").
+19. **Tone of voice — two distinct voices, document separately:**
     - **Ad voice** (ads, landing page, app store listing) — rawer, emotionally direct, stops the scroll. Leans into the anger, the dismissal, the "nobody warned you." This is where hooks like "Nobody warned you about the rage" and "Walk in with evidence, not apologies" live. Higher emotional charge, shorter sentences, designed to resonate fast.
     - **App voice** (daily check-in, notifications, patterns, GP export) — calm, intelligent, direct. Dry wit allowed. Never cheerful, never clinical, never performative. Speaks to wise women who are dealing with it and don't need hand-holding. Passes the 3am test. These are different jobs. The ad voice gets women in the door. The app voice keeps them there. Do not mix them.
 
