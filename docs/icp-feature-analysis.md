@@ -266,3 +266,4 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 
 - Period ended / last day of period (companion to Period started today)
 - Vaginal dryness / discomfort, Libido changes, Weight changes / bloating (sensitive symptoms requiring careful UI handling)
+- **Cyclical progesterone reminder (premium)** — if a woman has indicated she's on HRT, offer a smart reminder for when to start Prometrium (cyclical progesterone, typically taken days 14–28 of a 28-day cycle). Assumption: she's on a standard cyclical protocol. Requires HRT event logging to be built first. High value for women navigating HRT — removes the mental load of tracking the progesterone window manually.
