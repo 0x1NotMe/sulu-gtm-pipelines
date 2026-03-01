@@ -17,7 +17,7 @@ The landing page users see before signing in.
 - **Continue with Google** button (white pill with Google logo)
 - "or" divider
 - **Sign in with email** text link
-- Footer: "By continuing, you agree to our Terms and Privacy Policy"
+- Footer: "By continuing, you agree to our Terms and Privacy Policy" — "Terms" and "Privacy Policy" are tappable links ("Terms" opens in-app legal modal; "Privacy Policy" opens web browser)
 
 ### 1.2 Email Login Screen
 **Route:** `(public)/email-login`
@@ -38,6 +38,8 @@ Dual-mode email auth screen — toggles between sign-in and sign-up.
 ## 2. Onboarding (Post-Auth, First-Time Users)
 
 Linear flow: Consent → Intent → Age → Stage → HRT → Symptoms → Notifications
+
+**Progress indicator:** A fill bar at the top of each step — no step count shown (no "1/7"), just a bar that advances. Signals "this is short" without anchoring on the number of steps.
 
 ### 2.1 Consent Screen
 **Route:** `(auth)/onboarding/consent`
@@ -84,7 +86,7 @@ Birth year input.
 Menstrual cycle stage. Single-select with radio buttons.
 
 - Activity icon
-- Heading: *"Where are you right now?"*
+- Heading: *"What are your periods like right now?"*
 - Subtitle: *"There's no wrong answer."*
 - 5 cards:
   - "Still having regular periods"
@@ -100,7 +102,7 @@ Menstrual cycle stage. Single-select with radio buttons.
 Hormone Replacement Therapy status. Single-select with radio buttons.
 
 - Pill icon
-- Heading: *"Are you taking Hormone Replacement Therapy (HRT)?"*
+- Heading: *"Are you taking HRT?"*
 - 4 cards:
   - "Yes, currently taking HRT"
   - "No"
@@ -114,7 +116,16 @@ Hormone Replacement Therapy status. Single-select with radio buttons.
 Choose which symptoms to track. Multi-select.
 
 - Heading: *"What do you want to understand better?"*
-- Guidance text varies based on selected cycle stage (e.g. "Start with 3", "Most people find 5 a good starting point")
+- Guidance text and recommended count vary based on cycle stage selected in 2.4:
+
+| Stage | Recommended count | Guidance text |
+|---|---|---|
+| Still having regular periods | 3 | *"Early days — starting with 3 keeps it clear and easy to spot what's changing."* |
+| Periods are changing | 5 | *"Things are shifting. 5 symptoms gives you enough to see what's moving."* |
+| Periods have mostly stopped | 5–7 | *"A lot can be happening at this stage. Starting with 5–7 means you won't miss much."* |
+| No periods for over a year | 5–7 | *"Things may have settled — or changed. 5–7 symptoms helps you see what's still moving."* |
+| Honestly not sure | 3 | *"That's okay. Start with 3 — you can always add more as you go."* |
+
 - List of all 12 ICP-ordered symptoms, each as a card with icon, label, description, and toggle switch
 - Counter text: "3 selected — looking good"
 - **Continue with N symptom(s)** button
