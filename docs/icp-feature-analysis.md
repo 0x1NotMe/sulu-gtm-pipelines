@@ -202,7 +202,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 | Basic Timeline (7/14/30 days, averages, Skia charts) | ✅ Built | Immediate visual value |
 | Weekly Snapshot (direction arrows, week-over-week comparison) | ✅ Built | "See the pattern" promise |
 | Symptom Detail (30-day trends, trigger correlations) | ✅ Built | Deeper pattern insights per symptom |
-| GP Export (PDF after 14 days, with trends + factors + notes) | ✅ Built | THE acquisition hook. Must be free. If gated, the core value prop is lost. |
+| Health Report — Symptom Summary (free tier) | ✅ Built | THE acquisition hook. Must be free. Generates after 14 days of tracking. Regeneration limit: once every 7 days. Includes per-symptom averages, severity trends, factor frequencies, and notes. Always teases Pattern Insights (see below). |
 | Push notification reminders (daily, custom time) | ✅ Built | Retention driver |
 | Email auth (sign-up, sign-in, password reset) | ✅ Built | Wider audience beyond OAuth |
 | 4-week symptom review prompt | Not built | Every 4 weeks, when the user opens the app, a light check-in screen asks: "Want to review your symptom list?" with options to add or remove. Keeps tracking relevant as symptoms evolve. Not a forced flow — easy to dismiss. |
@@ -211,6 +211,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 
 | Feature | ICP justification | Pricing signal |
 |---|---|---|
+| Health Report — Pattern Insights (premium tier) | Unlimited report generation. Adds to the free Symptom Summary: data-driven pattern analysis, personalised conversation starters for the doctor appointment, cycle correlations. **Not "Clinical Insights" — too medical. "Pattern Insights" is the correct user-facing label.** Tease mechanic: (A) blurred Pattern Insights section at the bottom of every free report, showing "X patterns identified in your data" with a lock; (B) one free conversation prompt surfaces, with remaining ones gated — "2 more conversation starters available in Premium." Specific enough to feel real, non-blocking, never vague. | Strong |
 | HRT Treatment Timeline — log start dates, dose changes, see before/after symptom comparison | 8+ messaging angles about "is HRT working?" — high willingness to pay for clarity | Strong |
 | Pattern Correlations — "On days you marked alcohol, sleep was 1.2 points worse" with statistical confidence | "The Pattern Moment" angle — women are desperate for connections they can't see | Strong |
 | Cycle Overlay — correlate symptoms with cycle day/phase | Research shows women manually doing this in spreadsheets | Medium-Strong |
@@ -220,7 +221,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 | Multiple Export Formats — customizable GP reports, specialist formats | Differentiation for serious self-advocates | Low-Medium |
 | Data Export (CSV/JSON) | Low demand but important for trust — "my data is mine" | Should probably stay free (trust signal) |
 
-**Pricing suggestion:** The ICP research shows these are women with disposable income, already spending on supplements, doctor visits, and other apps. A $4.99-7.99/month or $39.99-59.99/year premium tier is reasonable. The free tier needs to be genuinely useful (GP Export included) so that premium feels like "more insight" not "unlock the basic features."
+**Pricing — decided:** $4.99/month or $49.99/year. The free tier needs to be genuinely useful (Health Report included) so that premium feels like "more insight" not "unlock the basic features."
 
 ---
 
@@ -252,9 +253,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 ### Still to do — messaging
 
 18. **Trim messaging to 6 pillars** — add at least 1 positive/aspirational angle ("after 14 days, something clicked"). Soften diagnostic claims to questions ("What if it's not just anxiety?").
-19. **Tone of voice — two distinct voices, document separately:**
-    - **Ad voice** (ads, landing page, app store listing) — rawer, emotionally direct, stops the scroll. Leans into the anger, the dismissal, the "nobody warned you." This is where hooks like "Nobody warned you about the rage" and "Walk in with evidence, not apologies" live. Higher emotional charge, shorter sentences, designed to resonate fast.
-    - **App voice** (daily check-in, notifications, patterns, GP export) — calm, intelligent, direct. Dry wit allowed. Never cheerful, never clinical, never performative. Speaks to wise women who are dealing with it and don't need hand-holding. Passes the 3am test. These are different jobs. The ad voice gets women in the door. The app voice keeps them there. Do not mix them.
+19. ✅ **Tone of voice — two distinct voices, documented separately.** See `docs/tone-of-voice.md`. Ad voice (ads, landing page, App Store listing) and app voice (daily check-in, notifications, report copy, onboarding) are fully documented with principles, examples, side-by-side comparisons, and a quick reference table.
 
 ### Parked for v2
 
