@@ -141,7 +141,16 @@ Daily reminder setup. Final onboarding step — saves all onboarding data to pro
 - Time picker: list of hourly slots from 6:00 AM to 10:00 PM (cards with checkmarks)
 - **Set reminder** button
 - **Skip for now** link
-- On completion: writes onboarding data to Supabase profile, navigates to main tabs
+- On completion: writes onboarding data to Supabase profile, navigates to 2.8 Onboarding Complete screen
+
+### 2.8 Onboarding Complete Screen
+**Route:** `(auth)/onboarding/complete`
+
+A brief moment of transition between onboarding and the main app. Acknowledges setup is done with a dry, calm line — earns a small smile without trying too hard.
+
+- Heading: *"All done. Took less time than finding your keys."*
+- Subtext: *"Your first check-in is whenever you're ready."*
+- Primary CTA: **"Start tracking"** — navigates to main tabs (Log tab)
 
 ---
 
@@ -404,6 +413,7 @@ Shown when a user has scheduled account deletion.
     hrt ................... HRT status (single-select)
     symptoms .............. Symptom selection (multi-select)
     notifications ......... Daily reminder setup → completes onboarding
+    complete .............. Onboarding complete — transition to main app
 
   (tabs)/
     calendar .............. Month calendar + entry editor
