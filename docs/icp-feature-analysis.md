@@ -124,25 +124,91 @@ These are the "pattern moment" insights women are currently doing manually in sp
 - "Built for this, not adapted for this" — sharpest competitive positioning
 - "Not another period tracker" — immediate differentiation
 
-### What needs fixing
+### Messaging pillars — finalised
 
-**A) Tighten from 98 angles down to ~6 pillars.** The ICP output generated too many near-duplicates. The 6 distinct angles that map to real segments:
+Trimmed from 98 ICP angles to 7 distinct pillars. Each maps to a real user segment. Use these as the brief for all ad creative, landing page copy, and App Store listing.
 
-| Pillar | Segment | Best hook |
-|---|---|---|
-| The Evidence | gp_frustrated | "Your doctor can't dismiss a timeline." |
-| The Pattern | early_stage | "It's not random. It just looks that way until you start tracking." |
-| The Rage / Identity | universal | "Nobody warned you about the rage. You're not broken." |
-| The HRT Question | hrt_considering | "Starting HRT is one thing. Knowing if it's working — that's something else." |
-| The Simplicity | tracker_fatigued | "30 seconds a day. Not a wellness routine." |
-| Not Too Young | early_stage | "38 is not too young. And your list of symptoms is not nothing." |
+> **Diagnostic language rule (applied throughout):** Never make diagnostic statements. Soften claims to questions. "This is hormones, not anxiety" → "What if it's not just anxiety?" Use "show your doctor" not "prove to your doctor."
 
-**B) Add positive/aspirational angles.** Every angle currently leads with pain. For retention and word-of-mouth, need at least 1-2 angles about what happens AFTER tracking:
+---
 
-- "After 14 days, something clicked. I could finally see what was happening."
-- "The first appointment where I wasn't explaining from scratch."
+#### Pillar 1 — The Evidence
+**Segment:** gp_frustrated (women who feel dismissed by healthcare)
+**Hook:** "Your doctor can't dismiss a timeline."
 
-**C) Widen age targeting.** The GTM says 40-55 but the research is full of 33-39 year olds. The "too young" dismissal is the single most intense emotional trigger. **Updated target: 35–55** (revisit if data shows meaningful volume below 35).
+> Three months of symptoms.
+> One clear document.
+> Walk in with evidence, not apologies.
+
+---
+
+#### Pillar 2 — The Pattern
+**Segment:** early_stage (confused, not yet connecting the dots)
+**Hook:** "It's not random. It just looks that way until you start tracking."
+
+> The bad weeks feel random until they aren't.
+> 30 seconds a day. 14 days of data.
+> Something starts to make sense.
+
+---
+
+#### Pillar 3 — The Rage / Identity
+**Segment:** universal — strongest emotional hook across all segments
+**Hook:** "Nobody warned you about the rage. You're not broken."
+
+> Nobody warned you about the rage.
+> Not a bad mood. Not stress.
+> Actual rage — at the traffic, at the question, at nothing.
+> You're not broken. You might be in perimenopause.
+
+---
+
+#### Pillar 4 — The HRT Question
+**Segment:** hrt_considering (on HRT or considering it)
+**Hook:** "Starting HRT is one thing. Knowing if it's working — that's something else."
+
+> You started HRT.
+> But how do you actually know if it's working?
+> Track the before. Track the after. See the difference.
+
+---
+
+#### Pillar 5 — The Simplicity
+**Segment:** tracker_fatigued (burned out by other wellness apps)
+**Hook:** "30 seconds a day. Not a wellness routine."
+
+> Not a journal. Not a mood board.
+> 30 seconds. A few sliders. Done.
+> The data builds quietly in the background.
+
+---
+
+#### Pillar 6 — Not Too Young
+**Segment:** early_stage (dismissed due to age, often 35–42)
+**Hook:** "38 is not too young. And your list of symptoms is not nothing."
+
+> "You're too young for perimenopause."
+> That doesn't make the brain fog less real.
+> Or the rage. Or the 3am wakeups.
+> 38 is not too young. Start tracking.
+
+---
+
+#### Pillar 7 — The After *(aspirational — use for retention, word-of-mouth, testimonial-style ads)*
+**Segment:** universal — needed to balance pain-led messaging
+**Hook:** "After 14 days, something clicked."
+
+> After 14 days, something clicked.
+> I could finally see what was happening.
+
+> The first appointment where I wasn't explaining from scratch.
+> She actually listened.
+
+*Note: Every other pillar leads with pain. Pillar 7 shows what happens after tracking — critical for retention messaging and word-of-mouth. At least 1–2 ad executions should come from this pillar.*
+
+---
+
+**Age targeting — decided:** 35–55. The "too young" dismissal is the single most intense emotional trigger in ICP research. Revisit if data shows meaningful volume below 35.
 
 ---
 
@@ -252,7 +318,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 
 ### Still to do — messaging
 
-18. **Trim messaging to 6 pillars** — add at least 1 positive/aspirational angle ("after 14 days, something clicked"). Soften diagnostic claims to questions ("What if it's not just anxiety?").
+18. ✅ **Messaging pillars — finalised.** Trimmed to 7 pillars (6 pain-led + 1 aspirational "The After"). Full copy written for each. Diagnostic language rule applied throughout: soften claims to questions ("What if it's not just anxiety?"), use "show" not "prove." See Section 2 for complete pillar briefs.
 19. ✅ **Tone of voice — two distinct voices, documented separately.** See `docs/tone-of-voice.md`. Ad voice (ads, landing page, App Store listing) and app voice (daily check-in, notifications, report copy, onboarding) are fully documented with principles, examples, side-by-side comparisons, and a quick reference table.
 
 ### Parked for v2
