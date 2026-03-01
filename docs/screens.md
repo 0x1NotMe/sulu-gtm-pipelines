@@ -213,7 +213,7 @@ Educational articles placeholder.
 Settings, account management, and subscription.
 
 - Header: "Profile" with Cloud icon badge
-- **User greeting**: Avatar circle (with Premium star badge if subscribed), "Good morning/afternoon/evening, [Name]", "SULU PREMIUM" or "SULU MEMBER" badge
+- **User greeting**: Avatar circle (with Premium star badge if subscribed), "Good morning/afternoon/evening, [Name]", "SULU PREMIUM" badge (premium users only — no badge for free users)
 - **Subscription section**:
   - Premium users: "Sulu Premium — Active" row (taps to manage subscription)
   - Free users: Upsell card with "Upgrade to Premium" heading, description, and "Explore Premium" button
@@ -221,7 +221,7 @@ Settings, account management, and subscription.
   - Tracked symptoms → count, opens symptom editor modal
   - Daily reminder → current time or "Off", opens time picker modal
 - **Data & Reports group**:
-  - Export summary for GP → generates PDF report (basic for free, professional for Premium)
+  - My Reports → navigates to My Reports screen (see 4.4)
   - Export data (CSV) → "Coming soon"
 - **Account group**:
   - Privacy & Security → opens privacy info modal
@@ -266,7 +266,94 @@ Week-over-week comparison of symptoms and factors.
 - **Gentle Reminder** — motivational card with sparkles icon
 - Empty state: "Not enough data yet" (needs 3+ current week entries and 1+ prior week)
 
-### 4.3 Pending Deletion Screen
+### 4.3 My Reports Screen
+**Route:** `(auth)/my-reports`
+
+Entry point for all Health Report functionality. Accessible from Profile → My Reports.
+
+- Back arrow + "My Reports" header
+- **Under 14 days of data (milestone state):**
+  - Blurred/locked preview of what the report will look like
+  - Tracking streak: "You've logged [X] of the last [Y] days"
+  - Milestone marker: "[X] more days until your first report"
+  - Subtext: *"Keep logging. The patterns become visible over time."*
+  - No generate button shown
+- **14+ days of data (ready state):**
+  - **"Generate New Report"** button (primary)
+  - **Past reports list** — each row shows: report type (Symptom Summary / Pattern Insights), date generated, optional doctor tag, and a "View / Share" action
+  - Free users: greyed Pattern Insights rows with lock icon and "Premium" label
+  - Empty past reports state: *"No reports yet. Generate your first one."*
+- **Smart prompt banner** (contextual, not always shown):
+  - After 30 days: *"You've been logging for a month. Ready to see your first report?"*
+  - Before a tagged appointment: *"Your appointment is in 2 days. Want to generate a report?"*
+
+---
+
+### 4.4 Report Generation Flow
+**Route:** `(auth)/report-generate`
+
+Step-by-step flow to generate a Health Report. 4 steps with a progress indicator.
+
+**Step 1 — Select report type**
+
+- Heading: *"What would you like to generate?"*
+- **Free card:** Symptom Summary — "Last 30 days. One page. Every tracked symptom with averages and trends." Selected by default.
+- **Premium card:** Symptom Summary + Pattern Insights — "Full history. Trend analysis. Conversation starters for your appointment." Shows upgrade prompt for free users.
+- **Continue** button
+
+**Step 2 — Configure (premium only, skipped for free)**
+
+- Date range selector: Last 30 days / 90 days / 6 months / 12 months / Custom
+- Symptom selection: toggle which symptoms to include (default: all)
+- Report tone: "Factual summary" / "Help me advocate"
+- Personal note: optional free-text field (appears at top of report)
+- Doctor name: optional field for tagging the report to an appointment
+- **Continue** button
+
+**Step 3 — Preview**
+
+- In-app scrollable preview of the full report in Sulu visual style (cream and terracotta palette)
+- All sections visible — user can review before generating
+- **Generate Report** button (primary)
+- **Back** button
+
+**Step 4 — Export**
+
+- Report generated — success state
+- Four actions:
+  - **Download PDF** — saves to device
+  - **Share** — native share sheet (email, AirDrop, messaging)
+  - **Print** — direct print from app
+  - **Done** — saves to My Reports and returns to My Reports screen
+- Report saved in My Reports with date and optional doctor tag
+
+---
+
+### 4.5 Symptom Review Prompt Screen
+**Route:** `(auth)/symptom-review`
+
+Full-screen prompt that surfaces every 4 weeks to help users keep their tracked symptom list relevant. Not a forced flow — dismissible.
+
+- Back arrow + "Your symptom list" header
+- Subtext: *"You've been tracking for [X] weeks. Some things might have shifted."*
+- **Current symptom list** — each symptom shown as a card with icon, label, and description
+- **Low-logging flag** — any symptom not logged in the last 3 weeks is highlighted with: *"You haven't logged this in 3 weeks — still relevant?"* and two inline actions: **Keep** / **Remove**
+- **"Something new showing up? Add it."** — expands to show the full symptom list for adding
+- Primary CTA: **"Done"** (sticky at bottom)
+- Secondary: **"Remind me later"** (resets the 4-week clock)
+- Guard: cannot remove all symptoms — shows *"Keep at least one symptom to continue tracking."* if user tries
+- After save: *"Updated."*
+
+**Trigger logic (for engineering):**
+- Fires every 4 weeks from date of last review or dismiss — not from sign-up date
+- Triggers on app open only (not via push notification)
+- Requires 14+ days of logged data before first trigger
+- Does not fire if user has opened the Symptom Editor (Profile → Tracked symptoms) in the last 4 weeks
+- If closed without action: re-shows on next app open within 7 days of trigger date, then resets
+
+---
+
+### 4.6 Pending Deletion Screen
 **Route:** `(auth)/pending-deletion`
 
 Shown when a user has scheduled account deletion.
@@ -316,5 +403,8 @@ Shown when a user has scheduled account deletion.
 
   symptom-detail .......... Single symptom deep-dive
   weekly-insights ......... Week-over-week comparison
+  my-reports .............. My Reports list + progress milestone
+  report-generate ......... Report generation flow (4 steps)
+  symptom-review .......... 4-week symptom list review prompt
   pending-deletion ........ Account deletion countdown
 ```
