@@ -150,7 +150,7 @@ A brief moment of transition between onboarding and the main app. Acknowledges s
 
 - Heading: *"All done. Took less time than finding your keys."*
 - Subtext: *"Your first check-in is whenever you're ready."*
-- Primary CTA: **"Start tracking"** — navigates to main tabs (Log tab)
+- Primary CTA: **"Start tracking →"** — navigates to main tabs, lands on Log tab. Arrow icon reinforces direction and signals where to go next.
 
 ---
 
