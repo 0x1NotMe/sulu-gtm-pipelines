@@ -314,7 +314,75 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 
 ### Still to do — product
 
-17. **4-week symptom review prompt** — every 4 weeks, a light check-in screen asks: "Want to review your symptom list?" with options to add or remove. Keeps tracking relevant as symptoms evolve. Not a forced flow — easy to dismiss. *Not yet implemented.*
+17. **4-week symptom review prompt** — full spec below. *Not yet implemented.*
+
+---
+
+#### Feature spec: 4-week symptom review prompt
+
+**Purpose:** Symptoms change over time. A woman who started tracking hot flashes and brain fog three months ago may now have those under control but be struggling with joint pain and low mood. Keeping the tracked list relevant is critical to data quality and retention. This prompt surfaces at the right moment to make that easy.
+
+**Tier:** Free.
+
+---
+
+**Trigger logic**
+
+- Fires every 4 weeks from the date of last review or last dismiss — not from sign-up date
+- Only triggers when the user opens the app (not via push notification)
+- Requires at least 14 days of logged data before the first trigger (no point reviewing a list they've barely used)
+- Does not fire if the user has opened the symptom selection screen themselves in the last 4 weeks (they've already reviewed)
+
+---
+
+**Screen design**
+
+Full screen — not a bottom sheet or modal. This is a moment, not a nudge. The user should feel it's worth a few seconds, not swipe it away reflexively.
+
+Layout:
+- Calm header: *"Time to check in on your symptom list."*
+- Subtext: *"You've been tracking for [X] weeks. Some symptoms might have shifted."*
+- Current symptom list, displayed as chips or rows
+- Low-logging flag: any symptom not logged in the last 3 weeks is surfaced with a note — *"You haven't logged this in 3 weeks — still relevant?"* This makes the decision informed, not arbitrary
+- Two actions per flagged symptom: **Keep** / **Remove**
+- "Add a symptom" option at the bottom for anything new
+- Primary CTA: *"Done"*
+- Secondary: *"Remind me later"* (resets the 4-week clock from today)
+
+---
+
+**Copy (app voice)**
+
+| Element | Copy |
+|---|---|
+| Header | "Time to check in on your symptom list." |
+| Subtext | "You've been tracking for [X] weeks. Some things might have shifted." |
+| Low-logging flag | "You haven't logged this in 3 weeks — still relevant?" |
+| Add prompt | "Something new showing up? Add it." |
+| Primary CTA | "Done" |
+| Secondary CTA | "Remind me later" |
+| After save | "Updated." |
+
+Copy rules: no cheerleading, no congratulations. Passes the 3am test.
+
+---
+
+**Dismiss behaviour**
+
+- "Done" with no changes: counts as a valid review. Clock resets for 4 weeks.
+- "Remind me later": clock resets for 4 weeks from today.
+- Hard back / close without action: does not count as a review. Prompt re-shows on next app open within the same trigger window (within 7 days of trigger date), then resets to 4 weeks.
+
+---
+
+**Edge cases**
+
+| Scenario | Behaviour |
+|---|---|
+| User has only 1 symptom tracked | Show prompt normally — they may want to add |
+| User logs all symptoms regularly | Show prompt with no low-logging flags — simple confirmation screen |
+| User removes all symptoms | Block — must keep at least 1. Show: *"Keep at least one symptom to continue tracking."* |
+| User is mid check-in | Do not interrupt. Show on next app open. |
 
 ### Still to do — messaging
 
