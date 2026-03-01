@@ -108,10 +108,19 @@ These are the "pattern moment" insights women are currently doing manually in sp
 
 ## 2. Messaging Improvements
 
+### Terminology decision: "GP" → "your doctor" / "Health Report"
+
+"GP" is used in Australia, UK, NZ and Ireland but not in the US (Primary Care Physician / PCP) or Canada (Family Doctor). To avoid localisation pain at international expansion:
+
+- **User-facing document name:** "Health Report" (not "GP Health Report" or "GP Export"). Works across all markets and includes specialists — gynaecologists, endocrinologists, menopause specialists — not just primary care.
+- **In-app and marketing copy:** Use **"your doctor"** everywhere. "Walk in with evidence, not apologies" works with "doctor." "Your doctor can't dismiss a timeline" is already correct.
+- **Internal / code references:** "GP Export" can stay as the internal feature name for now — rename when internationalising.
+- **Australian launch:** "GP" is fine in spoken/PR context where it resonates locally. UI copy should use "your doctor" from day one.
+
 ### What's landing well (keep)
 
 - "30 seconds a day" — the single strongest UX claim
-- "Walk in with evidence, not apologies" — GP Export is the killer feature
+- "Walk in with evidence, not apologies" — the Health Report is the killer feature
 - "Built for this, not adapted for this" — sharpest competitive positioning
 - "Not another period tracker" — immediate differentiation
 
@@ -131,7 +140,7 @@ These are the "pattern moment" insights women are currently doing manually in sp
 **B) Add positive/aspirational angles.** Every angle currently leads with pain. For retention and word-of-mouth, need at least 1-2 angles about what happens AFTER tracking:
 
 - "After 14 days, something clicked. I could finally see what was happening."
-- "The first GP appointment where I wasn't explaining from scratch."
+- "The first appointment where I wasn't explaining from scratch."
 
 **C) Widen age targeting.** The GTM says 40-55 but the research is full of 33-39 year olds. The "too young" dismissal is the single most intense emotional trigger. **Updated target: 35–55** (revisit if data shows meaningful volume below 35).
 
@@ -174,7 +183,7 @@ The brand voice is "elegant, calm, lightly funny" but the ICP research has surfa
 | "perimenopause rage" / "irritability" | MISSING from app | Add irritability/rage as a symptom |
 | "HRT tracking" / "is HRT working" | Weak match (just a checkbox) | Build HRT event logging |
 | "period tracker perimenopause" | Positioning says "NOT a period tracker" | Correct — but add menstrual changes as a trackable symptom so you capture this search intent without being a period app |
-| "GP appointment preparation" | Strong match (GP Export) | Make this a landing page SEO target |
+| "GP appointment preparation" | Strong match (Health Report) | Make this a landing page SEO target for AU/UK. Use "doctor appointment preparation" for US expansion. |
 | "menopause app" | Partial match | Add "perimenopause AND menopause" to store listing. Many women search "menopause" when they mean peri. |
 | "perimenopause anxiety" | Bundled in mood, not standalone | Split anxiety out as a separate symptom |
 | "symptom diary for doctor" | Direct match | Use this exact phrase in ASO |
