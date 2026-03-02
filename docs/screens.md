@@ -256,7 +256,7 @@ Settings, account management, and subscription.
 - Version number footer
 
 #### Profile Sub-Modals:
-- **Symptom Editor Modal** (pageSheet): Full list of 12 symptoms with icons, labels, descriptions, and toggle switches. "Save Preferences" sticky button.
+- **Symptom Editor Modal** (pageSheet): Full list of 12 symptoms with icons, labels, descriptions, and toggle switches. "Save Preferences" sticky button. *(Toggle switches confirmed over remove/add buttons — feels reversible and safe, easy to scan, consistent with rest of app.)*
 - **Notification Time Picker Modal** (bottom sheet): "Off" option + hourly time slots 6 AM–10 PM. Current selection highlighted.
 - **Privacy & Security Modal** (pageSheet): Shield icon, privacy text, links to Privacy Policy (web) and Terms of Service (in-app modal).
 - **Feedback Form Modal** (pageSheet): Feedback submission form.
