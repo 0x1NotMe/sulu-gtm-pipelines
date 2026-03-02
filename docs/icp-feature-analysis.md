@@ -384,6 +384,10 @@ Copy rules: no cheerleading, no congratulations. Passes the 3am test.
 | User removes all symptoms | Block — must keep at least 1. Show: *"Keep at least one symptom to continue tracking."* |
 | User is mid check-in | Do not interrupt. Show on next app open. |
 
+### Still to do — marketing
+
+20. **Premium conversion strategy** — now that the full premium feature set is taking shape (Pattern Insights, custom symptoms and factors, extended history, HRT timeline, etc.), define how we communicate the value of upgrading to free users *inside the app*. This is less a product question and more a marketing/sales one: what is the right moment, the right message, and the right framing to make a free user feel the pull to upgrade — without feeling pushed? Consider: which premium feature has the strongest upgrade pull for which ICP segment? What does the in-app upsell copy look like per feature? How do we tease premium without being annoying about it?
+
 ### Still to do — messaging
 
 18. ✅ **Messaging pillars — finalised.** Trimmed to 7 pillars (6 pain-led + 1 aspirational "The After"). Full copy written for each. Diagnostic language rule applied throughout: soften claims to questions ("What if it's not just anxiety?"), use "show" not "prove." See Section 2 for complete pillar briefs.
