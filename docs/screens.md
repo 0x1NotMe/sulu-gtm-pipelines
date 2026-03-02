@@ -2,6 +2,9 @@
 
 All screens in the app, grouped by area. The tab bar has 5 tabs: **Calendar | Insights | Log (center FAB) | Learn | Profile**.
 
+> ⚠️ **Before writing any copy for any screen, read [`docs/tone-of-voice.md`](./tone-of-voice.md) first.**
+> All in-app copy must follow the app voice: calm, intelligent, dry wit allowed. Never cheerful, never clinical, never performative. Passes the 3am test. The tone-of-voice doc is the source of truth for all copy decisions.
+
 ---
 
 ## 1. Public (Unauthenticated)
