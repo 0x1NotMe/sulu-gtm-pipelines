@@ -168,7 +168,7 @@ The main dashboard showing trends and history.
 
 - Header: "Your timeline" with current month/year
 - Calendar icon button (top-right) — navigates to Calendar tab
-- **Calendar strip** — horizontal scrollable week view with date dots for entries
+- **Calendar strip** — horizontal scrollable week view with date dots for entries. User can scroll both backwards and forwards through weeks. Future dates are visible but not selectable.
 - **Range selector** — 7 / 14 / 30 days (Premium: "All")
 - **Trend line chart** — defaults to showing top 2 most-active tracked symptoms. Color legend lists all tracked symptoms — tap any symptom to toggle it on or off in the chart. Users can show as many or as few symptoms as they want. Days where a symptom was not logged are shown as a dotted line (not a gap) connecting the surrounding data points — signals missing data clearly without breaking chart continuity.
 - **Day detail card** — shows symptom values for the selected date
@@ -204,12 +204,17 @@ Today's daily check-in form.
 
 - Header: "How was today?" with current date (e.g. "Saturday, Mar 1")
 - Calendar icon badge (top-right)
-- **Section 1 — Symptoms:** Sliders (0–10) for each tracked symptom. Each slider shows the symptom label with a coral-colored icon.
+- **Section 1 — Symptoms:** Sliders for each tracked symptom. Each slider shows the symptom label with a coral-colored icon. All sliders default to "None" when the screen opens.
 - **Section 2 — Factors:** 7 toggle cards in a 2-column grid (e.g. Exercise, Stress, Alcohol, etc.)
 - **Section 3 — Notes:** Free-text input
 - Sticky **Save today / Saving... / Saved!** button
 - Unsaved changes prompt when navigating away
 - Auto-navigates to Insights tab after saving
+
+**Logging logic (for engineering):**
+- When the user saves, all symptoms are recorded — including any still at "None." "None" is a valid logged value meaning no symptoms that day.
+- A day is only considered unlogged (shown as dotted line in charts) if the user has not saved any entry at all for that day — no symptoms, no factors.
+- The dotted line in the chart therefore represents a missed day, not a symptom-free day.
 
 ### 3.4 Learn Tab
 **Route:** `(auth)/(tabs)/learn`
