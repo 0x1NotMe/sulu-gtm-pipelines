@@ -206,7 +206,7 @@ Today's daily check-in form.
 - Header: "How was today?" with current date (e.g. "Saturday, Mar 1")
 - Calendar icon badge (top-right)
 - **Section 1 — Symptoms:** Sliders for each tracked symptom. Each slider shows the symptom label with a coral-colored icon. All sliders default to "None" when the screen opens.
-- **Section 2 — Factors:** 7 toggle cards in a 2-column grid (e.g. Exercise, Stress, Alcohol, etc.)
+- **Section 2 — Factors:** 7 toggle cards in a 2-column grid (e.g. Exercise, Stress, Alcohol, etc.). Premium users can add custom factors beyond the core 7 (up to 5 additional). Free users see a locked "Add your own" option with an upgrade prompt.
 - **Section 3 — Notes:** Free-text input
 - Sticky **Save today / Saving... / Saved!** button
 - Unsaved changes prompt when navigating away
@@ -256,7 +256,7 @@ Settings, account management, and subscription.
 - Version number footer
 
 #### Profile Sub-Modals:
-- **Symptom Editor Modal** (pageSheet): Full list of 12 symptoms with icons, labels, descriptions, and toggle switches. "Save Preferences" sticky button. *(Toggle switches confirmed over remove/add buttons — feels reversible and safe, easy to scan, consistent with rest of app.)*
+- **Symptom Editor Modal** (pageSheet): Full list of 12 symptoms with icons, labels, descriptions, and toggle switches. "Save Preferences" sticky button. *(Toggle switches confirmed over remove/add buttons — feels reversible and safe, easy to scan, consistent with rest of app.)* Premium users can also add custom symptoms beyond the core 12 (up to 5 additional). Free users see a locked "Add your own" option with an upgrade prompt.
 - **Notification Time Picker Modal** (bottom sheet): "Off" option + hourly time slots 6 AM–10 PM. Current selection highlighted.
 - **Privacy & Security Modal** (pageSheet): Shield icon, privacy text, links to Privacy Policy (web) and Terms of Service (in-app modal).
 - **Feedback Form Modal** (pageSheet): Feedback submission form.
