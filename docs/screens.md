@@ -170,7 +170,7 @@ The main dashboard showing trends and history.
 - Calendar icon button (top-right) — navigates to Calendar tab
 - **Calendar strip** — horizontal scrollable week view with date dots for entries
 - **Range selector** — 7 / 14 / 30 days (Premium: "All")
-- **Trend line chart** — plots top 2 most-active tracked symptoms with color legend. Below the legend: *"Showing your 2 most active symptoms — tap to change"* (subtle, small text). Tapping a symptom in the legend opens a picker to swap it for another tracked symptom. Days where a symptom was not logged are shown as a dotted line (not a gap) connecting the surrounding data points — signals missing data clearly without breaking chart continuity.
+- **Trend line chart** — defaults to showing top 2 most-active tracked symptoms. Color legend lists all tracked symptoms — tap any symptom to toggle it on or off in the chart. Users can show as many or as few symptoms as they want. Days where a symptom was not logged are shown as a dotted line (not a gap) connecting the surrounding data points — signals missing data clearly without breaking chart continuity.
 - **Day detail card** — shows symptom values for the selected date
 - "Start today's check-in" prompt card (if no entry for today)
 - **Weekly snapshot** — summary of past 14 days (shown after 14+ entries)
