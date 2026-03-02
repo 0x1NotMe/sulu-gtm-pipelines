@@ -187,9 +187,10 @@ Full month calendar with entry editing.
 - **Month calendar** — grid with navigation arrows, dots for days with entries
   - Today has a coral border ring
   - Selected date is highlighted coral (or grey if locked)
-  - Dates older than 30 days are dimmed/locked for free users
+  - Free users: only last 30 days visible. Dates older than 30 days are hidden entirely — not dimmed, not read-only, not accessible.
+  - Premium users: full history visible and editable
 - **Selected date label** — e.g. "Tuesday, Feb 25"
-- **Premium lock banner** — "Editing entries older than 30 days requires Premium" with Upgrade button (shown for locked dates)
+- **Premium lock banner** — "Your full history is available with Premium" with Upgrade button (shown when free user tries to scroll back beyond 30 days)
 - **Symptom sliders** — same as Log screen, for the selected date
 - **Factor toggles** — same as Log screen
 - **Notes** text input
@@ -212,26 +213,21 @@ Today's daily check-in form.
 - Auto-navigates to Insights tab after saving
 
 **Logging logic (for engineering):**
-- When the user saves, all symptoms are recorded — including any still at "None." "None" is a valid logged value meaning no symptoms that day.
+- When the user saves, all symptoms are recorded — including any still at "None." "None" is a valid logged value, not missing data. A day where brain fog = None is just as meaningful as a day where brain fog = Severe. Users are here to track what shows up and what doesn't — the absence of a symptom on a given day is part of the pattern.
 - A day is only considered unlogged (shown as dotted line in charts) if the user has not saved any entry at all for that day — no symptoms, no factors.
-- The dotted line in the chart therefore represents a missed day, not a symptom-free day.
+- The dotted line therefore represents a missed day (no check-in), not a symptom-free day.
 
 ### 3.4 Learn Tab
 **Route:** `(auth)/(tabs)/learn`
 **Tab label:** Learn
 **Tab icon:** BookOpen
 
-Educational articles placeholder.
+**Parked for v1. Placeholder screen only.**
 
-- Header: "Learn" with subtitle "Understanding your body through perimenopause"
-- BookOpen icon badge (top-right)
-- Intro text: "Evidence-based articles written with care — so you can feel informed, not overwhelmed."
-- 3 teaser cards, each with:
-  - GraduationCap icon
-  - Title (e.g. "What's actually happening during perimenopause?")
-  - Description
-  - "Coming soon" badge
-  - Chevron arrow (non-functional)
+- Header: "Learn"
+- Placeholder text: *"Articles are coming. The writer has menopause brain. You'll understand."*
+
+*Content strategy and article library to be scoped for v2.*
 
 ### 3.5 Profile Tab
 **Route:** `(auth)/(tabs)/profile`
